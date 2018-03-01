@@ -319,7 +319,37 @@
 							<width>330</width>
 							<height>232</height>
 							<aspectratio>scale</aspectratio>
-							<texture background="true">$INFO[ListItem.Icon]</texture>
+							<texture background="true">$INFO[ListItem.Art(tvshow.poster)]</texture>
+							<bordertexture border="8" colordiffuse="theme">button-nofocus.png</bordertexture>
+							<bordersize>8</bordersize>
+						</control>
+						<control type="image">
+							<left>15</left>
+							<top>15</top>
+							<width>330</width>
+							<height>232</height>
+							<aspectratio>scale</aspectratio>
+							<texture background="true">$INFO[ListItem.Art(tvshow.poster)]</texture>
+							<bordertexture border="8" colordiffuse="theme">button-nofocus.png</bordertexture>
+							<bordersize>8</bordersize>
+						</control>
+						<control type="image">
+							<left>15</left>
+							<top>15</top>
+							<width>330</width>
+							<height>232</height>
+							<aspectratio>scale</aspectratio>
+							<texture background="true">$INFO[ListItem.Art(tvshow.fanart)]</texture>
+							<bordertexture border="8" colordiffuse="theme">button-nofocus.png</bordertexture>
+							<bordersize>8</bordersize>
+						</control>
+						<control type="image">
+							<left>15</left>
+							<top>15</top>
+							<width>330</width>
+							<height>232</height>
+							<aspectratio>scale</aspectratio>
+							<texture background="true">$INFO[ListItem.Thumb]</texture>
 							<bordertexture border="8" colordiffuse="theme">button-nofocus.png</bordertexture>
 							<bordersize>8</bordersize>
 						</control>
@@ -365,7 +395,7 @@
 							<width>330</width>
 							<height>232</height>
 							<aspectratio>scale</aspectratio>
-							<texture background="true">$INFO[ListItem.Icon]</texture>
+							<texture background="true">$INFO[ListItem.Art(tvshow.poster)]</texture>
 							<bordertexture border="8" colordiffuse="theme">folder-focus.png</bordertexture>
 							<bordersize>8</bordersize>
 							<visible>Control.HasFocus(8001)</visible>
@@ -376,7 +406,51 @@
 							<width>330</width>
 							<height>232</height>
 							<aspectratio>scale</aspectratio>
-							<texture>$INFO[ListItem.Icon]</texture>
+							<texture background="true">$INFO[ListItem.Art(tvshow.fanart)]</texture>
+							<bordertexture border="8" colordiffuse="theme">folder-focus.png</bordertexture>
+							<bordersize>8</bordersize>
+							<visible>Control.HasFocus(8001)</visible>
+						</control>
+						<control type="image">
+							<left>15</left>
+							<top>15</top>
+							<width>330</width>
+							<height>232</height>
+							<aspectratio>scale</aspectratio>
+							<texture background="true">$INFO[ListItem.Thumb]</texture>
+							<bordertexture border="8" colordiffuse="theme">folder-focus.png</bordertexture>
+							<bordersize>8</bordersize>
+							<visible>Control.HasFocus(8001)</visible>
+						</control>
+						<control type="image">
+							<left>15</left>
+							<top>15</top>
+							<width>330</width>
+							<height>232</height>
+							<aspectratio>scale</aspectratio>
+							<texture>$INFO[ListItem.Art(tvshow.poster)]</texture>
+							<bordertexture border="8" colordiffuse="theme">button-nofocus.png</bordertexture>
+							<bordersize>8</bordersize>
+							<visible>!Control.HasFocus(8001)</visible>
+						</control>
+						<control type="image">
+							<left>15</left>
+							<top>15</top>
+							<width>330</width>
+							<height>232</height>
+							<aspectratio>scale</aspectratio>
+							<texture>$INFO[ListItem.Art(tvshow.fanart)]</texture>
+							<bordertexture border="8" colordiffuse="theme">button-nofocus.png</bordertexture>
+							<bordersize>8</bordersize>
+							<visible>!Control.HasFocus(8001)</visible>
+						</control>
+						<control type="image">
+							<left>15</left>
+							<top>15</top>
+							<width>330</width>
+							<height>232</height>
+							<aspectratio>scale</aspectratio>
+							<texture>$INFO[ListItem.Thumb]</texture>
 							<bordertexture border="8" colordiffuse="theme">button-nofocus.png</bordertexture>
 							<bordersize>8</bordersize>
 							<visible>!Control.HasFocus(8001)</visible>
@@ -867,8 +941,10 @@
 					<top>0</top>
 					<width>720</width>
 					<height>360</height>
-					<onleft>8003</onleft>
-					<onright>8003</onright>
+					<onleft condition="Integer.IsGreaterOrEqual(Container(8003).NumItems,1)">8003</onleft>
+					<onleft condition="!Integer.IsGreaterOrEqual(Container(8003).NumItems,1)">8004</onleft>
+					<onright condition="Integer.IsGreaterOrEqual(Container(8003).NumItems,1)">8003</onright>
+					<onright condition="!Integer.IsGreaterOrEqual(Container(8003).NumItems,1)">8004</onright>
 					<onup>8015</onup>
 					<ondown condition="System.HasAddon(script.globalsearch)">608</ondown>
 					<ondown condition="!System.HasAddon(script.globalsearch)">603</ondown>
@@ -891,7 +967,27 @@
 							<width>330</width>
 							<height>232</height>
 							<aspectratio>scale</aspectratio>
-							<texture background="true">$INFO[ListItem.Icon]</texture>
+							<texture background="true">$INFO[ListItem.Art(tvshow.poster)]</texture>
+							<bordertexture border="8" colordiffuse="theme">button-nofocus.png</bordertexture>
+							<bordersize>8</bordersize>
+						</control>
+						<control type="image">
+							<left>15</left>
+							<top>15</top>
+							<width>330</width>
+							<height>232</height>
+							<aspectratio>scale</aspectratio>
+							<texture background="true">$INFO[ListItem.Art(tvshow.fanart)]</texture>
+							<bordertexture border="8" colordiffuse="theme">button-nofocus.png</bordertexture>
+							<bordersize>8</bordersize>
+						</control>
+						<control type="image">
+							<left>15</left>
+							<top>15</top>
+							<width>330</width>
+							<height>232</height>
+							<aspectratio>scale</aspectratio>
+							<texture background="true">$INFO[ListItem.Thumb]</texture>
 							<bordertexture border="8" colordiffuse="theme">button-nofocus.png</bordertexture>
 							<bordersize>8</bordersize>
 						</control>
@@ -937,7 +1033,7 @@
 							<width>330</width>
 							<height>232</height>
 							<aspectratio>scale</aspectratio>
-							<texture background="true">$INFO[ListItem.Icon]</texture>
+							<texture background="true">$INFO[ListItem.Art(tvshow.poster)]</texture>
 							<bordertexture border="8" colordiffuse="theme">folder-focus.png</bordertexture>
 							<bordersize>8</bordersize>
 							<visible>Control.HasFocus(8004)</visible>
@@ -948,7 +1044,51 @@
 							<width>330</width>
 							<height>232</height>
 							<aspectratio>scale</aspectratio>
-							<texture>$INFO[ListItem.Icon]</texture>
+							<texture background="true">$INFO[ListItem.Art(tvshow.fanart)]</texture>
+							<bordertexture border="8" colordiffuse="theme">folder-focus.png</bordertexture>
+							<bordersize>8</bordersize>
+							<visible>Control.HasFocus(8004)</visible>
+						</control>
+						<control type="image">
+							<left>15</left>
+							<top>15</top>
+							<width>330</width>
+							<height>232</height>
+							<aspectratio>scale</aspectratio>
+							<texture background="true">$INFO[ListItem.Thumb]</texture>
+							<bordertexture border="8" colordiffuse="theme">folder-focus.png</bordertexture>
+							<bordersize>8</bordersize>
+							<visible>Control.HasFocus(8004)</visible>
+						</control>
+						<control type="image">
+							<left>15</left>
+							<top>15</top>
+							<width>330</width>
+							<height>232</height>
+							<aspectratio>scale</aspectratio>
+							<texture>$INFO[ListItem.Art(tvshow.poster)]</texture>
+							<bordertexture border="8" colordiffuse="theme">button-nofocus.png</bordertexture>
+							<bordersize>8</bordersize>
+							<visible>!Control.HasFocus(8004)</visible>
+						</control>
+						<control type="image">
+							<left>15</left>
+							<top>15</top>
+							<width>330</width>
+							<height>232</height>
+							<aspectratio>scale</aspectratio>
+							<texture>$INFO[ListItem.Art(tvshow.fanart)]</texture>
+							<bordertexture border="8" colordiffuse="theme">button-nofocus.png</bordertexture>
+							<bordersize>8</bordersize>
+							<visible>!Control.HasFocus(8004)</visible>
+						</control>
+						<control type="image">
+							<left>15</left>
+							<top>15</top>
+							<width>330</width>
+							<height>232</height>
+							<aspectratio>scale</aspectratio>
+							<texture>$INFO[ListItem.Thumb]</texture>
 							<bordertexture border="8" colordiffuse="theme">button-nofocus.png</bordertexture>
 							<bordersize>8</bordersize>
 							<visible>!Control.HasFocus(8004)</visible>
@@ -1100,8 +1240,10 @@
 					<top>0</top>
 					<width>768</width>
 					<height>330</height>
-					<onleft>8004</onleft>
-					<onright>8004</onright>
+					<onleft condition="Integer.IsGreaterOrEqual(Container(8004).NumItems,1)">8004</onleft>
+					<onleft condition="!Integer.IsGreaterOrEqual(Container(8004).NumItems,1)">8003</onleft>
+					<onright condition="Integer.IsGreaterOrEqual(Container(8004).NumItems,1)">8004</onright>
+					<onright condition="!Integer.IsGreaterOrEqual(Container(8004).NumItems,1)">8003</onright>
 					<onup>8014</onup>
 					<ondown condition="System.HasAddon(script.globalsearch)">608</ondown>
 					<ondown condition="!System.HasAddon(script.globalsearch)">603</ondown>
@@ -1648,6 +1790,7 @@
 					<shadowcolor>black</shadowcolor>
 				</control>
 				<control type="list" id="8006">
+					<visible>![PVR.IsRecording | PVR.HasNonRecordingTimer]</visible>
 					<animation effect="slide" start="0,0" end="128,0" time="0" condition="String.IsEqual(Container(8006).NumItems,6)">conditional</animation>
 					<animation effect="slide" start="0,0" end="256,0" time="0" condition="String.IsEqual(Container(8006).NumItems,5)">conditional</animation>
 					<animation effect="slide" start="0,0" end="384,0" time="0" condition="String.IsEqual(Container(8006).NumItems,4)">conditional</animation>
@@ -1657,6 +1800,310 @@
 					<left>5</left>
 					<top>0</top>
 					<width>1792</width>
+					<height>360</height>
+					<onleft>8006</onleft>
+					<onright>8006</onright>
+					<onup>8013</onup>
+					<ondown condition="System.HasAddon(script.globalsearch)">608</ondown>
+					<ondown condition="!System.HasAddon(script.globalsearch)">603</ondown>
+					<viewtype label="535">list</viewtype>
+					<pagecontrol>-</pagecontrol>
+					<scrolltime>200</scrolltime>
+					<orientation>Horizontal</orientation>
+					<itemlayout height="330" width="256">
+						<control type="image">
+							<description>background</description>
+							<left>0</left>
+							<top>0</top>
+							<width>256</width>
+							<height>330</height>
+							<texture border="22" colordiffuse="theme">RecentAddedBack.png</texture>
+						</control>
+						<control type="label">
+							<visible>String.IsEqual(Listitem.Icon,Listitem.Label) | String.IsEmpty(Listitem.Icon)</visible>
+							<left>15</left>
+							<top>50</top>
+							<width>226</width>
+							<height>30</height>
+							<font>font14</font>
+							<textcolor>white</textcolor>
+							<shadowcolor>black</shadowcolor>
+							<selectedcolor>white</selectedcolor>
+							<label>$INFO[Listitem.Label]</label>
+							<align>center</align>
+						</control>
+						<control type="image">
+							<visible>!String.IsEqual(Listitem.Icon,Listitem.Label) + !String.IsEmpty(Listitem.Icon) + !String.IsEmpty(Listitem.Title)</visible>
+							<left>15</left>
+							<top>15</top>
+							<width>226</width>
+							<height>100</height>
+							<aspectratio>keep</aspectratio>
+							<texture background="true">$INFO[ListItem.Icon]</texture>
+							<bordertexture border="8" colordiffuse="theme">button-nofocus.png</bordertexture>
+							<bordersize>8</bordersize>
+						</control>
+						<control type="progress">
+							<description>Progressbar</description>
+							<left>15</left>
+							<top>120</top>
+							<width>226</width>
+							<height>9</height>
+							<colordiffuse>88FFFFFF</colordiffuse>
+							<visible>ListItem.HasEpg</visible>
+							<info>ListItem.Progress</info>
+						</control>
+						<control type="textbox">
+							<left>15</left>
+							<top>129</top>
+							<width>226</width>
+							<height>155</height>
+							<font>font10</font>
+							<textcolor>grey2</textcolor>
+							<shadowcolor>black</shadowcolor>
+							<selectedcolor>selected</selectedcolor>
+							<align>center</align>
+							<aligny>center</aligny>
+							<label>$INFO[ListItem.Plot]</label>
+							<autoscroll time="3000" delay="1000" repeat="5000">Skin.HasSetting(AutoScroll)</autoscroll>
+						</control>
+						<control type="label">
+							<left>15</left>
+							<top>285</top>
+							<width>226</width>
+							<height>30</height>
+							<font>font12</font>
+							<textcolor>white</textcolor>
+							<shadowcolor>black</shadowcolor>
+							<selectedcolor>white</selectedcolor>
+							<align>center</align>
+							<aligny>center</aligny>
+							<label>$INFO[ListItem.Title]</label>
+						</control>
+						<control type="image">
+							<visible>String.IsEmpty(Listitem.Plot) + String.IsEmpty(Listitem.Title)</visible>
+							<left>15</left>
+							<top>45</top>
+							<width>226</width>
+							<height>232</height>
+							<aspectratio>keep</aspectratio>
+							<texture background="true">$INFO[ListItem.Icon]</texture>
+							<bordertexture border="8" colordiffuse="theme">button-nofocus.png</bordertexture>
+							<bordersize>8</bordersize>
+						</control>
+						<control type="label">
+							<visible>String.IsEmpty(Listitem.Plot) + String.IsEmpty(Listitem.Title)</visible>
+							<left>15</left>
+							<top>285</top>
+							<width>226</width>
+							<height>30</height>
+							<font>font12</font>
+							<textcolor>white</textcolor>
+							<shadowcolor>black</shadowcolor>
+							<selectedcolor>white</selectedcolor>
+							<align>center</align>
+							<aligny>center</aligny>
+							<label>$INFO[ListItem.Label]</label>
+						</control>
+					</itemlayout>
+					<focusedlayout height="330" width="256">
+						<control type="image">
+							<description>background</description>
+							<left>0</left>
+							<top>0</top>
+							<width>256</width>
+							<height>330</height>
+							<texture border="22" colordiffuse="theme">RecentAddedBack.png</texture>
+						</control>
+						<control type="image">
+							<visible>[!String.IsEqual(Listitem.Icon,Listitem.Label) + !String.IsEmpty(Listitem.Icon)] + !Control.HasFocus(8006) + !String.IsEmpty(Listitem.Title)</visible>
+							<left>15</left>
+							<top>15</top>
+							<width>226</width>
+							<height>100</height>
+							<aspectratio>keep</aspectratio>
+							<texture background="true">$INFO[ListItem.Icon]</texture>
+							<bordertexture border="8" colordiffuse="theme">button-nofocus.png</bordertexture>
+							<bordersize>8</bordersize>
+						</control>
+						<control type="image">
+							<visible>[!String.IsEqual(Listitem.Icon,Listitem.Label) + !String.IsEmpty(Listitem.Icon)] + Control.HasFocus(8006) + !String.IsEmpty(Listitem.Title)</visible>
+							<left>15</left>
+							<top>15</top>
+							<width>226</width>
+							<height>100</height>
+							<aspectratio>keep</aspectratio>
+							<texture background="true">$INFO[ListItem.Icon]</texture>
+							<bordertexture border="8" colordiffuse="theme">folder-focus.png</bordertexture>
+							<bordersize>8</bordersize>
+						</control>
+						<control type="label">
+							<visible>[String.IsEqual(Listitem.Icon,Listitem.Label) | String.IsEmpty(Listitem.Icon)] + !Control.HasFocus(8006) + !String.IsEmpty(Listitem.Title)</visible>
+							<left>15</left>
+							<top>50</top>
+							<width>226</width>
+							<height>30</height>
+							<font>font14</font>
+							<textcolor>white</textcolor>
+							<shadowcolor>black</shadowcolor>
+							<selectedcolor>white</selectedcolor>
+							<label>$INFO[Listitem.Label]</label>
+							<align>center</align>
+						</control>
+						<control type="label">
+							<visible>[String.IsEqual(Listitem.Icon,Listitem.Label) | String.IsEmpty(Listitem.Icon)] + Control.HasFocus(8006)</visible>
+							<left>15</left>
+							<top>50</top>
+							<width>226</width>
+							<height>30</height>
+							<font>font14</font>
+							<textcolor>theme</textcolor>
+							<shadowcolor>black</shadowcolor>
+							<selectedcolor>white</selectedcolor>
+							<label>$INFO[Listitem.Label]</label>
+							<align>center</align>
+						</control>
+						<control type="progress">
+							<description>Progressbar</description>
+							<left>15</left>
+							<top>120</top>
+							<width>226</width>
+							<height>9</height>
+							<colordiffuse>theme</colordiffuse>
+							<visible>ListItem.HasEpg</visible>
+							<info>ListItem.Progress</info>
+							<visible>Control.HasFocus(8006)</visible>
+						</control>
+						<control type="progress">
+							<description>Progressbar</description>
+							<left>15</left>
+							<top>120</top>
+							<width>226</width>
+							<height>9</height>
+							<colordiffuse>88FFFFFF</colordiffuse>
+							<visible>ListItem.HasEpg</visible>
+							<info>ListItem.Progress</info>
+							<visible>!Control.HasFocus(8006)</visible>
+						</control>
+						<control type="textbox">
+							<visible>!Control.HasFocus(8006)</visible>
+							<left>15</left>
+							<top>129</top>
+							<width>226</width>
+							<height>155</height>
+							<font>font10</font>
+							<textcolor>grey2</textcolor>
+							<shadowcolor>black</shadowcolor>
+							<selectedcolor>selected</selectedcolor>
+							<align>center</align>
+							<aligny>center</aligny>
+							<label>$INFO[ListItem.Plot]</label>
+							<autoscroll time="3000" delay="1000" repeat="5000">Skin.HasSetting(AutoScroll)</autoscroll>
+						</control>
+						<control type="textbox">
+							<visible>Control.HasFocus(8006)</visible>
+							<left>15</left>
+							<top>129</top>
+							<width>226</width>
+							<height>155</height>
+							<font>font10</font>
+							<textcolor>white</textcolor>
+							<shadowcolor>black</shadowcolor>
+							<selectedcolor>selected</selectedcolor>
+							<align>center</align>
+							<aligny>center</aligny>
+							<label>$INFO[ListItem.Plot]</label>
+							<autoscroll time="3000" delay="1000" repeat="5000">Skin.HasSetting(AutoScroll)</autoscroll>
+						</control>
+						<control type="label">
+							<left>15</left>
+							<top>285</top>
+							<width>226</width>
+							<height>30</height>
+							<font>font12</font>
+							<textcolor>white</textcolor>
+							<shadowcolor>black</shadowcolor>
+							<selectedcolor>theme</selectedcolor>
+							<align>center</align>
+							<aligny>center</aligny>
+							<label>$INFO[ListItem.Title]</label>
+							<visible>!Control.HasFocus(8006)</visible>
+						</control>
+						<control type="label">
+							<left>15</left>
+							<top>285</top>
+							<width>226</width>
+							<height>30</height>
+							<font>font12</font>
+							<textcolor>theme</textcolor>
+							<selectedcolor>theme</selectedcolor>
+							<align>center</align>
+							<aligny>center</aligny>
+							<label>$INFO[ListItem.Title]</label>
+							<visible>Control.HasFocus(8006)</visible>
+						</control>
+						<control type="image">
+							<visible>String.IsEmpty(Listitem.Plot) + String.IsEmpty(Listitem.Title) + !Control.HasFocus(8006)</visible>
+							<left>15</left>
+							<top>45</top>
+							<width>226</width>
+							<height>232</height>
+							<aspectratio>keep</aspectratio>
+							<texture background="true">$INFO[ListItem.Icon]</texture>
+							<bordertexture border="8" colordiffuse="theme">button-nofocus.png</bordertexture>
+							<bordersize>8</bordersize>
+						</control>
+						<control type="image">
+							<visible>String.IsEmpty(Listitem.Plot) + String.IsEmpty(Listitem.Title) + Control.HasFocus(8006)</visible>
+							<left>15</left>
+							<top>45</top>
+							<width>226</width>
+							<height>232</height>
+							<aspectratio>keep</aspectratio>
+							<texture background="true">$INFO[ListItem.Icon]</texture>
+							<bordertexture border="8" colordiffuse="theme">folder-focus.png</bordertexture>
+							<bordersize>8</bordersize>
+						</control>
+						<control type="label">
+							<visible>String.IsEmpty(Listitem.Plot) + String.IsEmpty(Listitem.Title) + !Control.HasFocus(8006)</visible>
+							<left>15</left>
+							<top>285</top>
+							<width>226</width>
+							<height>30</height>
+							<font>font12</font>
+							<textcolor>white</textcolor>
+							<shadowcolor>black</shadowcolor>
+							<selectedcolor>white</selectedcolor>
+							<align>center</align>
+							<aligny>center</aligny>
+							<label>$INFO[ListItem.Label]</label>
+						</control>
+						<control type="label">
+							<visible>String.IsEmpty(Listitem.Plot) + String.IsEmpty(Listitem.Title) + Control.HasFocus(8006)</visible>
+							<left>15</left>
+							<top>285</top>
+							<width>226</width>
+							<height>30</height>
+							<font>font12</font>
+							<textcolor>theme</textcolor>
+							<shadowcolor>black</shadowcolor>
+							<selectedcolor>white</selectedcolor>
+							<align>center</align>
+							<aligny>center</aligny>
+							<label>$INFO[ListItem.Label]</label>
+						</control>
+					</focusedlayout>
+					<content>$VAR[TVWidgetContent]</content>
+				</control>
+				<control type="list" id="8006">
+					<visible>[PVR.IsRecording | PVR.HasNonRecordingTimer]</visible>
+					<animation effect="slide" start="0,0" end="128,0" time="0" condition="String.IsEqual(Container(8006).NumItems,4)">conditional</animation>
+					<animation effect="slide" start="0,0" end="256,0" time="0" condition="String.IsEqual(Container(8006).NumItems,3)">conditional</animation>
+					<animation effect="slide" start="0,0" end="384,0" time="0" condition="String.IsEqual(Container(8006).NumItems,2)">conditional</animation>
+					<animation effect="slide" start="0,0" end="512,0" time="0" condition="String.IsEqual(Container(8006).NumItems,1)">conditional</animation>
+					<left>5</left>
+					<top>0</top>
+					<width>1280</width>
 					<height>360</height>
 					<onleft>8006</onleft>
 					<onright>8006</onright>
@@ -2062,8 +2509,22 @@
 					<include>VisibleFadeEffect</include>
 				</control>
 				<control type="button">
+					<visible>![PVR.IsRecording | PVR.HasNonRecordingTimer]</visible>
 					<description>right Arrow</description>
 					<left>1815</left>
+					<top>135</top>
+					<width>45</width>
+					<height>60</height>
+					<texturefocus>arrow-big-right.png</texturefocus>
+					<texturenofocus>arrow-big-right.png</texturenofocus>
+					<onclick>Control.Move(8006,1)</onclick>
+					<visible>[Control.HasFocus(8006) | system.getbool(input.enablemouse)] + Container(8006).HasNext</visible>
+					<include>VisibleFadeEffect</include>
+				</control>
+				<control type="button">
+					<visible>[PVR.IsRecording | PVR.HasNonRecordingTimer]</visible>
+					<description>right Arrow</description>
+					<left>1303</left>
 					<top>135</top>
 					<width>45</width>
 					<height>60</height>

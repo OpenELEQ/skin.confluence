@@ -1,3 +1,12 @@
+[B]3.0.60[/B]
+- Added addon-settings button in side-blade
+- Added fallback images for episodes
+- Fixed missing header in keyboard dialog
+- Fixed navigating homescreen > video - widget when there is only content in either Movies or TVShows-library
+- Fixed pvr-widget overlapping recording-info
+- Reverted resizing plot-area so plot-text is no longer overlayed with mediaflags
+- Tweaked player-label
+
 [B]3.0.59[/B]
 - Added favourites-scrollbar
 - Added subtitles-scrollbar

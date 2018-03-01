@@ -16,7 +16,7 @@
 				<param name="DialogBackgroundHeight" value="645" />
 				<param name="DialogHeaderWidth" value="1170" />
 				<param name="DialogHeaderLabel" value="" />
-				<param name="DialogHeaderId" value="467" />
+				<param name="DialogHeaderId" value="311" />
 				<param name="CloseButtonLeft" value="1155" />
 				<param name="CloseButtonNav" value="3" />
 			</include>

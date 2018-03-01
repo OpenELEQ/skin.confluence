@@ -150,6 +150,14 @@
 					<onclick>ActivateWindow(addonbrowser,addons://more/image/,return)</onclick>
 					<visible>Container.Content(addons)</visible>
 				</control>
+				<control type="button" id="205">
+					<description>Addon Settings</description>
+					<textwidth>352</textwidth>
+					<include>ButtonCommonValues</include>
+					<label>10140</label>
+					<onclick>Addon.OpenSettings($INFO[Container.PluginName])</onclick>
+					<visible>!String.IsEmpty(Container.PluginName)</visible>
+				</control>
 				<include>CommonNowPlaying_Controls</include>
 			</control>
 		</control>

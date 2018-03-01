@@ -206,6 +206,29 @@
 				<top>150</top>
 				<visible>Control.IsVisible(50)</visible>
 				<control type="image">
+					<visible>String.IsEqual(ListItem.Icon,DefaultVideo.png) + !String.IsEmpty(ListItem.Art(tvshow.poster))</visible>
+					<left>0</left>
+					<top>0</top>
+					<width>540</width>
+					<height>810</height>
+					<aspectratio aligny="bottom">keep</aspectratio>
+					<fadetime>IconCrossfadeTime</fadetime>
+					<texture background="true">$INFO[ListItem.Art(tvshow.poster)]</texture>
+					<bordertexture border="12">ThumbShadow.png</bordertexture>
+					<bordersize>12</bordersize>
+				</control>
+				<control type="image">
+					<visible>String.IsEqual(ListItem.Icon,DefaultVideo.png) + !String.IsEmpty(ListItem.Art(tvshow.poster))</visible>
+					<left>12</left>
+					<top>798</top>
+					<width>516</width>
+					<height>786</height>
+					<aspectratio aligny="top">keep</aspectratio>
+					<fadetime>IconCrossfadeTime</fadetime>
+					<texture diffuse="diffuse_mirror3.png" flipy="true" background="true">$INFO[ListItem.Art(tvshow.poster)]</texture>
+				</control>
+				<control type="image">
+					<visible>!String.IsEqual(ListItem.Icon,DefaultVideo.png)</visible>
 					<left>0</left>
 					<top>0</top>
 					<width>540</width>
@@ -217,6 +240,7 @@
 					<bordersize>12</bordersize>
 				</control>
 				<control type="image">
+					<visible>!String.IsEqual(ListItem.Icon,DefaultVideo.png)</visible>
 					<left>12</left>
 					<top>798</top>
 					<width>516</width>
@@ -641,7 +665,23 @@
 						<top>6</top>
 						<width>60</width>
 						<height>48</height>
-						<texture background="true">$INFO[ListItem.Icon]</texture>
+						<texture background="true">$INFO[ListItem.Art(tvshow.fanart)]</texture>
+						<aspectratio>keep</aspectratio>
+					</control>
+					<control type="image">
+						<left>15</left>
+						<top>6</top>
+						<width>60</width>
+						<height>48</height>
+						<texture background="true">$INFO[ListItem.Art(tvshow.poster)]</texture>
+						<aspectratio>keep</aspectratio>
+					</control>
+					<control type="image">
+						<left>15</left>
+						<top>6</top>
+						<width>60</width>
+						<height>48</height>
+						<texture background="true">$INFO[ListItem.Thumb]</texture>
 						<aspectratio>keep</aspectratio>
 					</control>
 					<control type="label">

@@ -141,6 +141,6 @@
 			<screenshot>resources/screenshot-04.jpg</screenshot>
 			<screenshot>resources/screenshot-05.jpg</screenshot>
 		</assets>
-		<news>Added favourites-scrollbar / Added subtitles-scrollbar / Added color-accents / Added 5 themes / Added 5 colors / Fixed missing aspectratio-info</news>
+		<news>Added addon-settings button in side-blade / Added fallback images for episodes / Fixed missing header in keyboard dialog / Fixed navigating homescreen > video - widget when there is only content in either Movies or TVShows-library / Fixed pvr-widget overlapping recording-info / Reverted resizing plot-area so plot-text is no longer overlayed with mediaflags / Tweaked player-label</news>
 	</extension>
 </addon>
