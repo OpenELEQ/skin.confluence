@@ -51,6 +51,7 @@
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
 					<orientation>Horizontal</orientation>
+					<hitrect x="0" y="0" w="1800" h="530"/>
 					<itemlayout height="330" width="256">
 						<control type="image">
 							<description>background</description>
@@ -242,8 +243,10 @@
 						</item>
 					</content>
 				</control>
-				<control type="button">
+				<control type="button" id="80001">
 					<description>left Arrow</description>
+					<visible>[Control.HasFocus(80001) | Control.HasFocus(8000)] + Container(8000).HasPrevious</visible>
+					<hitrect x="-60" y="0" w="65" h="530"/>
 					<left>-60</left>
 					<top>135</top>
 					<width>45</width>
@@ -251,11 +254,12 @@
 					<texturefocus>arrow-big-left.png</texturefocus>
 					<texturenofocus>arrow-big-left.png</texturenofocus>
 					<onclick>Control.Move(8000,-1)</onclick>
-					<visible>[Control.HasFocus(8000) | system.getbool(input.enablemouse)] + Container(8000).HasPrevious</visible>
 					<include>VisibleFadeEffect</include>
 				</control>
-				<control type="button">
+				<control type="button" id="80002">
 					<description>right Arrow</description>
+					<visible>[Control.HasFocus(80002) | Control.HasFocus(8000)] + Container(8000).HasNext</visible>
+					<hitrect x="1795" y="0" w="65" h="530"/>
 					<left>1815</left>
 					<top>135</top>
 					<width>45</width>
@@ -263,7 +267,6 @@
 					<texturefocus>arrow-big-right.png</texturefocus>
 					<texturenofocus>arrow-big-right.png</texturenofocus>
 					<onclick>Control.Move(8000,1)</onclick>
-					<visible>[Control.HasFocus(8000) | system.getbool(input.enablemouse)] + Container(8000).HasNext</visible>
 					<include>VisibleFadeEffect</include>
 				</control>
 			</control>
@@ -304,6 +307,7 @@
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
 					<orientation>Horizontal</orientation>
+					<hitrect x="0" y="0" w="1800" h="530"/>
 					<itemlayout height="330" width="360">
 						<control type="image">
 							<description>background</description>
@@ -595,8 +599,10 @@
 						</item>
 					</content>
 				</control>
-				<control type="button">
+				<control type="button" id="80011">
 					<description>left Arrow</description>
+					<visible>[Control.HasFocus(80011) | Control.HasFocus(8001)] + Container(8001).HasPrevious</visible>
+					<hitrect x="-60" y="0" w="65" h="530"/>
 					<left>-60</left>
 					<top>135</top>
 					<width>45</width>
@@ -604,11 +610,12 @@
 					<texturefocus>arrow-big-left.png</texturefocus>
 					<texturenofocus>arrow-big-left.png</texturenofocus>
 					<onclick>Control.Move(8001,-1)</onclick>
-					<visible>[Control.HasFocus(8001) | system.getbool(input.enablemouse)] + Container(8001).HasPrevious</visible>
 					<include>VisibleFadeEffect</include>
 				</control>
-				<control type="button">
+				<control type="button" id="80012">
 					<description>right Arrow</description>
+					<visible>[Control.HasFocus(80012) | Control.HasFocus(8001)] + Container(8001).HasNext</visible>
+					<hitrect x="1795" y="0" w="65" h="530"/>
 					<left>1815</left>
 					<top>135</top>
 					<width>45</width>
@@ -616,7 +623,6 @@
 					<texturefocus>arrow-big-right.png</texturefocus>
 					<texturenofocus>arrow-big-right.png</texturenofocus>
 					<onclick>Control.Move(8001,1)</onclick>
-					<visible>[Control.HasFocus(8001) | system.getbool(input.enablemouse)] + Container(8001).HasNext</visible>
 					<include>VisibleFadeEffect</include>
 				</control>
 			</control>
@@ -659,6 +665,7 @@
 					<scrolltime>200</scrolltime>
 					<orientation>Horizontal</orientation>
 					<onclick condition="Skin.String(HomeMusicPath,)">PlayMedia($INFO[ListItem.FolderPath])</onclick>
+					<hitrect x="0" y="0" w="1800" h="530"/>
 					<itemlayout height="330" width="300">
 						<control type="image">
 							<description>background</description>
@@ -876,8 +883,10 @@
 						</item>
 					</content>
 				</control>
-				<control type="button">
+				<control type="button" id="80021">
 					<description>left Arrow</description>
+					<visible>[Control.HasFocus(80021) | Control.HasFocus(8002)] + Container(8002).HasPrevious</visible>
+					<hitrect x="-60" y="0" w="65" h="530"/>
 					<left>-60</left>
 					<top>135</top>
 					<width>45</width>
@@ -885,11 +894,12 @@
 					<texturefocus>arrow-big-left.png</texturefocus>
 					<texturenofocus>arrow-big-left.png</texturenofocus>
 					<onclick>Control.Move(8002,-1)</onclick>
-					<visible>[Control.HasFocus(8002) | system.getbool(input.enablemouse)] + Container(8002).HasPrevious</visible>
 					<include>VisibleFadeEffect</include>
 				</control>
-				<control type="button">
+				<control type="button" id="80022">
 					<description>right Arrow</description>
+					<visible>[Control.HasFocus(80022) | Control.HasFocus(8002)] + Container(8002).HasNext</visible>
+					<hitrect x="1795" y="0" w="65" h="530"/>
 					<left>1815</left>
 					<top>135</top>
 					<width>45</width>
@@ -897,7 +907,6 @@
 					<texturefocus>arrow-big-right.png</texturefocus>
 					<texturenofocus>arrow-big-right.png</texturenofocus>
 					<onclick>Control.Move(8002,1)</onclick>
-					<visible>[Control.HasFocus(8002) | system.getbool(input.enablemouse)] + Container(8002).HasNext</visible>
 					<include>VisibleFadeEffect</include>
 				</control>
 			</control>
@@ -952,6 +961,8 @@
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
 					<orientation>Horizontal</orientation>
+					<hitrect x="0" y="0" w="720" h="530"/>
+					<onclick condition="String.IsEqual($VAR[TVShowsWidgetContent],videodb://inprogresstvshows/)">PlayMedia($INFO[ListItem.FolderPath])</onclick>
 					<itemlayout height="330" width="360">
 						<control type="image">
 							<description>background</description>
@@ -1236,7 +1247,7 @@
 				<control type="list" id="8003">
 					<animation effect="slide" start="0,0" end="128,0" time="0" condition="String.IsEqual(Container(8003).NumItems,2)">conditional</animation>
 					<animation effect="slide" start="0,0" end="256,0" time="0" condition="String.IsEqual(Container(8003).NumItems,1)">conditional</animation>
-					<left>1025</left>
+					<left>1030</left>
 					<top>0</top>
 					<width>768</width>
 					<height>330</height>
@@ -1251,6 +1262,7 @@
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
 					<orientation>Horizontal</orientation>
+					<hitrect x="1030" y="0" w="768" h="530"/>
 					<itemlayout height="330" width="256">
 						<control type="image">
 							<description>background</description>
@@ -1352,7 +1364,7 @@
 					<animation effect="slide" start="0,0" end="84,0" time="0" condition="String.IsEqual(Container(8014).NumItems,3)">conditional</animation>
 					<animation effect="slide" start="0,0" end="112,0" time="0" condition="String.IsEqual(Container(8014).NumItems,2)">conditional</animation>
 					<animation effect="slide" start="0,0" end="140,0" time="0" condition="String.IsEqual(Container(8014).NumItems,1)">conditional</animation>
-					<left>1025</left>
+					<left>1030</left>
 					<top>-66</top>
 					<width>350</width>
 					<height>56</height>
@@ -1442,20 +1454,23 @@
 						</item>
 					</content>
 				</control>
-				<control type="button">
+				<control type="button" id="80031">
 					<description>left Arrow (Movies)</description>
-					<left>960</left>
+					<visible>[Control.HasFocus(80031) | Control.HasFocus(8003)] + Container(8003).HasPrevious</visible>
+					<hitrect x="970" y="0" w="65" h="530"/>
+					<left>965</left>
 					<top>135</top>
 					<width>45</width>
 					<height>60</height>
 					<texturefocus>arrow-big-left.png</texturefocus>
 					<texturenofocus>arrow-big-left.png</texturenofocus>
 					<onclick>Control.Move(8003,-1)</onclick>
-					<visible>[Control.HasFocus(8003) | system.getbool(input.enablemouse)] + Container(8003).HasPrevious</visible>
 					<include>VisibleFadeEffect</include>
 				</control>
-				<control type="button">
+				<control type="button" id="80032">
 					<description>right Arrow (Movies)</description>
+					<visible>[Control.HasFocus(80032) | Control.HasFocus(8003)] + Container(8003).HasNext</visible>
+					<hitrect x="1794" y="0" w="65" h="530"/>
 					<left>1808</left>
 					<top>135</top>
 					<width>45</width>
@@ -1463,11 +1478,12 @@
 					<texturefocus>arrow-big-right.png</texturefocus>
 					<texturenofocus>arrow-big-right.png</texturenofocus>
 					<onclick>Control.Move(8003,1)</onclick>
-					<visible>[Control.HasFocus(8003) | system.getbool(input.enablemouse)] + Container(8003).HasNext</visible>
 					<include>VisibleFadeEffect</include>
 				</control>
-				<control type="button">
-					<description>left Arrow (TVShows</description>
+				<control type="button" id="80041">
+					<description>left Arrow (TVShows)</description>
+					<visible>[Control.HasFocus(80041) | Control.HasFocus(8004)] + Container(8004).HasPrevious</visible>
+					<hitrect x="-60" y="0" w="65" h="530"/>
 					<left>-60</left>
 					<top>135</top>
 					<width>45</width>
@@ -1475,11 +1491,12 @@
 					<texturefocus>arrow-big-left.png</texturefocus>
 					<texturenofocus>arrow-big-left.png</texturenofocus>
 					<onclick>Control.Move(8004,-1)</onclick>
-					<visible>[Control.HasFocus(8004) | system.getbool(input.enablemouse)] + Container(8004).HasPrevious</visible>
 					<include>VisibleFadeEffect</include>
 				</control>
-				<control type="button">
+				<control type="button" id="80042">
 					<description>right Arrow (TVShows)</description>
+					<visible>[Control.HasFocus(80042) | Control.HasFocus(8004)] + Container(8004).HasNext</visible>
+					<hitrect x="715" y="0" w="65" h="530"/>
 					<left>735</left>
 					<top>135</top>
 					<width>45</width>
@@ -1487,7 +1504,6 @@
 					<texturefocus>arrow-big-right.png</texturefocus>
 					<texturenofocus>arrow-big-right.png</texturenofocus>
 					<onclick>Control.Move(8004,1)</onclick>
-					<visible>[Control.HasFocus(8004) | system.getbool(input.enablemouse)] + Container(8004).HasNext</visible>
 					<include>VisibleFadeEffect</include>
 				</control>
 			</control>
@@ -1528,6 +1544,7 @@
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
 					<orientation>Horizontal</orientation>
+					<hitrect x="0" y="0" w="1800" h="530"/>
 					<itemlayout height="330" width="360">
 						<control type="image">
 							<description>background</description>
@@ -1745,8 +1762,10 @@
 						</item>
 					</content>
 				</control>
-				<control type="button">
+				<control type="button" id="80051">
 					<description>left Arrow</description>
+					<visible>[Control.HasFocus(80051) | Control.HasFocus(8005)] + Container(8005).HasPrevious</visible>
+					<hitrect x="-65" y="0" w="90" h="530"/>
 					<left>-60</left>
 					<top>135</top>
 					<width>45</width>
@@ -1754,11 +1773,12 @@
 					<texturefocus>arrow-big-left.png</texturefocus>
 					<texturenofocus>arrow-big-left.png</texturenofocus>
 					<onclick>Control.Move(8005,-1)</onclick>
-					<visible>[Control.HasFocus(8005) | system.getbool(input.enablemouse)] + Container(8005).HasPrevious</visible>
 					<include>VisibleFadeEffect</include>
 				</control>
-				<control type="button">
+				<control type="button" id="80052">
 					<description>right Arrow</description>
+					<visible>[Control.HasFocus(80052) | Control.HasFocus(8005)] + Container(8005).HasNext</visible>
+					<hitrect x="1795" y="0" w="65" h="530"/>
 					<left>1815</left>
 					<top>135</top>
 					<width>45</width>
@@ -1766,7 +1786,6 @@
 					<texturefocus>arrow-big-right.png</texturefocus>
 					<texturenofocus>arrow-big-right.png</texturenofocus>
 					<onclick>Control.Move(8005,1)</onclick>
-					<visible>[Control.HasFocus(8005) | system.getbool(input.enablemouse)] + Container(8005).HasNext</visible>
 					<include>VisibleFadeEffect</include>
 				</control>
 			</control>
@@ -1810,6 +1829,7 @@
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
 					<orientation>Horizontal</orientation>
+					<hitrect x="0" y="0" w="1800" h="530"/>
 					<itemlayout height="330" width="256">
 						<control type="image">
 							<description>background</description>
@@ -2496,8 +2516,10 @@
 						</item>
 					</content>
 				</control>
-				<control type="button">
+				<control type="button" id="80061">
 					<description>left Arrow</description>
+					<visible>[Control.HasFocus(80061) | Control.HasFocus(8006)] + Container(8006).HasPrevious</visible>
+					<hitrect x="-60" y="0" w="65" h="530"/>
 					<left>-60</left>
 					<top>135</top>
 					<width>45</width>
@@ -2505,12 +2527,13 @@
 					<texturefocus>arrow-big-left.png</texturefocus>
 					<texturenofocus>arrow-big-left.png</texturenofocus>
 					<onclick>Control.Move(8006,-1)</onclick>
-					<visible>[Control.HasFocus(8006) | system.getbool(input.enablemouse)] + Container(8006).HasPrevious</visible>
 					<include>VisibleFadeEffect</include>
 				</control>
-				<control type="button">
-					<visible>![PVR.IsRecording | PVR.HasNonRecordingTimer]</visible>
+				<control type="button" id="80062">
 					<description>right Arrow</description>
+					<visible>[Control.HasFocus(80062) | Control.HasFocus(8006)] + Container(8006).HasNext</visible>
+					<visible>[PVR.IsRecording | PVR.HasNonRecordingTimer]</visible>
+					<hitrect x="1795" y="0" w="65" h="530"/>
 					<left>1815</left>
 					<top>135</top>
 					<width>45</width>
@@ -2518,11 +2541,13 @@
 					<texturefocus>arrow-big-right.png</texturefocus>
 					<texturenofocus>arrow-big-right.png</texturenofocus>
 					<onclick>Control.Move(8006,1)</onclick>
-					<visible>[Control.HasFocus(8006) | system.getbool(input.enablemouse)] + Container(8006).HasNext</visible>
 					<include>VisibleFadeEffect</include>
 				</control>
-				<control type="button">
-					<visible>[PVR.IsRecording | PVR.HasNonRecordingTimer]</visible>
+				<control type="button" id="80062">
+					<description>right Arrow</description>
+					<visible>[Control.HasFocus(80062) | Control.HasFocus(8006)] + Container(8006).HasNext</visible>
+					<visible>![PVR.IsRecording | PVR.HasNonRecordingTimer]</visible>
+					<hitrect x="1283" y="0" w="602" h="530"/>
 					<description>right Arrow</description>
 					<left>1303</left>
 					<top>135</top>
@@ -2531,7 +2556,6 @@
 					<texturefocus>arrow-big-right.png</texturefocus>
 					<texturenofocus>arrow-big-right.png</texturenofocus>
 					<onclick>Control.Move(8006,1)</onclick>
-					<visible>[Control.HasFocus(8006) | system.getbool(input.enablemouse)] + Container(8006).HasNext</visible>
 					<include>VisibleFadeEffect</include>
 				</control>
 			</control>
@@ -2574,6 +2598,7 @@
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
 					<orientation>Horizontal</orientation>
+					<hitrect x="0" y="0" w="1800" h="530"/>
 					<itemlayout height="330" width="256">
 						<control type="image">
 							<description>background</description>
@@ -2790,7 +2815,7 @@
 							<selectedcolor>theme</selectedcolor>
 							<align>center</align>
 							<aligny>center</aligny>
-							<label>$INFO[ListItem.Title]</label>
+							<label>$INFO[ListItem.label]</label>
 							<visible>!Control.HasFocus(8007)</visible>
 						</control>
 						<control type="label">
@@ -2803,7 +2828,7 @@
 							<selectedcolor>theme</selectedcolor>
 							<align>center</align>
 							<aligny>center</aligny>
-							<label>$INFO[ListItem.Title]</label>
+							<label>$INFO[ListItem.Label]</label>
 							<visible>Control.HasFocus(8007)</visible>
 						</control>
 						<control type="image">
@@ -2956,8 +2981,10 @@
 						</item>
 					</content>
 				</control>
-				<control type="button">
+				<control type="button" id="80071">
 					<description>left Arrow</description>
+					<visible>[Control.HasFocus(80071) | Control.HasFocus(8007)] + Container(8007).HasPrevious</visible>
+					<hitrect x="-60" y="0" w="65" h="530"/>
 					<left>-60</left>
 					<top>135</top>
 					<width>45</width>
@@ -2965,11 +2992,12 @@
 					<texturefocus>arrow-big-left.png</texturefocus>
 					<texturenofocus>arrow-big-left.png</texturenofocus>
 					<onclick>Control.Move(8007,-1)</onclick>
-					<visible>[Control.HasFocus(8007) | system.getbool(input.enablemouse)] + Container(8007).HasPrevious</visible>
 					<include>VisibleFadeEffect</include>
 				</control>
-				<control type="button">
+				<control type="button" id="80072">
 					<description>right Arrow</description>
+					<visible>[Control.HasFocus(80072) | Control.HasFocus(8007)] + Container(8007).HasNext</visible>
+					<hitrect x="1795" y="0" w="65" h="530"/>
 					<left>1815</left>
 					<top>135</top>
 					<width>45</width>
@@ -3019,6 +3047,7 @@
 					<orientation>Horizontal</orientation>
 					<focusposition>1</focusposition>
 					<movement>2</movement>
+					<hitrect x="0" y="0" w="1800" h="530"/>
 					<itemlayout height="330" width="360">
 						<control type="image">
 							<description>background</description>
@@ -3138,12 +3167,6 @@
 					</focusedlayout>
 					<content>
 						<item>
-							<label>$LOCALIZE[31909]</label>
-							<icon />
-							<onclick>noop</onclick>
-							<visible>!Weather.IsFetched</visible>
-						</item>
-						<item>
 							<label>$INFO[Window(weather).Property(Day0.LowTemp)]$INFO[System.TemperatureUnits]  $INFO[Window(weather).Property(Day0.Title)]  $INFO[Window(weather).Property(Day0.HighTemp)]$INFO[System.TemperatureUnits]</label>
 							<label2>$INFO[Window(weather).Property(Day0.Outlook)]</label2>
 							<icon>$INFO[Window(weather).Property(Day0.OutlookIcon)]</icon> 
@@ -3201,8 +3224,10 @@
 						</item>
 					</content>
 				</control>
-				<control type="button">	
+				<control type="button" id="80081">
 					<description>left Arrow</description>
+					<visible>[Control.HasFocus(80081) | Control.HasFocus(8008)] + Container(8008).HasPrevious</visible>
+					<hitrect x="-60" y="0" w="65" h="530"/>
 					<left>-60</left>
 					<top>135</top>
 					<width>45</width>
@@ -3210,11 +3235,12 @@
 					<texturefocus>arrow-big-left.png</texturefocus>
 					<texturenofocus>arrow-big-left.png</texturenofocus>
 					<onclick>Control.Move(8008,-1)</onclick>
-					<visible>[Control.HasFocus(8008) | system.getbool(input.enablemouse)] + Container(8008).HasPrevious</visible>
 					<include>VisibleFadeEffect</include>
 				</control>
-				<control type="button">
+				<control type="button" id="80082">
 					<description>right Arrow</description>
+					<visible>[Control.HasFocus(80082) | Control.HasFocus(8008)] + Container(8008).HasNext</visible>
+					<hitrect x="1795" y="0" w="65" h="530"/>
 					<left>1815</left>
 					<top>135</top>
 					<width>45</width>
@@ -3222,7 +3248,6 @@
 					<texturefocus>arrow-big-right.png</texturefocus>
 					<texturenofocus>arrow-big-right.png</texturenofocus>
 					<onclick>Control.Move(8008,1)</onclick>
-					<visible>[Control.HasFocus(8008) | system.getbool(input.enablemouse)] + Container(8008).HasNext</visible>
 					<include>VisibleFadeEffect</include>
 				</control>
 			</control>
@@ -3261,6 +3286,7 @@
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
 					<orientation>Horizontal</orientation>
+					<hitrect x="0" y="0" w="1800" h="530"/>
 					<itemlayout height="330" width="450">
 						<control type="image">
 							<description>background</description>
@@ -3478,8 +3504,10 @@
 						</item>
 					</content>
 				</control>
-				<control type="button">
+				<control type="button" id="80091">
 					<description>left Arrow</description>
+					<visible>[Control.HasFocus(80091) | Control.HasFocus(8009)] + Container(8009).HasPrevious</visible>
+					<hitrect x="-60" y="0" w="65" h="530"/>
 					<left>-60</left>
 					<top>135</top>
 					<width>45</width>
@@ -3487,11 +3515,12 @@
 					<texturefocus>arrow-big-left.png</texturefocus>
 					<texturenofocus>arrow-big-left.png</texturenofocus>
 					<onclick>Control.Move(8009,-1)</onclick>
-					<visible>[Control.HasFocus(8009) | system.getbool(input.enablemouse)] + Container(8009).HasPrevious</visible>
 					<include>VisibleFadeEffect</include>
 				</control>
-				<control type="button">
+				<control type="button" id="80092">
 					<description>right Arrow</description>
+					<visible>[Control.HasFocus(80092) | Control.HasFocus(8009)] + Container(8009).HasNext</visible>
+					<hitrect x="1795" y="0" w="65" h="530"/>
 					<left>1815</left>
 					<top>135</top>
 					<width>45</width>
@@ -3499,7 +3528,6 @@
 					<texturefocus>arrow-big-right.png</texturefocus>
 					<texturenofocus>arrow-big-right.png</texturenofocus>
 					<onclick>Control.Move(8009,1)</onclick>
-					<visible>[Control.HasFocus(8009) | system.getbool(input.enablemouse)] + Container(8009).HasNext</visible>
 					<include>VisibleFadeEffect</include>
 				</control>
 			</control>
@@ -3540,7 +3568,7 @@
 					<scrolltime>200</scrolltime>
 					<orientation>Horizontal</orientation>
 					<focusposition>1</focusposition>
-					<movement>2</movement>
+					<hitrect x="0" y="0" w="1800" h="530"/>
 					<itemlayout height="330" width="360">
 						<control type="image">
 							<description>background</description>
@@ -3778,8 +3806,10 @@
 						</item>
 					</content>
 				</control>
-				<control type="button">	
+				<control type="button" id="80101">
 					<description>left Arrow</description>
+					<visible>[Control.HasFocus(80101) | Control.HasFocus(8010)] + Container(8010).HasPrevious</visible>
+					<hitrect x="-60" y="0" w="65" h="530"/>
 					<left>-60</left>
 					<top>135</top>
 					<width>45</width>
@@ -3787,11 +3817,12 @@
 					<texturefocus>arrow-big-left.png</texturefocus>
 					<texturenofocus>arrow-big-left.png</texturenofocus>
 					<onclick>Control.Move(8010,-1)</onclick>
-					<visible>[Control.HasFocus(8010) | system.getbool(input.enablemouse)] + Container(8010).HasPrevious</visible>
 					<include>VisibleFadeEffect</include>
 				</control>
-				<control type="button">
+				<control type="button" id="80102">
 					<description>right Arrow</description>
+					<visible>[Control.HasFocus(80102) | Control.HasFocus(8010)] + Container(8010).HasNext</visible>
+					<hitrect x="1795" y="0" w="65" h="530"/>
 					<left>1815</left>
 					<top>135</top>
 					<width>45</width>
@@ -3799,7 +3830,6 @@
 					<texturefocus>arrow-big-right.png</texturefocus>
 					<texturenofocus>arrow-big-right.png</texturenofocus>
 					<onclick>Control.Move(8010,1)</onclick>
-					<visible>[Control.HasFocus(8010) | system.getbool(input.enablemouse)] + Container(8010).HasNext</visible>
 					<include>VisibleFadeEffect</include>
 				</control>
 			</control>
@@ -3842,6 +3872,7 @@
 					<scrolltime>200</scrolltime>
 					<orientation>Horizontal</orientation>
 					<onclick>RunAddon($INFO[ListItem.Property(Addon.ID)])</onclick>
+					<hitrect x="0" y="0" w="1800" h="530"/>
 					<itemlayout height="330" width="300">
 						<control type="image">
 							<description>background</description>
@@ -4059,8 +4090,10 @@
 						</item>
 					</content>
 				</control>
-				<control type="button">
+				<control type="button" id="80201">
 					<description>left Arrow</description>
+					<visible>[Control.HasFocus(80201) | Control.HasFocus(8020)] + Container(8020).HasPrevious</visible>
+					<hitrect x="-60" y="0" w="65" h="530"/>
 					<left>-60</left>
 					<top>135</top>
 					<width>45</width>
@@ -4068,11 +4101,12 @@
 					<texturefocus>arrow-big-left.png</texturefocus>
 					<texturenofocus>arrow-big-left.png</texturenofocus>
 					<onclick>Control.Move(8020,-1)</onclick>
-					<visible>[Control.HasFocus(8020) | system.getbool(input.enablemouse)] + Container(8020).HasPrevious</visible>
 					<include>VisibleFadeEffect</include>
 				</control>
-				<control type="button">
+				<control type="button" id="80202">
 					<description>right Arrow</description>
+					<visible>[Control.HasFocus(80202) | Control.HasFocus(8020)] + Container(8020).HasNext</visible>
+					<hitrect x="1795" y="0" w="65" h="530"/>
 					<left>1815</left>
 					<top>135</top>
 					<width>45</width>
@@ -4080,7 +4114,6 @@
 					<texturefocus>arrow-big-right.png</texturefocus>
 					<texturenofocus>arrow-big-right.png</texturenofocus>
 					<onclick>Control.Move(8020,1)</onclick>
-					<visible>[Control.HasFocus(8020) | system.getbool(input.enablemouse)] + Container(8020).HasNext</visible>
 					<include>VisibleFadeEffect</include>
 				</control>
 			</control>

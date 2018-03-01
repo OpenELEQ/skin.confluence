@@ -1,3 +1,9 @@
+[B]3.0.61[/B]
+- Fixed PVR guide overlap
+- Fixed main menu not focusing on startup
+- Fixed radio-widget's item-label when focused
+- Tweaked widget's arrows
+
 [B]3.0.60[/B]
 - Added addon-settings button in side-blade
 - Added fallback images for episodes
