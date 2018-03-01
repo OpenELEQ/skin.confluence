@@ -1,3 +1,10 @@
+[B]3.0.62[/B]
+- Added Artwork Downloader integration
+- Added AutoCompletion integration
+- Added Library Editor Script integration
+- Added AutoComplete Toggle to keyboard
+- Added theme-color to numeric keyboard
+
 [B]3.0.61[/B]
 - Fixed PVR guide overlap
 - Fixed main menu not focusing on startup

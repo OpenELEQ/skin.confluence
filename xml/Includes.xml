@@ -1870,4 +1870,100 @@
 			<content target="files" limit="$PARAM[items]" sortby="$PARAM[sortby]" sortorder="$PARAM[sortorder]">$PARAM[path]</content>
 		</control>
 	</include>
+	<include name="AutoComplete">
+		<control type="group" id="5000">
+			<visible>!String.IsEmpty(Control.GetLabel(312).index(1)) + !Control.IsVisible(313)</visible>
+			<top>623</top>
+			<left>0</left>
+			<width>1299</width>
+			<height>180</height>
+			<texture>DialogBack.png</texture>
+			<control type="panel" id="9010">
+				<left>4</left>
+				<top>24</top>
+				<width>1299</width>
+				<height>180</height>
+				<onleft>9010</onleft>
+				<onright>9010</onright>
+				<onup>300</onup>
+				<ondown>309</ondown>
+				<onback>noop</onback>
+				<orientation>vertical</orientation>
+				<scrolltime tween="quadratic" easing="out">200</scrolltime>
+				<itemlayout height="60" width="432">
+					<control type="image">
+						<top>5</top>
+						<width>417</width>
+						<height>45</height>
+						<texture border="4" colordiffuse="theme">KeyboardKeyNF.png</texture>
+					</control>
+					<control type="label">
+						<left>5</left>
+						<top>5</top>
+						<width>402</width>
+						<height>45</height>
+						<align>center</align>
+						<textcolor>grey</textcolor>
+						<textoffsetx>0</textoffsetx>
+						<font>Regular19</font>
+						<label>$INFO[ListItem.Label]</label>
+					</control>
+				</itemlayout>
+				<focusedlayout height="60" width="432">
+					<control type="image">
+						<top>5</top>
+						<width>417</width>
+						<height>45</height>
+						<texture border="4" colordiffuse="theme">KeyboardKey.png</texture>
+					</control>
+					<control type="label">
+						<left>5</left>
+						<top>5</top>
+						<width>402</width>
+						<height>45</height>
+						<align>center</align>
+						<textoffsetx>0</textoffsetx>
+						<font>Regular19</font>
+						<textcolor>black</textcolor>
+						<label>$INFO[ListItem.Label]</label>
+					</control>
+				</focusedlayout>
+				<content>plugin://plugin.program.autocompletion?info=autocomplete&amp;&amp;id=$INFO[Control.GetLabel(312).index(1)]&amp;&amp;limit=9</content>
+			</control>
+		</control>
+	</include>
+	<include name="DatabaseEdit">
+		<control type="button" id="997">
+			<label>$LOCALIZE[21450] [LOWERCASE]$LOCALIZE[15101][/LOWERCASE]</label>
+			<description>Edit database button</description>
+			<left>-</left>
+			<top>-</top>
+			<width>450</width>
+			<height>57</height>
+			<font>fontContextMenu</font>
+			<align>center</align>
+			<textcolor>grey2</textcolor>
+			<focusedcolor>white</focusedcolor>
+			<texturefocus border="8" colordiffuse="theme">button-focus.png</texturefocus>
+			<onclick>RunScript(script.libraryeditor,DBID=$INFO[ListItem.DBID])</onclick>
+			<visible>System.HasAddon(script.libraryeditor) + !Skin.HasSetting(DisableDatabaseEdit) + !String.IsEmpty(ListItem.DBID) + !Container.Content(Seasons)</visible>
+		</control>
+	</include>
+	<include name="ArtworkDownload">
+		<control type="button" id="998">
+			<label>$LOCALIZE[33003] [LOWERCASE]$ADDON[script.artwork.downloader 32133][/LOWERCASE]</label>
+			<description>Download artwork button</description>
+			<left>-</left>
+			<top>-</top>
+			<width>450</width>
+			<height>57</height>
+			<font>fontContextMenu</font>
+			<align>center</align>
+			<textcolor>grey2</textcolor>
+			<focusedcolor>white</focusedcolor>
+			<texturefocus border="8" colordiffuse="theme">button-focus.png</texturefocus>
+			<onclick>RunScript(script.artwork.downloader, mode=gui, mediatype=$INFO[ListItem.DBTYPE], dbid=$INFO[ListItem.DBID])</onclick>
+			<visible>System.HasAddon(script.artwork.downloader) + !Skin.HasSetting(DisableArtworkDownload)</visible>
+		</control>
+	</include>
 </includes>

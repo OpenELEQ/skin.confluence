@@ -363,6 +363,80 @@
 						<onclick>Skin.ToggleSetting(TotalPlayerInfo)</onclick>
 						<selected>Skin.HasSetting(TotalPlayerInfo)</selected>
 					</control>
+					<control type="radiobutton" id="118">
+						<width>1125</width>
+						<height>60</height>
+						<font>font13</font>
+						<label>AutoComplete [COLOR=grey3]($LOCALIZE[310])[/COLOR]</label>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<texturefocus colordiffuse="theme">MenuItemFO.png</texturefocus>
+						<texturenofocus colordiffuse="theme">MenuItemNF.png</texturenofocus>
+						<onclick>Skin.ToggleSetting(DisableAutoComplete)</onclick>
+						<selected>!Skin.HasSetting(DisableAutoComplete)</selected>
+						<visible>System.HasAddon(plugin.program.autocompletion)</visible>
+					</control>
+					<control type="button" id="119">
+						<width>1125</width>
+						<height>60</height>
+						<font>font13</font>
+						<label>$LOCALIZE[24038]: AutoCompletion for virtual keyboard</label>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<texturefocus colordiffuse="theme">MenuItemFO.png</texturefocus>
+						<texturenofocus colordiffuse="theme">MenuItemNF.png</texturenofocus>
+						<onclick>InstallAddon(plugin.program.autocompletion)</onclick>
+						<visible>!System.HasAddon(plugin.program.autocompletion)</visible>
+					</control>
+					<control type="radiobutton" id="120">
+						<width>1125</width>
+						<height>60</height>
+						<font>font13</font>
+						<label>$LOCALIZE[21450] [LOWERCASE]$LOCALIZE[15101][/LOWERCASE] [COLOR=grey3]($LOCALIZE[24025])[/COLOR]</label>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<texturefocus colordiffuse="theme">MenuItemFO.png</texturefocus>
+						<texturenofocus colordiffuse="theme">MenuItemNF.png</texturenofocus>
+						<onclick>Skin.ToggleSetting(DisableDatabaseEdit)</onclick>
+						<selected>!Skin.HasSetting(DisableDatabaseEdit)</selected>
+					</control>
+<!--					<control type="button" id="121">
+						<width>1125</width>
+						<height>60</height>
+						<font>font13</font>
+						<label>$LOCALIZE[24038] $INFO[System.AddonTitle(script.libraryeditor)]</label>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<texturefocus colordiffuse="theme">MenuItemFO.png</texturefocus>
+						<texturenofocus colordiffuse="theme">MenuItemNF.png</texturenofocus>
+						<onclick>InstallAddon(script.libraryeditor)</onclick>
+						<visible>!System.HasAddon(script.libraryeditor)</visible>
+					</control>-->
+					<control type="radiobutton" id="122">
+						<width>1125</width>
+						<height>60</height>
+						<font>font13</font>
+						<label>$LOCALIZE[33003] [LOWERCASE]$ADDON[script.artwork.downloader 32133][/LOWERCASE] [COLOR=grey3]($LOCALIZE[24025])[/COLOR]</label>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<texturefocus colordiffuse="theme">MenuItemFO.png</texturefocus>
+						<texturenofocus colordiffuse="theme">MenuItemNF.png</texturenofocus>
+						<onclick>Skin.ToggleSetting(DisableArtworkDownload)</onclick>
+						<selected>!Skin.HasSetting(DisableArtworkDownload)</selected>
+						<visible>System.HasAddon(script.artwork.downloader)</visible>
+					</control>
+					<control type="button" id="123">
+						<width>1125</width>
+						<height>60</height>
+						<font>font13</font>
+						<label>$LOCALIZE[24038]: Artwork Downloader</label>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<texturefocus colordiffuse="theme">MenuItemFO.png</texturefocus>
+						<texturenofocus colordiffuse="theme">MenuItemNF.png</texturenofocus>
+						<onclick>InstallAddon(script.artwork.downloader)</onclick>
+						<visible>!System.HasAddon(script.artwork.downloader)</visible>
+					</control>
 				</control>
 				<control type="scrollbar" id="60">
 					<left>1590</left>

@@ -22,6 +22,8 @@
 			<width>450</width>
 			<height max="1005">auto</height>
 			<itemgap>3</itemgap>
+			<include>DatabaseEdit</include>
+			<include>ArtworkDownload</include>
 		</control>
 		<control type="button">
 			<description>Close Window button</description>

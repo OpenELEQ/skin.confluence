@@ -108,7 +108,8 @@
 						<width>300</width>
 						<height>75</height>
 						<label>20177</label>
-						<onup>300</onup>
+						<onup condition="!Integer.IsGreater(Container(9010).NumItems,0)">300</onup>
+						<onup condition="Integer.IsGreater(Container(9010).NumItems,0)">9010</onup>
 						<ondown>302</ondown>
 						<texturenofocus border="38,38,8,8" colordiffuse="theme">KeyboardCornerTopNF.png</texturenofocus>
 						<texturefocus border="38,38,8,8" colordiffuse="theme">KeyboardCornerTop.png</texturefocus>
@@ -197,7 +198,47 @@
 					<orientation>horizontal</orientation>
 					<top>75</top>
 					<itemgap>0</itemgap>
+					<control type="button" id="315">
+						<visible>System.HasAddon(plugin.program.autocompletion) + !System.HasHiddenInput</visible>
+						<description>AUTOCOMPLETE button</description>
+						<width>150</width>
+						<height>75</height>
+						<label></label>
+						<onup>309</onup>
+						<ondown>303</ondown>
+						<onclick>Skin.ToggleSetting(DisableAutoComplete)</onclick>
+						<onclick>Dialog.Close(10103,true)</onclick>
+						<onclick>ActivateWindow(10103)</onclick>
+						<texturenofocus border="4" colordiffuse="theme">KeyboardKeyNF.png</texturenofocus>
+						<texturefocus border="8" colordiffuse="theme">KeyboardKey.png</texturefocus>
+						<radioposy>8</radioposy>
+						<radiowidth>30</radiowidth>
+						<radioheight>30</radioheight>
+						<align>center</align>
+						<aligny>center</aligny>
+						<font>font13</font>
+						<focusedcolor>black</focusedcolor>
+					</control>
 					<control type="radiobutton" id="302">
+						<visible>System.HasAddon(plugin.program.autocompletion) + !System.HasHiddenInput</visible>
+						<description>SHIFT button</description>
+						<width>150</width>
+						<height>75</height>
+						<label>20178</label>
+						<onup>309</onup>
+						<ondown>303</ondown>
+						<texturenofocus border="4" colordiffuse="theme">KeyboardKeyNF.png</texturenofocus>
+						<texturefocus border="8" colordiffuse="theme">KeyboardKey.png</texturefocus>
+						<radioposy>8</radioposy>
+						<radiowidth>30</radiowidth>
+						<radioheight>30</radioheight>
+						<align>center</align>
+						<aligny>center</aligny>
+						<font>font13</font>
+						<focusedcolor>black</focusedcolor>
+					</control>
+					<control type="radiobutton" id="302">
+						<visible>!System.HasAddon(plugin.program.autocompletion) | System.HasHiddenInput</visible>
 						<description>SHIFT button</description>
 						<width>300</width>
 						<height>75</height>
@@ -507,7 +548,8 @@
 						<align>center</align>
 						<aligny>center</aligny>
 						<onup>304</onup>
-						<ondown>309</ondown>
+						<ondown condition="!Integer.IsGreater(Container(9010).NumItems,0)">309</ondown>
+						<ondown condition="Integer.IsGreater(Container(9010).NumItems,0)">9010</ondown>
 						<focusedcolor>black</focusedcolor>
 					</control>
 					<control type="button" id="32">
@@ -522,7 +564,8 @@
 						<font>font13</font>
 						<focusedcolor>black</focusedcolor>
 						<onup>161</onup>
-						<ondown>101</ondown>
+						<ondown condition="!Integer.IsGreater(Container(9010).NumItems,0)">101</ondown>
+						<ondown condition="Integer.IsGreater(Container(9010).NumItems,0)">9010</ondown>
 					</control>
 					<control type="button" id="8">
 						<description>BACKSPACE button</description>
@@ -530,7 +573,8 @@
 						<height>75</height>
 						<label>20181</label>
 						<onup>164</onup>
-						<ondown>104</ondown>
+						<ondown condition="!Integer.IsGreater(Container(9010).NumItems,0)">104</ondown>
+						<ondown condition="Integer.IsGreater(Container(9010).NumItems,0)">9010</ondown>
 						<texturenofocus border="4" colordiffuse="theme">KeyboardKeyNF.png</texturenofocus>
 						<texturefocus border="8" colordiffuse="theme">KeyboardKey.png</texturefocus>
 						<align>center</align>
@@ -550,7 +594,8 @@
 						<font>font30</font>
 						<focusedcolor>black</focusedcolor>
 						<onup>166</onup>
-						<ondown>106</ondown>
+						<ondown condition="!Integer.IsGreater(Container(9010).NumItems,0)">106</ondown>
+						<ondown condition="Integer.IsGreater(Container(9010).NumItems,0)">9010</ondown>
 					</control>
 					<control type="button" id="306">
 						<description>next button</description>
@@ -564,7 +609,8 @@
 						<font>font30</font>
 						<focusedcolor>black</focusedcolor>
 						<onup>167</onup>
-						<ondown>107</ondown>
+						<ondown condition="!Integer.IsGreater(Container(9010).NumItems,0)">107</ondown>
+						<ondown condition="Integer.IsGreater(Container(9010).NumItems,0)">9010</ondown>
 					</control>
 					<control type="button" id="308">
 						<description>cancel button</description>
@@ -578,7 +624,8 @@
 						<font>font13</font>
 						<focusedcolor>black</focusedcolor>
 						<onup>168</onup>
-						<ondown>108</ondown>
+						<ondown condition="!Integer.IsGreater(Container(9010).NumItems,0)">108</ondown>
+						<ondown condition="Integer.IsGreater(Container(9010).NumItems,0)">9010</ondown>
 						<onclick>Close</onclick>
 					</control>
 				</control>
@@ -590,7 +637,17 @@
 					<height>45</height>
 					<texture>KeyboardBackKey.png</texture>
 				</control>
+				<control type="image">
+					<visible>System.HasAddon(plugin.program.autocompletion) + !System.HasHiddenInput</visible>
+					<description>AutoComplete icon</description>
+					<left>52</left>
+					<top>90</top>
+					<width>45</width>
+					<height>45</height>
+					<texture>KeyboardAutoCompleteKey.png</texture>
+				</control>
 			</control>
+			<include condition="System.HasAddon(plugin.program.autocompletion) + !System.HasHiddenInput + !Skin.HasSetting(DisableAutoComplete)">AutoComplete</include>
 		</control>
 	</controls>
 </window>
