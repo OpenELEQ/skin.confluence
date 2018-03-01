@@ -1,3 +1,14 @@
+[B]4.3.0[/B]
+- Added AutoComplete icon
+- Changed location of xml
+- Updated addon.xml
+- Updated changelog
+- Updated fanart
+- Updated icon
+- Updated logo
+
+- Redesigned layout for updated Global Search addon
+
 [B]4.1.41[/B]
 
 - Added GameOSD dialog
