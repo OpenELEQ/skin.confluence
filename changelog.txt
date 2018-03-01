@@ -1,3 +1,19 @@
+[B]3.0.51[/B]
+- Added "Music videos"-button to Home
+- Added widgets to all HomeItems
+- Added 2 add-on shortcuts per HomeItem for 7 total
+- Added seperate add-on shortcuts to all HomeItems
+- Added option to disable widgets per type
+- Added subtitle & audio actions to onup/ondown from VideoOSD's pause-button
+- Added image & video splash options
+- Added "Favourites"-button to shutdownmenu
+- Added "Settings"-button to shutdownmenu (only visible if "Programs" is disabled)
+- Added Open/LibreELEC-button to Program's submenu
+- Converted to 1080
+- Removed System from Home (System's submenu now under Programs)
+- Updated addon.xml
+Forked @ https://github.com/xbmc/skin.confluence/commit/7044dabb3a818d7ff47b7a34bfb3480f2a9441d9
+
 [B]3.1.6[/B]
 - Added AutoComplete icon
 - Changed location of xml
