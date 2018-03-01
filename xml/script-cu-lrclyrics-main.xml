@@ -34,7 +34,7 @@
 				<label>-</label>
 				<font>-</font>
 				<onclick>PreviousMenu</onclick>
-				<texturefocus>DialogCloseButton-focus.png</texturefocus>
+				<texturefocus colordiffuse="theme">DialogCloseButton-focus.png</texturefocus>
 				<texturenofocus>DialogCloseButton.png</texturenofocus>
 				<visible>system.getbool(input.enablemouse)</visible>
 			</control>
@@ -164,7 +164,7 @@
 						<top>0</top>
 						<width>930</width>
 						<height>62</height>
-						<texture border="8">MenuItemNF.png</texture>
+						<texture border="8" colordiffuse="theme">MenuItemNF.png</texture>
 					</control>
 					<control type="label">
 						<left>15</left>
@@ -185,7 +185,7 @@
 						<width>930</width>
 						<height>62</height>
 						<visible>!Control.HasFocus(120)</visible>
-						<texture border="8">MenuItemNF.png</texture>
+						<texture border="8" colordiffuse="theme">MenuItemNF.png</texture>
 					</control>
 					<control type="image">
 						<left>0</left>
@@ -193,7 +193,7 @@
 						<width>930</width>
 						<height>62</height>
 						<visible>Control.HasFocus(120)</visible>
-						<texture border="8">MenuItemFO.png</texture>
+						<texture border="8" colordiffuse="theme">MenuItemFO.png</texture>
 					</control>
 					<control type="label">
 						<left>15</left>

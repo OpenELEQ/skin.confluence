@@ -28,14 +28,14 @@
 				<top>8</top>
 				<width>1635</width>
 				<height>945</height>
-				<texture border="22">ContentPanel.png</texture>
+				<texture border="22" colordiffuse="theme">ContentPanel.png</texture>
 			</control>
 			<control type="image">
 				<left>8</left>
 				<top>938</top>
 				<width>1635</width>
 				<height>96</height>
-				<texture border="22">ContentPanelMirror.png</texture>
+				<texture border="22" colordiffuse="theme">ContentPanelMirror.png</texture>
 			</control>
 			<control type="button">
 				<description>Close Window button</description>
@@ -46,7 +46,7 @@
 				<label>-</label>
 				<font>-</font>
 				<onclick>PreviousMenu</onclick>
-				<texturefocus>DialogCloseButton-focus.png</texturefocus>
+				<texturefocus colordiffuse="theme">DialogCloseButton-focus.png</texturefocus>
 				<texturenofocus>DialogCloseButton.png</texturenofocus>
 				<onleft>1</onleft>
 				<onright>1</onright>
@@ -80,7 +80,7 @@
 						<top>0</top>
 						<width>390</width>
 						<height>82</height>
-						<texture border="8">MenuItemNF.png</texture>
+						<texture border="8" colordiffuse="theme">MenuItemNF.png</texture>
 					</control>
 					<control type="label">
 						<left>15</left>
@@ -100,7 +100,7 @@
 						<top>0</top>
 						<width>390</width>
 						<height>82</height>
-						<texture border="8">MenuItemFO.png</texture>
+						<texture border="8" colordiffuse="theme">MenuItemFO.png</texture>
 					</control>
 					<control type="label">
 						<left>15</left>
@@ -198,7 +198,7 @@
 				<top>90</top>
 				<width>1200</width>
 				<height>675</height>
-				<texture border="8">button-nofocus.png</texture>
+				<texture border="8" colordiffuse="theme">button-nofocus.png</texture>
 			</control>
 			<control type="image">
 				<left>408</left>

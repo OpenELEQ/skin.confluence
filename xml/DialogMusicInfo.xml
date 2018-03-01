@@ -12,7 +12,7 @@
 				<top>0</top>
 				<width>1680</width>
 				<height>1080</height>
-				<texture border="22,0,0,0" flipx="true">MediaBladeSub.png</texture>
+				<texture border="22,0,0,0" flipx="true" colordiffuse="theme">MediaBladeSub.png</texture>
 			</control>
 			<control type="button">
 				<description>Close Window button</description>
@@ -23,7 +23,7 @@
 				<label>-</label>
 				<font>-</font>
 				<onclick>PreviousMenu</onclick>
-				<texturefocus>DialogCloseButton-focus.png</texturefocus>
+				<texturefocus colordiffuse="theme">DialogCloseButton-focus.png</texturefocus>
 				<texturenofocus>DialogCloseButton.png</texturenofocus>
 				<onleft>9000</onleft>
 				<onright>9000</onright>
@@ -57,7 +57,7 @@
 						<width>405</width>
 						<height>405</height>
 						<aspectratio>keep</aspectratio>
-						<bordertexture border="8">button-nofocus.png</bordertexture>
+						<bordertexture border="8" colordiffuse="theme">button-nofocus.png</bordertexture>
 						<bordersize>6</bordersize>
 						<texture background="true">$INFO[ListItem.Icon]</texture>
 					</control>
@@ -81,7 +81,7 @@
 								<font>font13</font>
 								<align>right</align>
 								<aligny>center</aligny>
-								<textcolor>blue</textcolor>
+								<textcolor>theme</textcolor>
 								<selectedcolor>selected</selectedcolor>
 								<info>ListItem.Label</info>
 							</control>
@@ -105,7 +105,7 @@
 								<width>1140</width>
 								<height>45</height>
 								<visible>Control.HasFocus(49)</visible>
-								<texture>MenuItemFO.png</texture>
+								<texture colordiffuse="theme">MenuItemFO.png</texture>
 								<include>VisibleFadeEffect</include>
 							</control>
 							<control type="label">
@@ -116,7 +116,7 @@
 								<font>font13</font>
 								<align>right</align>
 								<aligny>center</aligny>
-								<textcolor>blue</textcolor>
+								<textcolor>theme</textcolor>
 								<selectedcolor>selected</selectedcolor>
 								<info>ListItem.Label</info>
 							</control>

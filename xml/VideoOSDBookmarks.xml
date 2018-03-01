@@ -45,7 +45,7 @@
 			<label>-</label>
 			<font>-</font>
 			<onclick>PreviousMenu</onclick>
-			<texturefocus>DialogCloseButton-focus.png</texturefocus>
+			<texturefocus colordiffuse="theme">DialogCloseButton-focus.png</texturefocus>
 			<texturenofocus>DialogCloseButton.png</texturenofocus>
 			<onleft>3</onleft>
 			<onright>3</onright>
@@ -64,7 +64,7 @@
 			<aligny>center</aligny>
 			<scroll>true</scroll>
 			<textcolor>grey</textcolor>
-			<label>([COLOR=blue]$INFO[Container(11).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=blue]$INFO[Container(11).CurrentPage]/$INFO[Container(11).NumPages][/COLOR])</label>
+			<label>([COLOR=theme]$INFO[Container(11).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=theme]$INFO[Container(11).CurrentPage]/$INFO[Container(11).NumPages][/COLOR])</label>
 		</control>
 		<control type="panel" id="11">
 			<left>60</left>
@@ -85,7 +85,7 @@
 					<top>3</top>
 					<width>352</width>
 					<height>316</height>
-					<texture border="4">button-nofocus.png</texture>
+					<texture border="4" colordiffuse="theme">button-nofocus.png</texture>
 				</control>
 				<control type="image">
 					<left>10</left>
@@ -113,7 +113,7 @@
 					<top>3</top>
 					<width>352</width>
 					<height>316</height>
-					<texture border="4">folder-focus.png</texture>
+					<texture border="4" colordiffuse="theme">folder-focus.png</texture>
 				</control>
 				<control type="image">
 					<left>10</left>

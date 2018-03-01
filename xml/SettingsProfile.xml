@@ -28,14 +28,14 @@
 				<top>8</top>
 				<width>1635</width>
 				<height>945</height>
-				<texture border="22">ContentPanel.png</texture>
+				<texture border="22" colordiffuse="theme">ContentPanel.png</texture>
 			</control>
 			<control type="image">
 				<left>8</left>
 				<top>938</top>
 				<width>1635</width>
 				<height>96</height>
-				<texture border="22">ContentPanelMirror.png</texture>
+				<texture border="22" colordiffuse="theme">ContentPanelMirror.png</texture>
 			</control>
 			<control type="button">
 				<description>Close Window button</description>
@@ -46,7 +46,7 @@
 				<label>-</label>
 				<font>-</font>
 				<onclick>PreviousMenu</onclick>
-				<texturefocus>DialogCloseButton-focus.png</texturefocus>
+				<texturefocus colordiffuse="theme">DialogCloseButton-focus.png</texturefocus>
 				<texturenofocus>DialogCloseButton.png</texturenofocus>
 				<onleft>1</onleft>
 				<onright>1</onright>
@@ -80,7 +80,7 @@
 						<top>0</top>
 						<width>390</width>
 						<height>82</height>
-						<texture border="8">MenuItemNF.png</texture>
+						<texture border="8" colordiffuse="theme">MenuItemNF.png</texture>
 					</control>
 					<control type="label">
 						<left>15</left>
@@ -100,7 +100,7 @@
 						<top>0</top>
 						<width>390</width>
 						<height>82</height>
-						<texture border="8">MenuItemFO.png</texture>
+						<texture border="8" colordiffuse="theme">MenuItemFO.png</texture>
 						<animation effect="fade" start="100" end="30" time="75" condition="!Control.HasFocus(9000)">Conditional</animation>
 					</control>
 					<control type="label">
@@ -148,7 +148,7 @@
 					<width>360</width>
 					<height>30</height>
 					<font>font12_title</font>
-					<textcolor>blue</textcolor>
+					<textcolor>theme</textcolor>
 					<align>center</align>
 					<aligny>center</aligny>
 					<label>$LOCALIZE[31319]</label>
@@ -170,7 +170,7 @@
 					<width>360</width>
 					<height>45</height>
 					<font>font12_title</font>
-					<textcolor>blue</textcolor>
+					<textcolor>theme</textcolor>
 					<align>center</align>
 					<aligny>center</aligny>
 					<label>$LOCALIZE[31320]</label>
@@ -235,8 +235,8 @@
 						<label>20096</label>
 						<textcolor>grey2</textcolor>
 						<focusedcolor>white</focusedcolor>
-						<texturefocus>MenuItemFO.png</texturefocus>
-						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<texturefocus colordiffuse="theme">MenuItemFO.png</texturefocus>
+						<texturenofocus colordiffuse="theme">MenuItemNF.png</texturenofocus>
 					</control>
 					<control type="button" id="5">
 						<description>auto login</description>
@@ -247,8 +247,8 @@
 						<label2>$INFO[System.ProfileAutoLogin]</label2>
 						<textcolor>grey2</textcolor>
 						<focusedcolor>white</focusedcolor>
-						<texturefocus>MenuItemFO.png</texturefocus>
-						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<texturefocus colordiffuse="theme">MenuItemFO.png</texturefocus>
+						<texturenofocus colordiffuse="theme">MenuItemNF.png</texturenofocus>
 						<enable>!System.HasLoginScreen</enable>
 					</control>
 				</control>
@@ -313,7 +313,7 @@
 							<top>0</top>
 							<width>282</width>
 							<height>218</height>
-							<bordertexture border="8">button-nofocus.png</bordertexture>
+							<bordertexture border="8" colordiffuse="theme">button-nofocus.png</bordertexture>
 							<bordersize>8</bordersize>
 							<texture fallback="DefaultUser.png">$INFO[Listitem.Icon]</texture>
 							<aspectratio>keep</aspectratio>
@@ -337,7 +337,7 @@
 							<top>0</top>
 							<width>282</width>
 							<height>218</height>
-							<bordertexture border="8">folder-focus.png</bordertexture>
+							<bordertexture border="8" colordiffuse="theme">folder-focus.png</bordertexture>
 							<bordersize>8</bordersize>
 							<texture fallback="DefaultUser.png">$INFO[Listitem.Icon]</texture>
 							<aspectratio>keep</aspectratio>
@@ -363,7 +363,7 @@
 					<height>795</height>
 					<texturesliderbackground border="0,21,0,21">ScrollBarV.png</texturesliderbackground>
 					<texturesliderbar border="0,21,0,21">ScrollBarV_bar.png</texturesliderbar>
-					<texturesliderbarfocus border="0,21,0,21">ScrollBarV_bar_focus.png</texturesliderbarfocus>
+					<texturesliderbarfocus border="0,21,0,21" colordiffuse="theme">ScrollBarV_bar_focus.png</texturesliderbarfocus>
 					<textureslidernib>ScrollBarNib.png</textureslidernib>
 					<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 					<onleft>2</onleft>

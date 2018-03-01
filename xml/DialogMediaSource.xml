@@ -26,7 +26,7 @@
 			<aligny>center</aligny>
 			<font>font12</font>
 			<label>1021</label>
-			<textcolor>blue</textcolor>
+			<textcolor>theme</textcolor>
 			<shadowcolor>black</shadowcolor>
 		</control>
 		<control type="list" id="10">
@@ -46,7 +46,7 @@
 					<top>0</top>
 					<width>788</width>
 					<height>60</height>
-					<texture border="8">button-nofocus.png</texture>
+					<texture border="8" colordiffuse="theme">button-nofocus.png</texture>
 				</control>
 				<control type="label">
 					<left>15</left>
@@ -68,7 +68,7 @@
 					<width>788</width>
 					<height>60</height>
 					<visible>!Control.HasFocus(10)</visible>
-					<texture border="8">button-nofocus.png</texture>
+					<texture border="8" colordiffuse="theme">button-nofocus.png</texture>
 				</control>
 				<control type="image">
 					<left>0</left>
@@ -76,7 +76,7 @@
 					<width>788</width>
 					<height>62</height>
 					<visible>Control.HasFocus(10)</visible>
-					<texture border="8">button-focus2.png</texture>
+					<texture border="8" colordiffuse="theme">button-focus2.png</texture>
 				</control>
 				<control type="label">
 					<left>15</left>
@@ -98,7 +98,7 @@
 			<height>338</height>
 			<texturesliderbackground border="0,21,0,21">ScrollBarV.png</texturesliderbackground>
 			<texturesliderbar border="0,21,0,21">ScrollBarV_bar.png</texturesliderbar>
-			<texturesliderbarfocus border="0,21,0,21">ScrollBarV_bar_focus.png</texturesliderbarfocus>
+			<texturesliderbarfocus border="0,21,0,21" colordiffuse="theme">ScrollBarV_bar_focus.png</texturesliderbarfocus>
 			<textureslidernib>ScrollBarNib.png</textureslidernib>
 			<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 			<onleft>10</onleft>
@@ -119,8 +119,8 @@
 				<font>font12_title</font>
 				<align>center</align>
 				<aligny>center</aligny>
-				<texturenofocus border="8">button-nofocus.png</texturenofocus>
-				<texturefocus border="8">button-focus.png</texturefocus>
+				<texturenofocus border="8" colordiffuse="theme">button-nofocus.png</texturenofocus>
+				<texturefocus border="8" colordiffuse="theme">button-focus.png</texturefocus>
 				<onup>18</onup>
 				<onleft>60</onleft>
 				<onright>10</onright>
@@ -136,8 +136,8 @@
 				<font>font12_title</font>
 				<align>center</align>
 				<aligny>center</aligny>
-				<texturenofocus border="8">button-nofocus.png</texturenofocus>
-				<texturefocus border="8">button-focus.png</texturefocus>
+				<texturenofocus border="8" colordiffuse="theme">button-nofocus.png</texturenofocus>
+				<texturefocus border="8" colordiffuse="theme">button-focus.png</texturefocus>
 				<onup>11</onup>
 				<onleft>60</onleft>
 				<onright>10</onright>
@@ -153,8 +153,8 @@
 				<font>font12_title</font>
 				<align>center</align>
 				<aligny>center</aligny>
-				<texturenofocus border="8">button-nofocus.png</texturenofocus>
-				<texturefocus border="8">button-focus.png</texturefocus>
+				<texturenofocus border="8" colordiffuse="theme">button-nofocus.png</texturenofocus>
+				<texturefocus border="8" colordiffuse="theme">button-focus.png</texturefocus>
 				<onup>13</onup>
 				<onleft>60</onleft>
 				<onright>10</onright>
@@ -171,7 +171,7 @@
 			<aligny>center</aligny>
 			<font>font12</font>
 			<label>1022</label>
-			<textcolor>blue</textcolor>
+			<textcolor>theme</textcolor>
 			<shadowcolor>black</shadowcolor>
 		</control>
 		<control type="edit" id="12">
@@ -184,8 +184,8 @@
 			<aligny>center</aligny>
 			<label>-</label>
 			<font>font13</font>
-			<texturefocus border="8">button-focus2.png</texturefocus>
-			<texturenofocus border="8">button-nofocus.png</texturenofocus>
+			<texturefocus border="8" colordiffuse="theme">button-focus2.png</texturefocus>
+			<texturenofocus border="8" colordiffuse="theme">button-nofocus.png</texturenofocus>
 			<onup>10</onup>
 			<onleft>12</onleft>
 			<onright>19</onright>
@@ -202,8 +202,8 @@
 				<height>60</height>
 				<align>center</align>
 				<aligny>center</aligny>
-				<texturenofocus border="8">button-nofocus.png</texturenofocus>
-				<texturefocus border="8">button-focus.png</texturefocus>
+				<texturenofocus border="8" colordiffuse="theme">button-nofocus.png</texturenofocus>
+				<texturefocus border="8" colordiffuse="theme">button-focus.png</texturefocus>
 				<label>186</label>
 				<font>font12_title</font>
 				<onup>12</onup>
@@ -219,8 +219,8 @@
 				<height>60</height>
 				<align>center</align>
 				<aligny>center</aligny>
-				<texturenofocus border="8">button-nofocus.png</texturenofocus>
-				<texturefocus border="8">button-focus.png</texturefocus>
+				<texturenofocus border="8" colordiffuse="theme">button-nofocus.png</texturenofocus>
+				<texturefocus border="8" colordiffuse="theme">button-focus.png</texturefocus>
 				<label>222</label>
 				<font>font12_title</font>
 				<onup>12</onup>

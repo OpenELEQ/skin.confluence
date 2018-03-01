@@ -26,7 +26,7 @@
 				<label>-</label>
 				<font>-</font>
 				<onclick>PreviousMenu</onclick>
-				<texturefocus>DialogCloseButton-focus.png</texturefocus>
+				<texturefocus colordiffuse="theme">DialogCloseButton-focus.png</texturefocus>
 				<texturenofocus>DialogCloseButton.png</texturenofocus>
 				<onleft>450</onleft>
 				<onright>450</onright>
@@ -49,12 +49,12 @@
 				<left>585r</left>
 				<top>375</top>
 				<width>675</width>
-				<height>570</height>
+				<height>660</height>
 				<onup>450</onup>
 				<onleft>Dialog.Close(Favourites)</onleft>
-				<onright>450</onright>
+				<onright>60</onright>
 				<ondown>450</ondown>
-				<pagecontrol>-</pagecontrol>
+				<pagecontrol>60</pagecontrol>
 				<scrolltime>200</scrolltime>
 				<itemlayout height="60">
 					<control type="image">
@@ -62,7 +62,7 @@
 						<top>0</top>
 						<width>555</width>
 						<height>60</height>
-						<texture border="8">button-nofocus.png</texture>
+						<texture border="8" colordiffuse="theme">button-nofocus.png</texture>
 					</control>
 					<control type="label">
 						<left>15</left>
@@ -83,7 +83,7 @@
 						<width>555</width>
 						<height>60</height>
 						<visible>!Control.HasFocus(450)</visible>
-						<texture border="4">button-nofocus.png</texture>
+						<texture border="4" colordiffuse="theme">button-nofocus.png</texture>
 					</control>
 					<control type="image">
 						<left>0</left>
@@ -91,7 +91,7 @@
 						<width>555</width>
 						<height>60</height>
 						<visible>Control.HasFocus(450)</visible>
-						<texture border="4">button-focus.png</texture>
+						<texture border="4" colordiffuse="theme">button-focus.png</texture>
 					</control>
 					<control type="label">
 						<left>15</left>
@@ -106,17 +106,33 @@
 					</control>
 				</focusedlayout>
 			</control>
+		<control type="scrollbar" id="60">
+				<left>30r</left>
+				<top>375</top>
+				<width>25</width>
+				<height>651</height>
+				<texturesliderbackground border="0,21,0,21">ScrollBarV.png</texturesliderbackground>
+				<texturesliderbar border="0,21,0,21">ScrollBarV_bar.png</texturesliderbar>
+				<texturesliderbarfocus border="0,21,0,21" colordiffuse="theme">ScrollBarV_bar_focus.png</texturesliderbarfocus>
+				<textureslidernib>ScrollBarNib.png</textureslidernib>
+				<textureslidernibfocus colordiffuse="theme">ScrollBarNib.png</textureslidernibfocus>
+				<onleft>450</onleft>
+				<onright>450</onright>
+				<showonepage>false</showonepage>
+				<orientation>vertical</orientation>
+				<visible>IntegerGreaterThan(Container(450).NumItems,11)</visible>
+			</control>
 			<control type="label">
 				<description>Page label</description>
 				<right>45</right>
-				<top>1005</top>
+				<top>1035</top>
 				<width>525</width>
 				<height>45</height>
 				<align>right</align>
 				<aligny>center</aligny>
 				<font>font12</font>
 				<textcolor>grey</textcolor>
-				<label>([COLOR=blue]$INFO[Container(450).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=blue]$INFO[Container(450).CurrentPage]/$INFO[Container(450).NumPages][/COLOR])</label>
+				<label>([COLOR=theme]$INFO[Container(450).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=theme]$INFO[Container(450).CurrentPage]/$INFO[Container(450).NumPages][/COLOR])</label>
 			</control>
 		</control>
 	</controls>

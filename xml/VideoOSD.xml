@@ -19,7 +19,7 @@
 			<font>-</font>
 			<onclick>Dialog.Close(VideoOSD,true)</onclick>
 			<onclick>FullScreen</onclick>
-			<texturefocus>DialogCloseButton-focus.png</texturefocus>
+			<texturefocus colordiffuse="theme">DialogCloseButton-focus.png</texturefocus>
 			<texturenofocus>DialogCloseButton.png</texturenofocus>
 			<animation effect="slide" start="0,0" end="-45,0" time="0" condition="Player.Muted">conditional</animation>
 			<animation effect="fade" time="150">VisibleChange</animation>
@@ -37,7 +37,7 @@
 			<action>seek</action>
 			<texturesliderbar>seekslider2.png</texturesliderbar>
 			<textureslidernib>osd_slider_nibNF.png</textureslidernib>
-			<textureslidernibfocus>osd_slider_nib.png</textureslidernibfocus>
+			<textureslidernibfocus colordiffuse="theme">osd_slider_nib.png</textureslidernibfocus>
 			<animation effect="fade" time="150">VisibleChange</animation>
 			<visible>![Window.IsVisible(SliderDialog) | Window.IsVisible(OSDVideoSettings) | Window.IsVisible(OSDAudioSettings) | Window.IsVisible(OSDAudioDSPSettings) | Window.IsVisible(VideoBookmarks) | VideoPlayer.Content(LiveTV)]</visible>
 		</control>
@@ -321,7 +321,7 @@
 					<height>22</height>
 					<font>font12</font>
 					<label>24012</label>
-					<textcolor>blue</textcolor>
+					<textcolor>theme</textcolor>
 					<align>center</align>
 					<aligny>center</aligny>
 				</control>
@@ -334,10 +334,10 @@
 				<label>33003</label>
 				<textoffsetx>45</textoffsetx>
 				<aligny>center</aligny>
-				<texturefocus border="38,8,38,8">SubMenuBack-MiddleFO.png</texturefocus>
-				<texturenofocus border="38,8,38,8">SubMenuBack-MiddleNF.png</texturenofocus>
-				<alttexturefocus border="38,8,38,8">SubMenuBack-MiddleFO.png</alttexturefocus>
-				<alttexturenofocus border="38,8,38,8">SubMenuBack-MiddleNF.png</alttexturenofocus>
+				<texturefocus border="38,8,38,8" colordiffuse="theme">SubMenuBack-MiddleFO.png</texturefocus>
+				<texturenofocus border="38,8,38,8" colordiffuse="theme">SubMenuBack-MiddleNF.png</texturenofocus>
+				<alttexturefocus border="38,8,38,8" colordiffuse="theme">SubMenuBack-MiddleFO.png</alttexturefocus>
+				<alttexturenofocus border="38,8,38,8" colordiffuse="theme">SubMenuBack-MiddleNF.png</alttexturenofocus>
 				<onclick>Close</onclick>
 				<onclick>Dialog.Close(VideoOSD)</onclick>
 				<onclick>ActivateWindow(SubtitleSearch)</onclick>
@@ -350,8 +350,8 @@
 				<aligny>center</aligny>
 				<font>font13</font>
 				<textoffsetx>45</textoffsetx>
-				<texturefocus border="38,8,38,8">SubMenuBack-MiddleFO.png</texturefocus>
-				<texturenofocus border="38,8,38,8">SubMenuBack-MiddleNF.png</texturenofocus>
+				<texturefocus border="38,8,38,8" colordiffuse="theme">SubMenuBack-MiddleFO.png</texturefocus>
+				<texturenofocus border="38,8,38,8" colordiffuse="theme">SubMenuBack-MiddleNF.png</texturenofocus>
 				<pulseonselect>false</pulseonselect>
 				<label>22006</label>
 				<onclick>SubtitleDelay</onclick>
@@ -363,8 +363,8 @@
 				<aligny>center</aligny>
 				<font>font13</font>
 				<textoffsetx>45</textoffsetx>
-				<texturefocus border="38,8,38,8">SubMenuBack-MiddleFO.png</texturefocus>
-				<texturenofocus border="38,8,38,8">SubMenuBack-MiddleNF.png</texturenofocus>
+				<texturefocus border="38,8,38,8" colordiffuse="theme">SubMenuBack-MiddleFO.png</texturefocus>
+				<texturenofocus border="38,8,38,8" colordiffuse="theme">SubMenuBack-MiddleNF.png</texturenofocus>
 				<pulseonselect>false</pulseonselect>
 				<label>209</label>
 				<onclick>CycleSubtitle</onclick>
@@ -378,8 +378,8 @@
 				<font>font13</font>
 				<label>449</label>
 				<radioposx>300</radioposx>
-				<texturefocus border="38,8,38,8">SubMenuBack-MiddleFO.png</texturefocus>
-				<texturenofocus border="38,8,38,8">SubMenuBack-MiddleNF.png</texturenofocus>
+				<texturefocus border="38,8,38,8" colordiffuse="theme">SubMenuBack-MiddleFO.png</texturefocus>
+				<texturenofocus border="38,8,38,8" colordiffuse="theme">SubMenuBack-MiddleNF.png</texturenofocus>
 				<onclick>ShowSubtitles</onclick>
 				<selected>VideoPlayer.SubtitlesEnabled</selected>
 				<visible>VideoPlayer.HasSubtitles</visible>
@@ -441,7 +441,7 @@
 					<height>22</height>
 					<font>font12</font>
 					<label>36501</label>
-					<textcolor>blue</textcolor>
+					<textcolor>theme</textcolor>
 					<align>center</align>
 					<aligny>center</aligny>
 				</control>
@@ -454,8 +454,8 @@
 				<font>font13</font>
 				<label>31362</label>
 				<radioposx>300</radioposx>
-				<texturefocus border="38,8,38,8">SubMenuBack-MiddleFO.png</texturefocus>
-				<texturenofocus border="38,8,38,8">SubMenuBack-MiddleNF.png</texturenofocus>
+				<texturefocus border="38,8,38,8" colordiffuse="theme">SubMenuBack-MiddleFO.png</texturefocus>
+				<texturenofocus border="38,8,38,8" colordiffuse="theme">SubMenuBack-MiddleNF.png</texturenofocus>
 				<onclick>ToggleStereoMode</onclick>
 				<selected>Integer.IsGreater(System.StereoscopicMode,0)</selected>
 				<pulseonselect>false</pulseonselect>
@@ -466,8 +466,8 @@
 				<aligny>center</aligny>
 				<font>font13</font>
 				<textoffsetx>45</textoffsetx>
-				<texturefocus border="38,8,38,8">SubMenuBack-MiddleFO.png</texturefocus>
-				<texturenofocus border="38,8,38,8">SubMenuBack-MiddleNF.png</texturenofocus>
+				<texturefocus border="38,8,38,8" colordiffuse="theme">SubMenuBack-MiddleFO.png</texturefocus>
+				<texturenofocus border="38,8,38,8" colordiffuse="theme">SubMenuBack-MiddleNF.png</texturenofocus>
 				<pulseonselect>false</pulseonselect>
 				<label>31361</label>
 				<onclick>StereoMode</onclick>
@@ -480,8 +480,8 @@
 				<font>font13</font>
 				<label>31360</label>
 				<radioposx>300</radioposx>
-				<texturefocus border="38,8,38,8">SubMenuBack-MiddleFO.png</texturefocus>
-				<texturenofocus border="38,8,38,8">SubMenuBack-MiddleNF.png</texturenofocus>
+				<texturefocus border="38,8,38,8" colordiffuse="theme">SubMenuBack-MiddleFO.png</texturefocus>
+				<texturenofocus border="38,8,38,8" colordiffuse="theme">SubMenuBack-MiddleNF.png</texturenofocus>
 				<onclick>StereoModeToMono</onclick>
 				<selected>String.IsEqual(System.StereoscopicMode,9)</selected>
 				<pulseonselect>false</pulseonselect>

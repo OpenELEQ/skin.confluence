@@ -67,7 +67,7 @@
 					<height>52</height>
 					<font>font12</font>
 					<label>31006</label>
-					<textcolor>blue</textcolor>
+					<textcolor>theme</textcolor>
 					<align>center</align>
 					<aligny>center</aligny>
 				</control>
@@ -85,7 +85,7 @@
 				<control type="togglebutton" id="4">
 					<description>Sort asc</description>
 					<include>ButtonCommonValues</include>
-					<alttexturefocus border="8">button-focus.png</alttexturefocus>
+					<alttexturefocus border="8" colordiffuse="theme">button-focus.png</alttexturefocus>
 					<alttexturenofocus>-</alttexturenofocus>
 					<label>31051</label>
 					<altlabel>31050</altlabel>
@@ -111,7 +111,7 @@
 					<height>52</height>
 					<font>font12</font>
 					<label>31026</label>
-					<textcolor>blue</textcolor>
+					<textcolor>theme</textcolor>
 					<align>center</align>
 					<aligny>center</aligny>
 				</control>
@@ -137,7 +137,7 @@
 					<height>52</height>
 					<font>font12</font>
 					<label>31039</label>
-					<textcolor>blue</textcolor>
+					<textcolor>theme</textcolor>
 					<align>center</align>
 					<aligny>center</aligny>
 					<visible>Container.Content(addons)</visible>

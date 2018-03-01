@@ -129,14 +129,14 @@
 					<top>8</top>
 					<width>1635</width>
 					<height>945</height>
-					<texture border="22">ContentPanel.png</texture>
+					<texture border="22" colordiffuse="theme">ContentPanel.png</texture>
 				</control>
 				<control type="image">
 					<left>8</left>
 					<top>8</top>
 					<width>1635</width>
 					<height>945</height>
-					<texture border="22">ContentPanel.png</texture>
+					<texture border="22" colordiffuse="theme">ContentPanel.png</texture>
 				</control>
 				<control type="button">
 					<description>Close Window button</description>
@@ -147,7 +147,7 @@
 					<label>-</label>
 					<font>-</font>
 					<onclick>PreviousMenu</onclick>
-					<texturefocus>DialogCloseButton-focus.png</texturefocus>
+					<texturefocus colordiffuse="theme">DialogCloseButton-focus.png</texturefocus>
 					<texturenofocus>DialogCloseButton.png</texturenofocus>
 					<onleft>1</onleft>
 					<onright>1</onright>
@@ -181,7 +181,7 @@
 							<top>0</top>
 							<width>390</width>
 							<height>92</height>
-							<texture border="8">MenuItemNF.png</texture>
+							<texture border="8" colordiffuse="theme">MenuItemNF.png</texture>
 						</control>
 						<control type="label">
 							<left>15</left>
@@ -212,7 +212,7 @@
 							<top>0</top>
 							<width>390</width>
 							<height>92</height>
-							<texture border="8">MenuItemFO.png</texture>
+							<texture border="8" colordiffuse="theme">MenuItemFO.png</texture>
 							<animation effect="fade" start="100" end="50" time="75" condition="!Control.HasFocus(9000)">Conditional</animation>
 						</control>
 						<control type="label">
@@ -306,7 +306,7 @@
 							<visible>Control.IsVisible(239)</visible>
 						</item>
 						<item id="12">
-							<label>[COLOR=blue]$INFO[Control.GetLabel(198)][/COLOR]</label>
+							<label>[COLOR=theme]$INFO[Control.GetLabel(198)][/COLOR]</label>
 							<label2>$LOCALIZE[31207]</label2>
 							<onclick>Control.Setfocus(9000,0)</onclick>
 							<onclick>SendClick(198)</onclick>
@@ -352,7 +352,7 @@
 					<label>$INFO[Control.GetLabel(190)] $INFO[Control.GetLabel(191)]</label>
 					<align>center</align>
 					<aligny>center</aligny>
-					<textcolor>blue</textcolor>
+					<textcolor>theme</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<visible>!Control.IsVisible(198)</visible>
 				</control>
@@ -409,8 +409,8 @@
 					<textcolor>white</textcolor>
 					<align>center</align>
 					<aligny>center</aligny>
-					<texturefocus border="8">button-focus.png</texturefocus>
-					<texturenofocus border="8">button-nofocus.png</texturenofocus>
+					<texturefocus border="8" colordiffuse="theme">button-focus.png</texturefocus>
+					<texturenofocus border="8" colordiffuse="theme">button-nofocus.png</texturenofocus>
 					<onup>101</onup>
 					<ondown>101</ondown>
 					<onleft>101</onleft>
@@ -453,7 +453,7 @@
 									<top>0</top>
 									<width>1125</width>
 									<height>152</height>
-									<texture border="8">button-nofocus.png</texture>
+									<texture border="8" colordiffuse="theme">button-nofocus.png</texture>
 								</control>
 								<control type="image">
 									<left>8</left>
@@ -499,7 +499,7 @@
 									<top>0</top>
 									<width>1125</width>
 									<height>152</height>
-									<texture border="8">button-focus2.png</texture>
+									<texture border="8" colordiffuse="theme">button-focus2.png</texture>
 								</control>
 								<control type="image">
 									<left>8</left>
@@ -547,7 +547,7 @@
 							<height>795</height>
 							<texturesliderbackground border="0,21,0,21">ScrollBarV.png</texturesliderbackground>
 							<texturesliderbar border="0,21,0,21">ScrollBarV_bar.png</texturesliderbar>
-							<texturesliderbarfocus border="0,21,0,21">ScrollBarV_bar_focus.png</texturesliderbarfocus>
+							<texturesliderbarfocus border="0,21,0,21" colordiffuse="theme">ScrollBarV_bar_focus.png</texturesliderbarfocus>
 							<textureslidernib>ScrollBarNib.png</textureslidernib>
 							<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 							<onleft>221</onleft>
@@ -567,7 +567,7 @@
 							<aligny>center</aligny>
 							<scroll>true</scroll>
 							<textcolor>grey</textcolor>
-							<label>([COLOR=blue]$INFO[Container(221).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=blue]$INFO[Container(221).CurrentPage]/$INFO[Container(221).NumPages][/COLOR])</label>
+							<label>([COLOR=theme]$INFO[Container(221).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=theme]$INFO[Container(221).CurrentPage]/$INFO[Container(221).NumPages][/COLOR])</label>
 							<visible>Container(9000).HasFocus(1)</visible>
 						</control>
 					</control>
@@ -606,7 +606,7 @@
 									<top>0</top>
 									<width>555</width>
 									<height>188</height>
-									<texture border="8">button-nofocus.png</texture>
+									<texture border="8" colordiffuse="theme">button-nofocus.png</texture>
 								</control>
 								<control type="image">
 									<left>8</left>
@@ -692,7 +692,7 @@
 									<top>0</top>
 									<width>555</width>
 									<height>188</height>
-									<texture border="8">button-focus2.png</texture>
+									<texture border="8" colordiffuse="theme">button-focus2.png</texture>
 								</control>
 								<control type="image">
 									<left>8</left>
@@ -780,7 +780,7 @@
 							<height>795</height>
 							<texturesliderbackground border="0,21,0,21">ScrollBarV.png</texturesliderbackground>
 							<texturesliderbar border="0,21,0,21">ScrollBarV_bar.png</texturesliderbar>
-							<texturesliderbarfocus border="0,21,0,21">ScrollBarV_bar_focus.png</texturesliderbarfocus>
+							<texturesliderbarfocus border="0,21,0,21" colordiffuse="theme">ScrollBarV_bar_focus.png</texturesliderbarfocus>
 							<textureslidernib>ScrollBarNib.png</textureslidernib>
 							<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 							<onleft>111</onleft>
@@ -800,7 +800,7 @@
 							<aligny>center</aligny>
 							<scroll>true</scroll>
 							<textcolor>grey</textcolor>
-							<label>([COLOR=blue]$INFO[Container(111).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=blue]$INFO[Container(111).CurrentPage]/$INFO[Container(111).NumPages][/COLOR])</label>
+							<label>([COLOR=theme]$INFO[Container(111).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=theme]$INFO[Container(111).CurrentPage]/$INFO[Container(111).NumPages][/COLOR])</label>
 							<visible>Container(9000).Hasfocus(2)</visible>
 						</control>
 					</control>
@@ -839,7 +839,7 @@
 									<top>0</top>
 									<width>555</width>
 									<height>188</height>
-									<texture border="8">button-nofocus.png</texture>
+									<texture border="8" colordiffuse="theme">button-nofocus.png</texture>
 								</control>
 								<control type="image">
 									<left>8</left>
@@ -925,7 +925,7 @@
 									<top>0</top>
 									<width>555</width>
 									<height>188</height>
-									<texture border="8">button-focus2.png</texture>
+									<texture border="8" colordiffuse="theme">button-focus2.png</texture>
 								</control>
 								<control type="image">
 									<left>8</left>
@@ -1013,7 +1013,7 @@
 							<height>795</height>
 							<texturesliderbackground border="0,21,0,21">ScrollBarV.png</texturesliderbackground>
 							<texturesliderbar border="0,21,0,21">ScrollBarV_bar.png</texturesliderbar>
-							<texturesliderbarfocus border="0,21,0,21">ScrollBarV_bar_focus.png</texturesliderbarfocus>
+							<texturesliderbarfocus border="0,21,0,21" colordiffuse="theme">ScrollBarV_bar_focus.png</texturesliderbarfocus>
 							<textureslidernib>ScrollBarNib.png</textureslidernib>
 							<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 							<onup>218</onup>
@@ -1035,7 +1035,7 @@
 							<aligny>center</aligny>
 							<scroll>true</scroll>
 							<textcolor>grey</textcolor>
-							<label>([COLOR=blue]$INFO[Container(211).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=blue]$INFO[Container(211).CurrentPage]/$INFO[Container(211).NumPages][/COLOR])</label>
+							<label>([COLOR=theme]$INFO[Container(211).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=theme]$INFO[Container(211).CurrentPage]/$INFO[Container(211).NumPages][/COLOR])</label>
 							<visible>Container(9000).Hasfocus(3)</visible>
 						</control>
 					</control>
@@ -1074,7 +1074,7 @@
 									<top>0</top>
 									<width>555</width>
 									<height>255</height>
-									<texture border="8">button-nofocus.png</texture>
+									<texture border="8" colordiffuse="theme">button-nofocus.png</texture>
 								</control>
 								<control type="image">
 									<left>8</left>
@@ -1131,7 +1131,7 @@
 									<top>0</top>
 									<width>555</width>
 									<height>255</height>
-									<texture border="8">button-focus2.png</texture>
+									<texture border="8" colordiffuse="theme">button-focus2.png</texture>
 								</control>
 								<control type="image">
 									<left>8</left>
@@ -1190,7 +1190,7 @@
 							<height>795</height>
 							<texturesliderbackground border="0,21,0,21">ScrollBarV.png</texturesliderbackground>
 							<texturesliderbar border="0,21,0,21">ScrollBarV_bar.png</texturesliderbar>
-							<texturesliderbarfocus border="0,21,0,21">ScrollBarV_bar_focus.png</texturesliderbarfocus>
+							<texturesliderbarfocus border="0,21,0,21" colordiffuse="theme">ScrollBarV_bar_focus.png</texturesliderbarfocus>
 							<textureslidernib>ScrollBarNib.png</textureslidernib>
 							<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 							<onleft>121</onleft>
@@ -1210,7 +1210,7 @@
 							<aligny>center</aligny>
 							<scroll>true</scroll>
 							<textcolor>grey</textcolor>
-							<label>([COLOR=blue]$INFO[Container(121).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=blue]$INFO[Container(121).CurrentPage]/$INFO[Container(121).NumPages][/COLOR])</label>
+							<label>([COLOR=theme]$INFO[Container(121).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=theme]$INFO[Container(121).CurrentPage]/$INFO[Container(121).NumPages][/COLOR])</label>
 							<visible>Container(9000).HasFocus(4)</visible>
 						</control>
 					</control>
@@ -1249,7 +1249,7 @@
 									<top>0</top>
 									<width>555</width>
 									<height>188</height>
-									<texture border="8">button-nofocus.png</texture>
+									<texture border="8" colordiffuse="theme">button-nofocus.png</texture>
 								</control>
 								<control type="image">
 									<left>8</left>
@@ -1285,7 +1285,7 @@
 									<top>0</top>
 									<width>555</width>
 									<height>188</height>
-									<texture border="8">button-focus2.png</texture>
+									<texture border="8" colordiffuse="theme">button-focus2.png</texture>
 								</control>
 								<control type="image">
 									<left>8</left>
@@ -1323,7 +1323,7 @@
 							<height>795</height>
 							<texturesliderbackground border="0,21,0,21">ScrollBarV.png</texturesliderbackground>
 							<texturesliderbar border="0,21,0,21">ScrollBarV_bar.png</texturesliderbar>
-							<texturesliderbarfocus border="0,21,0,21">ScrollBarV_bar_focus.png</texturesliderbarfocus>
+							<texturesliderbarfocus border="0,21,0,21" colordiffuse="theme">ScrollBarV_bar_focus.png</texturesliderbarfocus>
 							<textureslidernib>ScrollBarNib.png</textureslidernib>
 							<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 							<onleft>131</onleft>
@@ -1343,7 +1343,7 @@
 							<aligny>center</aligny>
 							<scroll>true</scroll>
 							<textcolor>grey</textcolor>
-							<label>([COLOR=blue]$INFO[Container(131).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=blue]$INFO[Container(131).CurrentPage]/$INFO[Container(131).NumPages][/COLOR])</label>
+							<label>([COLOR=theme]$INFO[Container(131).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=theme]$INFO[Container(131).CurrentPage]/$INFO[Container(131).NumPages][/COLOR])</label>
 							<visible>Container(9000).HasFocus(5)</visible>
 						</control>
 					</control>
@@ -1381,7 +1381,7 @@
 									<top>0</top>
 									<width>1125</width>
 									<height>152</height>
-									<texture border="8">button-nofocus.png</texture>
+									<texture border="8" colordiffuse="theme">button-nofocus.png</texture>
 								</control>
 								<control type="image">
 									<left>8</left>
@@ -1435,7 +1435,7 @@
 									<top>0</top>
 									<width>1125</width>
 									<height>152</height>
-									<texture border="8">button-focus2.png</texture>
+									<texture border="8" colordiffuse="theme">button-focus2.png</texture>
 								</control>
 								<control type="image">
 									<left>8</left>
@@ -1491,7 +1491,7 @@
 							<height>795</height>
 							<texturesliderbackground border="0,21,0,21">ScrollBarV.png</texturesliderbackground>
 							<texturesliderbar border="0,21,0,21">ScrollBarV_bar.png</texturesliderbar>
-							<texturesliderbarfocus border="0,21,0,21">ScrollBarV_bar_focus.png</texturesliderbarfocus>
+							<texturesliderbarfocus border="0,21,0,21" colordiffuse="theme">ScrollBarV_bar_focus.png</texturesliderbarfocus>
 							<textureslidernib>ScrollBarNib.png</textureslidernib>
 							<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 							<onleft>141</onleft>
@@ -1511,7 +1511,7 @@
 							<aligny>center</aligny>
 							<scroll>true</scroll>
 							<textcolor>grey</textcolor>
-							<label>([COLOR=blue]$INFO[Container(141).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=blue]$INFO[Container(141).CurrentPage]/$INFO[Container(141).NumPages][/COLOR])</label>
+							<label>([COLOR=theme]$INFO[Container(141).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=theme]$INFO[Container(141).CurrentPage]/$INFO[Container(141).NumPages][/COLOR])</label>
 							<visible>Container(9000).HasFocus(6)</visible>
 						</control>
 					</control>
@@ -1550,7 +1550,7 @@
 									<top>0</top>
 									<width>555</width>
 									<height>152</height>
-									<texture border="8">button-nofocus.png</texture>
+									<texture border="8" colordiffuse="theme">button-nofocus.png</texture>
 								</control>
 								<control type="image">
 									<left>8</left>
@@ -1615,7 +1615,7 @@
 									<top>0</top>
 									<width>555</width>
 									<height>152</height>
-									<texture border="8">button-focus2.png</texture>
+									<texture border="8" colordiffuse="theme">button-focus2.png</texture>
 								</control>
 								<control type="image">
 									<left>8</left>
@@ -1682,7 +1682,7 @@
 							<height>795</height>
 							<texturesliderbackground border="0,21,0,21">ScrollBarV.png</texturesliderbackground>
 							<texturesliderbar border="0,21,0,21">ScrollBarV_bar.png</texturesliderbar>
-							<texturesliderbarfocus border="0,21,0,21">ScrollBarV_bar_focus.png</texturesliderbarfocus>
+							<texturesliderbarfocus border="0,21,0,21" colordiffuse="theme">ScrollBarV_bar_focus.png</texturesliderbarfocus>
 							<textureslidernib>ScrollBarNib.png</textureslidernib>
 							<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 							<onleft>151</onleft>
@@ -1702,7 +1702,7 @@
 							<aligny>center</aligny>
 							<scroll>true</scroll>
 							<textcolor>grey</textcolor>
-							<label>([COLOR=blue]$INFO[Container(151).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=blue]$INFO[Container(151).CurrentPage]/$INFO[Container(151).NumPages][/COLOR])</label>
+							<label>([COLOR=theme]$INFO[Container(151).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=theme]$INFO[Container(151).CurrentPage]/$INFO[Container(151).NumPages][/COLOR])</label>
 							<visible>Container(9000).HasFocus(7)</visible>
 						</control>
 					</control>
@@ -1741,7 +1741,7 @@
 									<top>0</top>
 									<width>1125</width>
 									<height>152</height>
-									<texture border="8">button-nofocus.png</texture>
+									<texture border="8" colordiffuse="theme">button-nofocus.png</texture>
 								</control>
 								<control type="image">
 									<left>8</left>
@@ -1787,7 +1787,7 @@
 									<top>0</top>
 									<width>1125</width>
 									<height>152</height>
-									<texture border="8">button-focus2.png</texture>
+									<texture border="8" colordiffuse="theme">button-focus2.png</texture>
 								</control>
 								<control type="image">
 									<left>8</left>
@@ -1835,7 +1835,7 @@
 							<height>795</height>
 							<texturesliderbackground border="0,21,0,21">ScrollBarV.png</texturesliderbackground>
 							<texturesliderbar border="0,21,0,21">ScrollBarV_bar.png</texturesliderbar>
-							<texturesliderbarfocus border="0,21,0,21">ScrollBarV_bar_focus.png</texturesliderbarfocus>
+							<texturesliderbarfocus border="0,21,0,21" colordiffuse="theme">ScrollBarV_bar_focus.png</texturesliderbarfocus>
 							<textureslidernib>ScrollBarNib.png</textureslidernib>
 							<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 							<onleft>161</onleft>
@@ -1855,7 +1855,7 @@
 							<aligny>center</aligny>
 							<scroll>true</scroll>
 							<textcolor>grey</textcolor>
-							<label>([COLOR=blue]$INFO[Container(161).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=blue]$INFO[Container(161).CurrentPage]/$INFO[Container(161).NumPages][/COLOR])</label>
+							<label>([COLOR=theme]$INFO[Container(161).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=theme]$INFO[Container(161).CurrentPage]/$INFO[Container(161).NumPages][/COLOR])</label>
 							<visible>Container(9000).HasFocus(8)</visible>
 						</control>
 					</control>
@@ -1894,7 +1894,7 @@
 									<top>0</top>
 									<width>1125</width>
 									<height>152</height>
-									<texture border="8">button-nofocus.png</texture>
+									<texture border="8" colordiffuse="theme">button-nofocus.png</texture>
 								</control>
 								<control type="image">
 									<left>8</left>
@@ -1940,7 +1940,7 @@
 									<top>0</top>
 									<width>1125</width>
 									<height>152</height>
-									<texture border="8">button-focus2.png</texture>
+									<texture border="8" colordiffuse="theme">button-focus2.png</texture>
 								</control>
 								<control type="image">
 									<left>8</left>
@@ -1988,7 +1988,7 @@
 							<height>795</height>
 							<texturesliderbackground border="0,21,0,21">ScrollBarV.png</texturesliderbackground>
 							<texturesliderbar border="0,21,0,21">ScrollBarV_bar.png</texturesliderbar>
-							<texturesliderbarfocus border="0,21,0,21">ScrollBarV_bar_focus.png</texturesliderbarfocus>
+							<texturesliderbarfocus border="0,21,0,21" colordiffuse="theme">ScrollBarV_bar_focus.png</texturesliderbarfocus>
 							<textureslidernib>ScrollBarNib.png</textureslidernib>
 							<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 							<onleft>171</onleft>
@@ -2008,7 +2008,7 @@
 							<aligny>center</aligny>
 							<scroll>true</scroll>
 							<textcolor>grey</textcolor>
-							<label>([COLOR=blue]$INFO[Container(171).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=blue]$INFO[Container(171).CurrentPage]/$INFO[Container(171).NumPages][/COLOR])</label>
+							<label>([COLOR=theme]$INFO[Container(171).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=theme]$INFO[Container(171).CurrentPage]/$INFO[Container(171).NumPages][/COLOR])</label>
 							<visible>Container(9000).HasFocus(9)</visible>
 						</control>
 					</control>
@@ -2047,7 +2047,7 @@
 									<top>0</top>
 									<width>555</width>
 									<height>152</height>
-									<texture border="8">button-nofocus.png</texture>
+									<texture border="8" colordiffuse="theme">button-nofocus.png</texture>
 								</control>
 								<control type="image">
 									<left>8</left>
@@ -2104,7 +2104,7 @@
 									<top>0</top>
 									<width>555</width>
 									<height>152</height>
-									<texture border="8">button-focus2.png</texture>
+									<texture border="8" colordiffuse="theme">button-focus2.png</texture>
 								</control>
 								<control type="image">
 									<left>8</left>
@@ -2163,7 +2163,7 @@
 							<height>795</height>
 							<texturesliderbackground border="0,21,0,21">ScrollBarV.png</texturesliderbackground>
 							<texturesliderbar border="0,21,0,21">ScrollBarV_bar.png</texturesliderbar>
-							<texturesliderbarfocus border="0,21,0,21">ScrollBarV_bar_focus.png</texturesliderbarfocus>
+							<texturesliderbarfocus border="0,21,0,21" colordiffuse="theme">ScrollBarV_bar_focus.png</texturesliderbarfocus>
 							<textureslidernib>ScrollBarNib.png</textureslidernib>
 							<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 							<onleft>181</onleft>
@@ -2183,7 +2183,7 @@
 							<aligny>center</aligny>
 							<scroll>true</scroll>
 							<textcolor>grey</textcolor>
-							<label>([COLOR=blue]$INFO[Container(181).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=blue]$INFO[Container(181).CurrentPage]/$INFO[Container(181).NumPages][/COLOR])</label>
+							<label>([COLOR=theme]$INFO[Container(181).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=theme]$INFO[Container(181).CurrentPage]/$INFO[Container(181).NumPages][/COLOR])</label>
 							<visible>Container(9000).HasFocus(10)</visible>
 						</control>
 					</control>
@@ -2222,7 +2222,7 @@
 									<top>0</top>
 									<width>555</width>
 									<height>188</height>
-									<texture border="8">button-nofocus.png</texture>
+									<texture border="8" colordiffuse="theme">button-nofocus.png</texture>
 								</control>
 								<control type="image">
 									<left>8</left>
@@ -2308,7 +2308,7 @@
 									<top>0</top>
 									<width>555</width>
 									<height>188</height>
-									<texture border="8">button-focus2.png</texture>
+									<texture border="8" colordiffuse="theme">button-focus2.png</texture>
 								</control>
 								<control type="image">
 									<left>8</left>
@@ -2396,7 +2396,7 @@
 							<height>795</height>
 							<texturesliderbackground border="0,21,0,21">ScrollBarV.png</texturesliderbackground>
 							<texturesliderbar border="0,21,0,21">ScrollBarV_bar.png</texturesliderbar>
-							<texturesliderbarfocus border="0,21,0,21">ScrollBarV_bar_focus.png</texturesliderbarfocus>
+							<texturesliderbarfocus border="0,21,0,21" colordiffuse="theme">ScrollBarV_bar_focus.png</texturesliderbarfocus>
 							<textureslidernib>ScrollBarNib.png</textureslidernib>
 							<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 							<onleft>231</onleft>
@@ -2416,7 +2416,7 @@
 							<aligny>center</aligny>
 							<scroll>true</scroll>
 							<textcolor>grey</textcolor>
-							<label>([COLOR=blue]$INFO[Container(231).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=blue]$INFO[Container(231).CurrentPage]/$INFO[Container(231).NumPages][/COLOR])</label>
+							<label>([COLOR=theme]$INFO[Container(231).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=theme]$INFO[Container(231).CurrentPage]/$INFO[Container(231).NumPages][/COLOR])</label>
 							<visible>Container(9000).Hasfocus(11)</visible>
 						</control>
 					</control>

@@ -23,7 +23,7 @@
 						<top>0</top>
 						<width>1140</width>
 						<height>62</height>
-						<texture border="0,3,0,3">MenuItemNF.png</texture>
+						<texture border="0,3,0,3" colordiffuse="theme">MenuItemNF.png</texture>
 					</control>
 					<control type="label">
 						<left>15</left>
@@ -56,7 +56,7 @@
 						<top>0</top>
 						<width>1140</width>
 						<height>62</height>
-						<texture border="0,3,0,3">MenuItemNF.png</texture>
+						<texture border="0,3,0,3" colordiffuse="theme">MenuItemNF.png</texture>
 						<visible>!Control.HasFocus(560)</visible>
 						<include>VisibleFadeEffect</include>
 					</control>
@@ -65,7 +65,7 @@
 						<top>0</top>
 						<width>1140</width>
 						<height>62</height>
-						<texture border="0,3,0,3">MenuItemFO.png</texture>
+						<texture border="0,3,0,3" colordiffuse="theme">MenuItemFO.png</texture>
 						<visible>Control.HasFocus(560)</visible>
 						<include>VisibleFadeEffect</include>
 					</control>
@@ -74,7 +74,7 @@
 						<top>8</top>
 						<width>300</width>
 						<height>46</height>
-						<texture border="0,0,21,0">MediaItemDetailBG.png</texture>
+						<texture border="0,0,21,0" colordiffuse="theme">MediaItemDetailBG.png</texture>
 						<visible>Control.HasFocus(560) + !String.IsEmpty(ListItem.Label2)</visible>
 					</control>
 					<control type="label">
@@ -110,7 +110,7 @@
 				<height>840</height>
 				<texturesliderbackground border="0,21,0,21">ScrollBarV.png</texturesliderbackground>
 				<texturesliderbar border="3,24,3,24">ScrollBarV_bar.png</texturesliderbar>
-				<texturesliderbarfocus border="3,24,3,24">ScrollBarV_bar_focus.png</texturesliderbarfocus>
+				<texturesliderbarfocus border="3,24,3,24" colordiffuse="theme">ScrollBarV_bar_focus.png</texturesliderbarfocus>
 				<textureslidernib>ScrollBarNib.png</textureslidernib>
 				<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 				<onleft>560</onleft>
@@ -143,7 +143,7 @@
 					<align>center</align>
 					<aligny>center</aligny>
 					<font>font13</font>
-					<textcolor>blue</textcolor>
+					<textcolor>theme</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<scrollout>false</scrollout>
 					<pauseatend>1000</pauseatend>

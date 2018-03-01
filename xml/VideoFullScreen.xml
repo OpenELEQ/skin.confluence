@@ -2,6 +2,54 @@
 <window>
 	<defaultcontrol>-</defaultcontrol>
 	<controls>
+		<!-- view mode, sizing, screen resolution -->
+		<control type="group" id="0">
+			<depth>DepthOSD+</depth>
+			<left>0</left>
+			<top>30</top>
+			<animation effect="fade" time="150">VisibleChange</animation>
+			<control type="image">
+				<description>media info background image</description>
+				<left>0</left>
+				<top>0</top>
+				<width>1920</width>
+				<height>240</height>
+				<texture>black-back.png</texture>
+			</control>
+			<control type="label" id="10">
+				<description>row 1 label</description>
+				<left>75</left>
+				<top>15</top>
+				<width>1770</width>
+				<height>45</height>
+				<align>left</align>
+				<aligny>center</aligny>
+				<font>font12</font>
+				<label>-</label>
+			</control>
+			<control type="label" id="11">
+				<description>row 2 label</description>
+				<left>75</left>
+				<top>83</top>
+				<width>1770</width>
+				<height>45</height>
+				<align>left</align>
+				<aligny>center</aligny>
+				<font>font12</font>
+				<label>-</label>
+			</control>
+			<control type="label" id="12">
+				<description>row 3 label</description>
+				<left>75</left>
+				<top>150</top>
+				<width>1770</width>
+				<height>45</height>
+				<align>left</align>
+				<aligny>center</aligny>
+				<font>font12</font>
+				<label>-</label>
+			</control>
+		</control>
 		<!-- media infos -->
 		<control type="group" id="1">
 			<depth>DepthOSD</depth>
@@ -188,7 +236,7 @@
 					<height>38</height>
 					<align>left</align>
 					<font>font12</font>
-					<label>$INFO[VideoPlayer.ChannelNumberLabel,([COLOR=blue],[/COLOR]) ]$INFO[VideoPlayer.ChannelName]$INFO[VideoPlayer.EpisodeName, (,)]</label>
+					<label>$INFO[VideoPlayer.ChannelNumberLabel,([COLOR=theme],[/COLOR]) ]$INFO[VideoPlayer.ChannelName]$INFO[VideoPlayer.EpisodeName, (,)]</label>
 					<textcolor>grey2</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<visible>VideoPlayer.Content(LiveTV) | PVR.IsPlayingRecording</visible>

@@ -22,7 +22,7 @@
 						<top>0</top>
 						<width>1035</width>
 						<height>62</height>
-						<texture border="0,3,0,3">MenuItemNF.png</texture>
+						<texture border="0,3,0,3" colordiffuse="theme">MenuItemNF.png</texture>
 					</control>
 					<control type="label">
 						<left>15</left>
@@ -96,7 +96,7 @@
 						<top>0</top>
 						<width>1035</width>
 						<height>62</height>
-						<texture border="0,3,0,3">MenuItemNF.png</texture>
+						<texture border="0,3,0,3" colordiffuse="theme">MenuItemNF.png</texture>
 						<visible>!Control.HasFocus(50)</visible>
 						<include>VisibleFadeEffect</include>
 					</control>
@@ -105,7 +105,7 @@
 						<top>0</top>
 						<width>1035</width>
 						<height>62</height>
-						<texture border="0,3,0,3">MenuItemFO.png</texture>
+						<texture border="0,3,0,3" colordiffuse="theme">MenuItemFO.png</texture>
 						<visible>Control.HasFocus(50)</visible>
 						<include>VisibleFadeEffect</include>
 					</control>
@@ -114,7 +114,7 @@
 						<top>8</top>
 						<width>300</width>
 						<height>46</height>
-						<texture border="0,0,21,0">MediaItemDetailBG.png</texture>
+						<texture border="0,0,21,0" colordiffuse="theme">MediaItemDetailBG.png</texture>
 						<visible>Control.HasFocus(50) + !String.IsEmpty(ListItem.Label2)</visible>
 					</control>
 					<control type="label">
@@ -191,7 +191,7 @@
 				<height>825</height>
 				<texturesliderbackground border="0,21,0,21">ScrollBarV.png</texturesliderbackground>
 				<texturesliderbar border="0,21,0,21">ScrollBarV_bar.png</texturesliderbar>
-				<texturesliderbarfocus border="0,21,0,21">ScrollBarV_bar_focus.png</texturesliderbarfocus>
+				<texturesliderbarfocus border="0,21,0,21" colordiffuse="theme">ScrollBarV_bar_focus.png</texturesliderbarfocus>
 				<textureslidernib>ScrollBarNib.png</textureslidernib>
 				<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 				<onleft>50</onleft>
@@ -251,7 +251,7 @@
 						<top>0</top>
 						<width>321</width>
 						<height>240</height>
-						<bordertexture border="8">button-nofocus.png</bordertexture>
+						<bordertexture border="8" colordiffuse="theme">button-nofocus.png</bordertexture>
 						<bordersize>8</bordersize>
 						<texture background="true">$INFO[Listitem.Icon]</texture>
 						<aspectratio>keep</aspectratio>
@@ -263,7 +263,7 @@
 						<width>321</width>
 						<height>240</height>
 						<aspectratio>scale</aspectratio>
-						<bordertexture border="8">button-nofocus.png</bordertexture>
+						<bordertexture border="8" colordiffuse="theme">button-nofocus.png</bordertexture>
 						<bordersize>8</bordersize>
 						<texture background="true">$INFO[Listitem.Icon]</texture>
 						<visible>Container.Content(Episodes)</visible>
@@ -295,7 +295,7 @@
 						<top>0</top>
 						<width>321</width>
 						<height>240</height>
-						<bordertexture border="8">folder-focus.png</bordertexture>
+						<bordertexture border="8" colordiffuse="theme">folder-focus.png</bordertexture>
 						<bordersize>8</bordersize>
 						<texture background="true">$INFO[Listitem.Icon]</texture>
 						<aspectratio>keep</aspectratio>
@@ -307,7 +307,7 @@
 						<width>321</width>
 						<height>240</height>
 						<aspectratio>scale</aspectratio>
-						<bordertexture border="8">folder-focus.png</bordertexture>
+						<bordertexture border="8" colordiffuse="theme">folder-focus.png</bordertexture>
 						<bordersize>8</bordersize>
 						<texture background="true">$INFO[Listitem.Icon]</texture>
 						<visible>Container.Content(Episodes)</visible>
@@ -339,7 +339,7 @@
 						<top>0</top>
 						<width>321</width>
 						<height>360</height>
-						<bordertexture border="8">button-nofocus.png</bordertexture>
+						<bordertexture border="8" colordiffuse="theme">button-nofocus.png</bordertexture>
 						<bordersize>8</bordersize>
 						<texture background="true">$VAR[PosterThumb]</texture>
 						<aspectratio>keep</aspectratio>
@@ -380,7 +380,7 @@
 						<top>0</top>
 						<width>321</width>
 						<height>360</height>
-						<bordertexture border="8">folder-focus.png</bordertexture>
+						<bordertexture border="8" colordiffuse="theme">folder-focus.png</bordertexture>
 						<bordersize>8</bordersize>
 						<texture background="true">$VAR[PosterThumb]</texture>
 						<aspectratio>keep</aspectratio>
@@ -423,7 +423,7 @@
 				<height>825</height>
 				<texturesliderbackground border="0,21,0,21">ScrollBarV.png</texturesliderbackground>
 				<texturesliderbar border="3,24,3,24">ScrollBarV_bar.png</texturesliderbar>
-				<texturesliderbarfocus border="3,24,3,24">ScrollBarV_bar_focus.png</texturesliderbarfocus>
+				<texturesliderbarfocus border="3,24,3,24" colordiffuse="theme">ScrollBarV_bar_focus.png</texturesliderbarfocus>
 				<textureslidernib>ScrollBarNib.png</textureslidernib>
 				<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 				<onleft>500</onleft>
@@ -458,7 +458,7 @@
 						<top>0</top>
 						<width>807</width>
 						<height>158</height>
-						<bordertexture border="8">button-nofocus.png</bordertexture>
+						<bordertexture border="8" colordiffuse="theme">button-nofocus.png</bordertexture>
 						<bordersize>8</bordersize>
 						<texture background="true">$VAR[BannerThumb]</texture>
 						<aspectratio>keep</aspectratio>
@@ -478,7 +478,7 @@
 						<top>0</top>
 						<width>807</width>
 						<height>158</height>
-						<bordertexture border="8">folder-focus.png</bordertexture>
+						<bordertexture border="8" colordiffuse="theme">folder-focus.png</bordertexture>
 						<bordersize>8</bordersize>
 						<texture background="true">$VAR[BannerThumb]</texture>
 						<aspectratio>keep</aspectratio>
@@ -500,7 +500,7 @@
 				<height>825</height>
 				<texturesliderbackground border="0,21,0,21">ScrollBarV.png</texturesliderbackground>
 				<texturesliderbar border="3,24,3,24">ScrollBarV_bar.png</texturesliderbar>
-				<texturesliderbarfocus border="3,24,3,24">ScrollBarV_bar_focus.png</texturesliderbarfocus>
+				<texturesliderbarfocus border="3,24,3,24" colordiffuse="theme">ScrollBarV_bar_focus.png</texturesliderbarfocus>
 				<textureslidernib>ScrollBarNib.png</textureslidernib>
 				<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 				<onleft>505</onleft>
@@ -533,7 +533,7 @@
 						<top>0</top>
 						<width>1620</width>
 						<height>62</height>
-						<texture border="0,3,0,3">MenuItemNF.png</texture>
+						<texture border="0,3,0,3" colordiffuse="theme">MenuItemNF.png</texture>
 					</control>
 					<control type="image">
 						<left>15</left>
@@ -615,7 +615,7 @@
 						<top>0</top>
 						<width>1620</width>
 						<height>62</height>
-						<texture border="0,3,0,3">MenuItemNF.png</texture>
+						<texture border="0,3,0,3" colordiffuse="theme">MenuItemNF.png</texture>
 						<visible>!Control.HasFocus(51)</visible>
 						<include>VisibleFadeEffect</include>
 					</control>
@@ -624,7 +624,7 @@
 						<top>0</top>
 						<width>1620</width>
 						<height>62</height>
-						<texture border="0,3,0,3">MenuItemFO.png</texture>
+						<texture border="0,3,0,3" colordiffuse="theme">MenuItemFO.png</texture>
 						<visible>Control.HasFocus(51)</visible>
 						<include>VisibleFadeEffect</include>
 					</control>
@@ -633,7 +633,7 @@
 						<top>8</top>
 						<width>300</width>
 						<height>46</height>
-						<texture border="0,0,21,0">MediaItemDetailBG.png</texture>
+						<texture border="0,0,21,0" colordiffuse="theme">MediaItemDetailBG.png</texture>
 						<visible>Control.HasFocus(51) + !String.IsEmpty(ListItem.Label2)</visible>
 					</control>
 					<control type="image">
@@ -718,7 +718,7 @@
 				<height>825</height>
 				<texturesliderbackground border="0,21,0,21">ScrollBarV.png</texturesliderbackground>
 				<texturesliderbar border="0,21,0,21">ScrollBarV_bar.png</texturesliderbar>
-				<texturesliderbarfocus border="0,21,0,21">ScrollBarV_bar_focus.png</texturesliderbarfocus>
+				<texturesliderbarfocus border="0,21,0,21" colordiffuse="theme">ScrollBarV_bar_focus.png</texturesliderbarfocus>
 				<textureslidernib>ScrollBarNib.png</textureslidernib>
 				<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 				<onleft>50</onleft>

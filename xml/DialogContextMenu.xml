@@ -32,7 +32,7 @@
 			<label>-</label>
 			<font>-</font>
 			<onclick>PreviousMenu</onclick>
-			<texturefocus>DialogCloseButton-focus.png</texturefocus>
+			<texturefocus colordiffuse="theme">DialogCloseButton-focus.png</texturefocus>
 			<texturenofocus>DialogCloseButton.png</texturenofocus>
 			<onleft>2</onleft>
 			<onright>2</onright>
@@ -50,7 +50,7 @@
 			<align>center</align>
 			<textcolor>grey2</textcolor>
 			<focusedcolor>white</focusedcolor>
-			<texturefocus border="8">button-focus.png</texturefocus>
+			<texturefocus border="8" colordiffuse="theme">button-focus.png</texturefocus>
 		</control>
 	</controls>
 </window>

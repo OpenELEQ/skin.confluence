@@ -28,14 +28,14 @@
 				<top>8</top>
 				<width>1635</width>
 				<height>945</height>
-				<texture border="22">ContentPanel.png</texture>
+				<texture border="22" colordiffuse="theme">ContentPanel.png</texture>
 			</control>
 			<control type="image">
 				<left>8</left>
 				<top>938</top>
 				<width>1635</width>
 				<height>96</height>
-				<texture border="22">ContentPanelMirror.png</texture>
+				<texture border="22" colordiffuse="theme">ContentPanelMirror.png</texture>
 			</control>
 			<control type="button">
 				<description>Close Window button</description>
@@ -46,7 +46,7 @@
 				<label>-</label>
 				<font>-</font>
 				<onclick>PreviousMenu</onclick>
-				<texturefocus>DialogCloseButton-focus.png</texturefocus>
+				<texturefocus colordiffuse="theme">DialogCloseButton-focus.png</texturefocus>
 				<texturenofocus>DialogCloseButton.png</texturenofocus>
 				<onleft>1</onleft>
 				<onright>1</onright>
@@ -81,8 +81,8 @@
 					<font>font13_title</font>
 					<textcolor>grey2</textcolor>
 					<focusedcolor>white</focusedcolor>
-					<texturefocus border="8">MenuItemFO.png</texturefocus>
-					<texturenofocus border="8">MenuItemNF.png</texturenofocus>
+					<texturefocus border="8" colordiffuse="theme">MenuItemFO.png</texturefocus>
+					<texturenofocus border="8" colordiffuse="theme">MenuItemNF.png</texturenofocus>
 					<label>$LOCALIZE[37032]</label>
 					<pulseonselect>false</pulseonselect>
 					<onclick>StartAndroidActivity(,android.settings.ACCESSIBILITY_SETTINGS)</onclick>
@@ -97,14 +97,14 @@
 					<font>font13_title</font>
 					<textcolor>grey2</textcolor>
 					<focusedcolor>white</focusedcolor>
-					<texturefocus border="8">MenuItemFO.png</texturefocus>
-					<texturenofocus border="8">MenuItemNF.png</texturenofocus>
+					<texturefocus border="8" colordiffuse="theme">MenuItemFO.png</texturefocus>
+					<texturenofocus border="8" colordiffuse="theme">MenuItemNF.png</texturenofocus>
 					<label>$LOCALIZE[10001]</label>
 					<pulseonselect>false</pulseonselect>
 					<onclick>StartAndroidActivity(,android.settings.APPLICATION_SETTINGS)</onclick>
 				</control>
 				<control type="button" id="97">
-					<description>Bluetooth Settings</description>
+					<description>themetooth Settings</description>
 					<height>90</height>
 					<width>362</width>
 					<textoffsetx>0</textoffsetx>
@@ -113,11 +113,11 @@
 					<font>font13_title</font>
 					<textcolor>grey2</textcolor>
 					<focusedcolor>white</focusedcolor>
-					<texturefocus border="8">MenuItemFO.png</texturefocus>
-					<texturenofocus border="8">MenuItemNF.png</texturenofocus>
-					<label>Bluetooth</label>
+					<texturefocus border="8" colordiffuse="theme">MenuItemFO.png</texturefocus>
+					<texturenofocus border="8" colordiffuse="theme">MenuItemNF.png</texturenofocus>
+					<label>themetooth</label>
 					<pulseonselect>false</pulseonselect>
-					<onclick>StartAndroidActivity(,android.settings.BLUETOOTH_SETTINGS)</onclick>
+					<onclick>StartAndroidActivity(,android.settings.themeTOOTH_SETTINGS)</onclick>
 				</control>
 				<control type="button" id="98">
 					<description>Cast Settings</description>
@@ -129,8 +129,8 @@
 					<font>font13_title</font>
 					<textcolor>grey2</textcolor>
 					<focusedcolor>white</focusedcolor>
-					<texturefocus border="8">MenuItemFO.png</texturefocus>
-					<texturenofocus border="8">MenuItemNF.png</texturenofocus>
+					<texturefocus border="8" colordiffuse="theme">MenuItemFO.png</texturefocus>
+					<texturenofocus border="8" colordiffuse="theme">MenuItemNF.png</texturenofocus>
 					<label>Cast</label>
 					<pulseonselect>false</pulseonselect>
 					<onclick>StartAndroidActivity(,android.settings.CAST_SETTINGS)</onclick>
@@ -145,8 +145,8 @@
 					<font>font13_title</font>
 					<textcolor>grey2</textcolor>
 					<focusedcolor>white</focusedcolor>
-					<texturefocus border="8">MenuItemFO.png</texturefocus>
-					<texturenofocus border="8">MenuItemNF.png</texturenofocus>
+					<texturefocus border="8" colordiffuse="theme">MenuItemFO.png</texturefocus>
+					<texturenofocus border="8" colordiffuse="theme">MenuItemNF.png</texturenofocus>
 					<label>$LOCALIZE[552]/$LOCALIZE[555]</label>
 					<pulseonselect>false</pulseonselect>
 					<onclick>StartAndroidActivity(,android.settings.DATE_SETTINGS)</onclick>
@@ -161,8 +161,8 @@
 					<font>font13_title</font>
 					<textcolor>grey2</textcolor>
 					<focusedcolor>white</focusedcolor>
-					<texturefocus border="8">MenuItemFO.png</texturefocus>
-					<texturenofocus border="8">MenuItemNF.png</texturenofocus>
+					<texturefocus border="8" colordiffuse="theme">MenuItemFO.png</texturefocus>
+					<texturenofocus border="8" colordiffuse="theme">MenuItemNF.png</texturenofocus>
 					<label>$LOCALIZE[10511]</label>
 					<pulseonselect>false</pulseonselect>
 					<onclick>StartAndroidActivity(,android.settings.DEVICE_INFO_SETTINGS)</onclick>
@@ -177,8 +177,8 @@
 					<font>font13_title</font>
 					<textcolor>grey2</textcolor>
 					<focusedcolor>white</focusedcolor>
-					<texturefocus border="8">MenuItemFO.png</texturefocus>
-					<texturenofocus border="8">MenuItemNF.png</texturenofocus>
+					<texturefocus border="8" colordiffuse="theme">MenuItemFO.png</texturefocus>
+					<texturenofocus border="8" colordiffuse="theme">MenuItemNF.png</texturenofocus>
 					<label>$LOCALIZE[131]</label>
 					<pulseonselect>false</pulseonselect>
 					<onclick>StartAndroidActivity(,android.settings.DISPLAY_SETTINGS)</onclick>
@@ -193,8 +193,8 @@
 					<font>font13_title</font>
 					<textcolor>grey2</textcolor>
 					<focusedcolor>white</focusedcolor>
-					<texturefocus border="8">MenuItemFO.png</texturefocus>
-					<texturenofocus border="8">MenuItemNF.png</texturenofocus>
+					<texturefocus border="8" colordiffuse="theme">MenuItemFO.png</texturefocus>
+					<texturenofocus border="8" colordiffuse="theme">MenuItemNF.png</texturenofocus>
 					<label>$LOCALIZE[360]</label>
 					<pulseonselect>false</pulseonselect>
 					<onclick>StartAndroidActivity(,android.settings.DREAM_SETTINGS)</onclick>
@@ -209,8 +209,8 @@
 					<font>font13_title</font>
 					<textcolor>grey2</textcolor>
 					<focusedcolor>white</focusedcolor>
-					<texturefocus border="8">MenuItemFO.png</texturefocus>
-					<texturenofocus border="8">MenuItemNF.png</texturenofocus>
+					<texturefocus border="8" colordiffuse="theme">MenuItemFO.png</texturefocus>
+					<texturenofocus border="8" colordiffuse="theme">MenuItemNF.png</texturenofocus>
 					<label>$LOCALIZE[10000]</label>
 					<pulseonselect>false</pulseonselect>
 					<onclick>StartAndroidActivity(,android.settings.HOME_SETTINGS)</onclick>
@@ -225,8 +225,8 @@
 					<font>font13_title</font>
 					<textcolor>grey2</textcolor>
 					<focusedcolor>white</focusedcolor>
-					<texturefocus border="8">MenuItemFO.png</texturefocus>
-					<texturenofocus border="8">MenuItemNF.png</texturenofocus>
+					<texturefocus border="8" colordiffuse="theme">MenuItemFO.png</texturefocus>
+					<texturenofocus border="8" colordiffuse="theme">MenuItemNF.png</texturenofocus>
 					<label>$LOCALIZE[35000]</label>
 					<pulseonselect>false</pulseonselect>
 					<onclick>StartAndroidActivity(,android.settings.INPUT_METHOD_SETTINGS)</onclick>
@@ -241,8 +241,8 @@
 					<font>font13_title</font>
 					<textcolor>grey2</textcolor>
 					<focusedcolor>white</focusedcolor>
-					<texturefocus border="8">MenuItemFO.png</texturefocus>
-					<texturenofocus border="8">MenuItemNF.png</texturenofocus>
+					<texturefocus border="8" colordiffuse="theme">MenuItemFO.png</texturefocus>
+					<texturenofocus border="8" colordiffuse="theme">MenuItemNF.png</texturenofocus>
 					<label>$LOCALIZE[154]</label>
 					<pulseonselect>false</pulseonselect>
 					<onclick>StartAndroidActivity(,android.settings.INTERNAL_STORAGE_SETTINGS)</onclick>
@@ -257,8 +257,8 @@
 					<font>font13_title</font>
 					<textcolor>grey2</textcolor>
 					<focusedcolor>white</focusedcolor>
-					<texturefocus border="8">MenuItemFO.png</texturefocus>
-					<texturenofocus border="8">MenuItemNF.png</texturenofocus>
+					<texturefocus border="8" colordiffuse="theme">MenuItemFO.png</texturefocus>
+					<texturenofocus border="8" colordiffuse="theme">MenuItemNF.png</texturenofocus>
 					<label>$LOCALIZE[20026]</label>
 					<pulseonselect>false</pulseonselect>
 					<onclick>StartAndroidActivity(,android.settings.LOCALE_SETTINGS)</onclick>
@@ -273,8 +273,8 @@
 					<font>font13_title</font>
 					<textcolor>grey2</textcolor>
 					<focusedcolor>white</focusedcolor>
-					<texturefocus border="8">MenuItemFO.png</texturefocus>
-					<texturenofocus border="8">MenuItemNF.png</texturenofocus>
+					<texturefocus border="8" colordiffuse="theme">MenuItemFO.png</texturefocus>
+					<texturenofocus border="8" colordiffuse="theme">MenuItemNF.png</texturenofocus>
 					<label>$LOCALIZE[21456]</label>
 					<pulseonselect>false</pulseonselect>
 					<onclick>StartAndroidActivity(,android.settings.MEMORY_CARD_SETTINGS)</onclick>
@@ -289,8 +289,8 @@
 					<font>font13_title</font>
 					<textcolor>grey2</textcolor>
 					<focusedcolor>white</focusedcolor>
-					<texturefocus border="8">MenuItemFO.png</texturefocus>
-					<texturenofocus border="8">MenuItemNF.png</texturenofocus>
+					<texturefocus border="8" colordiffuse="theme">MenuItemFO.png</texturefocus>
+					<texturenofocus border="8" colordiffuse="theme">MenuItemNF.png</texturenofocus>
 					<label>Privacy</label>
 					<pulseonselect>false</pulseonselect>
 					<onclick>StartAndroidActivity(,android.settings.PRIVACY_SETTINGS)</onclick>
@@ -305,8 +305,8 @@
 					<font>font13_title</font>
 					<textcolor>grey2</textcolor>
 					<focusedcolor>white</focusedcolor>
-					<texturefocus border="8">MenuItemFO.png</texturefocus>
-					<texturenofocus border="8">MenuItemNF.png</texturenofocus>
+					<texturefocus border="8" colordiffuse="theme">MenuItemFO.png</texturefocus>
+					<texturenofocus border="8" colordiffuse="theme">MenuItemNF.png</texturenofocus>
 					<label>$LOCALIZE[14093]</label>
 					<pulseonselect>false</pulseonselect>
 					<onclick>StartAndroidActivity(,android.settings.SECURITY_SETTINGS)</onclick>
@@ -321,8 +321,8 @@
 					<font>font13_title</font>
 					<textcolor>grey2</textcolor>
 					<focusedcolor>white</focusedcolor>
-					<texturefocus border="8">MenuItemFO.png</texturefocus>
-					<texturenofocus border="8">MenuItemNF.png</texturenofocus>
+					<texturefocus border="8" colordiffuse="theme">MenuItemFO.png</texturefocus>
+					<texturenofocus border="8" colordiffuse="theme">MenuItemNF.png</texturenofocus>
 					<label>$LOCALIZE[292]</label>
 					<pulseonselect>false</pulseonselect>
 					<onclick>StartAndroidActivity(,android.settings.SOUND_SETTINGS)</onclick>
@@ -337,8 +337,8 @@
 					<font>font13_title</font>
 					<textcolor>grey2</textcolor>
 					<focusedcolor>white</focusedcolor>
-					<texturefocus border="8">MenuItemFO.png</texturefocus>
-					<texturenofocus border="8">MenuItemNF.png</texturenofocus>
+					<texturefocus border="8" colordiffuse="theme">MenuItemFO.png</texturefocus>
+					<texturenofocus border="8" colordiffuse="theme">MenuItemNF.png</texturenofocus>
 					<label>$LOCALIZE[705]</label>
 					<pulseonselect>false</pulseonselect>
 					<onclick>StartAndroidActivity(,android.settings.WIFI_SETTINGS)</onclick>
@@ -498,7 +498,7 @@
 					<height>525</height>
 					<texturesliderbackground border="0,21,0,21">ScrollBarV.png</texturesliderbackground>
 					<texturesliderbar border="0,21,0,21">ScrollBarV_bar.png</texturesliderbar>
-					<texturesliderbarfocus border="0,21,0,21">ScrollBarV_bar_focus.png</texturesliderbarfocus>
+					<texturesliderbarfocus border="0,21,0,21" colordiffuse="theme">ScrollBarV_bar_focus.png</texturesliderbarfocus>
 					<textureslidernib>ScrollBarNib.png</textureslidernib>
 					<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 					<onleft>100</onleft>
@@ -572,7 +572,7 @@
 						<left>135</left>
 						<top>675</top>
 						<width>auto</width>
-						<textcolor>blue</textcolor>
+						<textcolor>theme</textcolor>
 						<shadowcolor>black</shadowcolor>
 						<font>font13_title</font>
 					</control>
@@ -596,7 +596,7 @@
 					<control type="label" id="53">
 						<description>Kodi Build Date</description>
 						<width>auto</width>
-						<textcolor>blue</textcolor>
+						<textcolor>theme</textcolor>
 						<shadowcolor>black</shadowcolor>
 						<font>font13_title</font>
 					</control>

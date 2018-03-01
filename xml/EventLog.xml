@@ -24,7 +24,7 @@
 				<top>90</top>
 				<width>1695</width>
 				<height>900</height>
-				<texture border="22">ContentPanel.png</texture>
+				<texture border="22" colordiffuse="theme">ContentPanel.png</texture>
 			</control>
 			<control type="image">
 				<left>112</left>
@@ -51,7 +51,7 @@
 						<top>0</top>
 						<width>1620</width>
 						<height>120</height>
-						<texture border="8">button-nofocus.png</texture>
+						<texture border="8" colordiffuse="theme">button-nofocus.png</texture>
 					</control>
 					<control type="image">
 						<left>3</left>
@@ -105,7 +105,7 @@
 						<top>0</top>
 						<width>1620</width>
 						<height>120</height>
-						<texture border="8">button-nofocus.png</texture>
+						<texture border="8" colordiffuse="theme">button-nofocus.png</texture>
 						<visible>!Control.HasFocus(570)</visible>
 						<include>VisibleFadeEffect</include>
 					</control>
@@ -114,7 +114,7 @@
 						<top>0</top>
 						<width>1620</width>
 						<height>120</height>
-						<texture border="8">button-focus2.png</texture>
+						<texture border="8" colordiffuse="theme">button-focus2.png</texture>
 						<visible>Control.HasFocus(570)</visible>
 						<include>VisibleFadeEffect</include>
 					</control>
@@ -172,7 +172,7 @@
 				<height>825</height>
 				<texturesliderbackground border="0,21,0,21">ScrollBarV.png</texturesliderbackground>
 				<texturesliderbar border="0,21,0,21">ScrollBarV_bar.png</texturesliderbar>
-				<texturesliderbarfocus border="0,21,0,21">ScrollBarV_bar_focus.png</texturesliderbarfocus>
+				<texturesliderbarfocus border="0,21,0,21" colordiffuse="theme">ScrollBarV_bar_focus.png</texturesliderbarfocus>
 				<textureslidernib>ScrollBarNib.png</textureslidernib>
 				<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 				<onleft>570</onleft>
@@ -205,14 +205,14 @@
 					<height>52</height>
 					<font>font12</font>
 					<label>31006</label>
-					<textcolor>blue</textcolor>
+					<textcolor>theme</textcolor>
 					<align>center</align>
 					<aligny>center</aligny>
 				</control>
 				<control type="togglebutton" id="4">
 					<description>Sort asc</description>
 					<include>ButtonCommonValues</include>
-					<alttexturefocus border="8">button-focus.png</alttexturefocus>
+					<alttexturefocus border="8" colordiffuse="theme">button-focus.png</alttexturefocus>
 					<alttexturenofocus>-</alttexturenofocus>
 					<label>31051</label>
 					<altlabel>31050</altlabel>
@@ -223,7 +223,7 @@
 					<height>52</height>
 					<font>font12</font>
 					<label>31026</label>
-					<textcolor>blue</textcolor>
+					<textcolor>theme</textcolor>
 					<align>center</align>
 					<aligny>center</aligny>
 				</control>

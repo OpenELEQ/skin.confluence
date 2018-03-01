@@ -1,3 +1,11 @@
+[B]3.0.59[/B]
+- Added favourites-scrollbar
+- Added subtitles-scrollbar
+- Added color-accents
+- Added 5 themes
+- Added 5 colors 
+- Fixed missing aspectratio-info
+
 [B]3.0.58[/B]
 - Added configurable sorting methods & direction to node-based submenus
 - Tweaked pvr-widgets

@@ -35,7 +35,7 @@
 						<width>321</width>
 						<height>465</height>
 						<aspectratio>stretch</aspectratio>
-						<bordertexture border="8">button-nofocus.png</bordertexture>
+						<bordertexture border="8" colordiffuse="theme">button-nofocus.png</bordertexture>
 						<bordersize>6</bordersize>
 						<texture background="true">$VAR[PosterThumb]</texture>
 					</control>
@@ -111,7 +111,7 @@
 				<height>38</height>
 				<texturesliderbackground border="21,0,21,0">ScrollBarH.png</texturesliderbackground>
 				<texturesliderbar border="21,0,21,0">ScrollBarH_bar.png</texturesliderbar>
-				<texturesliderbarfocus border="21,0,21,0">ScrollBarH_bar_focus.png</texturesliderbarfocus>
+				<texturesliderbarfocus border="21,0,21,0" colordiffuse="theme">ScrollBarH_bar_focus.png</texturesliderbarfocus>
 				<textureslidernib>ScrollBarNib.png</textureslidernib>
 				<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 				<onup>501</onup>
@@ -146,7 +146,7 @@
 				<width>1830</width>
 				<height>52</height>
 				<font>font28_title</font>
-				<textcolor>blue</textcolor>
+				<textcolor>theme</textcolor>
 				<shadowcolor>black</shadowcolor>
 				<scroll>true</scroll>
 				<align>center</align>
@@ -203,7 +203,7 @@
 				<width>1830</width>
 				<height>52</height>
 				<font>font28_title</font>
-				<textcolor>blue</textcolor>
+				<textcolor>theme</textcolor>
 				<scroll>true</scroll>
 				<align>center</align>
 				<aligny>center</aligny>
@@ -254,7 +254,7 @@
 				<width>1830</width>
 				<height>52</height>
 				<font>font28_title</font>
-				<textcolor>blue</textcolor>
+				<textcolor>theme</textcolor>
 				<scroll>true</scroll>
 				<align>center</align>
 				<aligny>center</aligny>
@@ -299,7 +299,7 @@
 		</control>
 	</include>
 	<include name="PosterWrapView2_Fanart">
-		<param name="item_label">[COLOR blue]$INFO[ListItem.Year][/COLOR]  -  $INFO[ListItem.Label]</param>
+		<param name="item_label">[COLOR theme]$INFO[ListItem.Year][/COLOR]  -  $INFO[ListItem.Label]</param>
 		<definition>
 			<control type="group">
 				<left>0</left>
@@ -359,7 +359,7 @@
 							<width>180</width>
 							<height>240</height>
 							<aspectratio>stretch</aspectratio>
-							<bordertexture border="8">button-nofocus.png</bordertexture>
+							<bordertexture border="8" colordiffuse="theme">button-nofocus.png</bordertexture>
 							<bordersize>6</bordersize>
 							<fadetime>200</fadetime>
 							<texture background="true">$VAR[PosterThumb]</texture>
@@ -388,7 +388,7 @@
 							<width>180</width>
 							<height>240</height>
 							<aspectratio>stretch</aspectratio>
-							<bordertexture border="8" diffuse="diffuse_mirror2.png">button-nofocus.png</bordertexture>
+							<bordertexture border="8" diffuse="diffuse_mirror2.png" colordiffuse="theme">button-nofocus.png</bordertexture>
 							<bordersize>6</bordersize>
 							<fadetime>200</fadetime>
 							<texture background="true" flipy="true" diffuse="diffuse_mirror2.png">$VAR[PosterThumb]</texture>
@@ -427,7 +427,7 @@
 							<width>180</width>
 							<height>240</height>
 							<aspectratio>stretch</aspectratio>
-							<bordertexture border="8" diffuse="diffuse_mirror2.png">button-nofocus.png</bordertexture>
+							<bordertexture border="8" diffuse="diffuse_mirror2.png" colordiffuse="theme">button-nofocus.png</bordertexture>
 							<bordersize>6</bordersize>
 							<fadetime>200</fadetime>
 							<texture background="true" flipy="true" diffuse="diffuse_mirror2.png">$VAR[PosterThumb]</texture>
@@ -459,7 +459,7 @@
 					<height>38</height>
 					<texturesliderbackground border="21,0,21,0">ScrollBarH.png</texturesliderbackground>
 					<texturesliderbar border="21,0,21,0">ScrollBarH_bar.png</texturesliderbar>
-					<texturesliderbarfocus border="21,0,21,0">ScrollBarH_bar_focus.png</texturesliderbarfocus>
+					<texturesliderbarfocus border="21,0,21,0" colordiffuse="theme">ScrollBarH_bar_focus.png</texturesliderbarfocus>
 					<textureslidernib>ScrollBarNib.png</textureslidernib>
 					<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 					<onup>508</onup>
@@ -479,7 +479,7 @@
 					<top>0</top>
 					<width>1380</width>
 					<height>615</height>
-					<texture border="30">ContentPanel.png</texture>
+					<texture border="30" colordiffuse="theme">ContentPanel.png</texture>
 				</control>
 				<control type="label">
 					<left>60</left>
@@ -487,7 +487,7 @@
 					<width>1260</width>
 					<height>30</height>
 					<font>font24_title</font>
-					<textcolor>blue</textcolor>
+					<textcolor>theme</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<scroll>true</scroll>
 					<align>center</align>
@@ -846,7 +846,7 @@
 						<top>0</top>
 						<width>870</width>
 						<height>62</height>
-						<texture border="0,3,0,3">MenuItemNF.png</texture>
+						<texture border="0,3,0,3" colordiffuse="theme">MenuItemNF.png</texture>
 					</control>
 					<control type="label">
 						<left>15</left>
@@ -906,7 +906,7 @@
 						<top>0</top>
 						<width>870</width>
 						<height>62</height>
-						<texture border="0,3,0,3">MenuItemNF.png</texture>
+						<texture border="0,3,0,3" colordiffuse="theme">MenuItemNF.png</texture>
 						<visible>!Control.HasFocus(503)</visible>
 						<include>VisibleFadeEffect</include>
 					</control>
@@ -915,7 +915,7 @@
 						<top>0</top>
 						<width>870</width>
 						<height>62</height>
-						<texture border="0,3,0,3">MenuItemFO.png</texture>
+						<texture border="0,3,0,3" colordiffuse="theme">MenuItemFO.png</texture>
 						<visible>Control.HasFocus(503)</visible>
 						<include>VisibleFadeEffect</include>
 					</control>
@@ -924,7 +924,7 @@
 						<top>8</top>
 						<width>300</width>
 						<height>46</height>
-						<texture border="0,0,21,0">MediaItemDetailBG.png</texture>
+						<texture border="0,0,21,0" colordiffuse="theme">MediaItemDetailBG.png</texture>
 						<visible>Control.HasFocus(503) + !String.IsEmpty(ListItem.Label2)</visible>
 					</control>
 					<control type="label">
@@ -987,7 +987,7 @@
 				<height>600</height>
 				<texturesliderbackground border="0,21,0,21">ScrollBarV.png</texturesliderbackground>
 				<texturesliderbar border="0,21,0,21">ScrollBarV_bar.png</texturesliderbar>
-				<texturesliderbarfocus border="0,21,0,21">ScrollBarV_bar_focus.png</texturesliderbarfocus>
+				<texturesliderbarfocus border="0,21,0,21" colordiffuse="theme">ScrollBarV_bar_focus.png</texturesliderbarfocus>
 				<textureslidernib>ScrollBarNib.png</textureslidernib>
 				<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 				<onleft>503</onleft>
@@ -1021,7 +1021,7 @@
 					<align>right</align>
 					<aligny>center</aligny>
 					<font>font12</font>
-					<textcolor>blue</textcolor>
+					<textcolor>theme</textcolor>
 				</control>
 				<control type="label">
 					<description>Episodes Value</description>
@@ -1045,7 +1045,7 @@
 					<align>right</align>
 					<aligny>center</aligny>
 					<font>font12</font>
-					<textcolor>blue</textcolor>
+					<textcolor>theme</textcolor>
 				</control>
 				<control type="label">
 					<description>Aired Value</description>
@@ -1069,7 +1069,7 @@
 					<align>right</align>
 					<aligny>center</aligny>
 					<font>font12</font>
-					<textcolor>blue</textcolor>
+					<textcolor>theme</textcolor>
 				</control>
 				<control type="fadelabel">
 					<description>Genre Value</description>
@@ -1140,7 +1140,7 @@
 					<top>368</top>
 					<width>765</width>
 					<height>45</height>
-					<label>$INFO[ListItem.Season,[COLOR=blue] $LOCALIZE[20373] :[/COLOR] ] $INFO[ListItem.episode,[COLOR=blue] $LOCALIZE[20359] :[/COLOR] ] $INFO[ListItem.premiered,[COLOR=blue] $LOCALIZE[31322] :[/COLOR] ]</label>
+					<label>$INFO[ListItem.Season,[COLOR=theme] $LOCALIZE[20373] :[/COLOR] ] $INFO[ListItem.episode,[COLOR=theme] $LOCALIZE[20359] :[/COLOR] ] $INFO[ListItem.premiered,[COLOR=theme] $LOCALIZE[31322] :[/COLOR] ]</label>
 					<align>center</align>
 					<aligny>center</aligny>
 					<font>font12</font>
@@ -1202,7 +1202,7 @@
 					<top>555</top>
 					<width>765</width>
 					<height>38</height>
-					<label>[COLOR=white]$LOCALIZE[20360]:[/COLOR] $INFO[ListItem.Property(WatchedEpisodes),([COLOR=blue],[/COLOR]) $LOCALIZE[16102]] $INFO[ListItem.Property(UnWatchedEpisodes),([COLOR=blue],[/COLOR]) $LOCALIZE[16101]]</label>
+					<label>[COLOR=white]$LOCALIZE[20360]:[/COLOR] $INFO[ListItem.Property(WatchedEpisodes),([COLOR=theme],[/COLOR]) $LOCALIZE[16102]] $INFO[ListItem.Property(UnWatchedEpisodes),([COLOR=theme],[/COLOR]) $LOCALIZE[16101]]</label>
 					<align>center</align>
 					<aligny>center</aligny>
 					<font>font12</font>
@@ -1294,7 +1294,7 @@
 						<top>0</top>
 						<width>870</width>
 						<height>62</height>
-						<texture border="0,3,0,3">MenuItemNF.png</texture>
+						<texture border="0,3,0,3" colordiffuse="theme">MenuItemNF.png</texture>
 					</control>
 					<control type="label">
 						<left>15</left>
@@ -1354,7 +1354,7 @@
 						<top>0</top>
 						<width>870</width>
 						<height>62</height>
-						<texture border="0,3,0,3">MenuItemNF.png</texture>
+						<texture border="0,3,0,3" colordiffuse="theme">MenuItemNF.png</texture>
 						<visible>!Control.HasFocus(504)</visible>
 						<include>VisibleFadeEffect</include>
 					</control>
@@ -1363,7 +1363,7 @@
 						<top>0</top>
 						<width>870</width>
 						<height>62</height>
-						<texture border="0,3,0,3">MenuItemFO.png</texture>
+						<texture border="0,3,0,3" colordiffuse="theme">MenuItemFO.png</texture>
 						<visible>Control.HasFocus(504)</visible>
 						<include>VisibleFadeEffect</include>
 					</control>
@@ -1372,7 +1372,7 @@
 						<top>8</top>
 						<width>300</width>
 						<height>46</height>
-						<texture border="0,0,21,0">MediaItemDetailBG.png</texture>
+						<texture border="0,0,21,0" colordiffuse="theme">MediaItemDetailBG.png</texture>
 						<visible>Control.HasFocus(504) + !String.IsEmpty(ListItem.Label2)</visible>
 					</control>
 					<control type="label">
@@ -1435,7 +1435,7 @@
 				<height>840</height>
 				<texturesliderbackground border="15,21,15,21">ScrollBarV.png</texturesliderbackground>
 				<texturesliderbar border="15,21,15,21">ScrollBarV_bar.png</texturesliderbar>
-				<texturesliderbarfocus border="15,21,15,21">ScrollBarV_bar_focus.png</texturesliderbarfocus>
+				<texturesliderbarfocus border="15,21,15,21" colordiffuse="theme">ScrollBarV_bar_focus.png</texturesliderbarfocus>
 				<textureslidernib>ScrollBarNib.png</textureslidernib>
 				<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 				<onleft>504</onleft>
@@ -1505,7 +1505,7 @@
 					<align>right</align>
 					<aligny>center</aligny>
 					<font>font13_title</font>
-					<textcolor>blue</textcolor>
+					<textcolor>theme</textcolor>
 				</control>
 				<control type="label">
 					<visible>!ListItem.isCollection</visible>
@@ -1531,7 +1531,7 @@
 					<align>right</align>
 					<aligny>center</aligny>
 					<font>font13_title</font>
-					<textcolor>blue</textcolor>
+					<textcolor>theme</textcolor>
 				</control>
 				<control type="fadelabel">
 					<visible>!ListItem.isCollection</visible>
@@ -1631,7 +1631,7 @@
 					<align>right</align>
 					<aligny>center</aligny>
 					<font>font13_title</font>
-					<textcolor>blue</textcolor>
+					<textcolor>theme</textcolor>
 				</control>
 				<control type="label">
 					<description>Aired Value</description>
@@ -1655,7 +1655,7 @@
 					<align>right</align>
 					<aligny>center</aligny>
 					<font>font13_title</font>
-					<textcolor>blue</textcolor>
+					<textcolor>theme</textcolor>
 				</control>
 				<control type="fadelabel">
 					<description>Episode Value</description>
@@ -1715,7 +1715,7 @@
 						<top>0</top>
 						<width>518</width>
 						<height>62</height>
-						<texture border="0,3,0,3">MenuItemNF.png</texture>
+						<texture border="0,3,0,3" colordiffuse="theme">MenuItemNF.png</texture>
 					</control>
 					<control type="label">
 						<left>15</left>
@@ -1752,7 +1752,7 @@
 						<top>0</top>
 						<width>518</width>
 						<height>62</height>
-						<texture border="0,3,0,3">MenuItemNF.png</texture>
+						<texture border="0,3,0,3" colordiffuse="theme">MenuItemNF.png</texture>
 						<visible>!Control.HasFocus(515)</visible>
 						<include>VisibleFadeEffect</include>
 					</control>
@@ -1761,7 +1761,7 @@
 						<top>0</top>
 						<width>518</width>
 						<height>62</height>
-						<texture border="0,3,0,3">MenuItemFO.png</texture>
+						<texture border="0,3,0,3" colordiffuse="theme">MenuItemFO.png</texture>
 						<visible>Control.HasFocus(515)</visible>
 						<include>VisibleFadeEffect</include>
 					</control>
@@ -1802,7 +1802,7 @@
 				<height>840</height>
 				<texturesliderbackground border="15,21,15,21">ScrollBarV.png</texturesliderbackground>
 				<texturesliderbar border="15,21,15,21">ScrollBarV_bar.png</texturesliderbar>
-				<texturesliderbarfocus border="15,21,15,21">ScrollBarV_bar_focus.png</texturesliderbarfocus>
+				<texturesliderbarfocus border="15,21,15,21" colordiffuse="theme">ScrollBarV_bar_focus.png</texturesliderbarfocus>
 				<textureslidernib>ScrollBarNib.png</textureslidernib>
 				<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 				<onleft>515</onleft>

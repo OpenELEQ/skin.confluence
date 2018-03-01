@@ -68,7 +68,7 @@
 			<height>570</height>
 			<texturesliderbackground border="0,21,0,21">ScrollBarV.png</texturesliderbackground>
 			<texturesliderbar border="3,24,3,24">ScrollBarV_bar.png</texturesliderbar>
-			<texturesliderbarfocus border="3,24,3,24">ScrollBarV_bar_focus.png</texturesliderbarfocus>
+			<texturesliderbarfocus border="3,24,3,24" colordiffuse="theme">ScrollBarV_bar_focus.png</texturesliderbarfocus>
 			<textureslidernib>ScrollBarNib.png</textureslidernib>
 			<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 			<onleft>2</onleft>
@@ -141,7 +141,7 @@
 			<font>font13</font>
 			<textcolor>grey2</textcolor>
 			<focusedcolor>white</focusedcolor>
-			<texturefocus border="8">button-focus2.png</texturefocus>
+			<texturefocus border="8" colordiffuse="theme">button-focus2.png</texturefocus>
 		</control>
 		<control type="radiobutton" id="4">
 			<description>Default RadioButton</description>
@@ -150,15 +150,15 @@
 			<textwidth>1002</textwidth>
 			<textcolor>grey2</textcolor>
 			<focusedcolor>white</focusedcolor>
-			<texturefocus border="8">button-focus2.png</texturefocus>
+			<texturefocus border="8" colordiffuse="theme">button-focus2.png</texturefocus>
 		</control>
 		<control type="spincontrolex" id="5">
 			<description>Default spincontrolex</description>
 			<height>60</height>
 			<textcolor>grey2</textcolor>
 			<focusedcolor>white</focusedcolor>
-			<texturenofocus border="8">button-nofocus.png</texturenofocus>
-			<texturefocus border="8">button-focus2.png</texturefocus>
+			<texturenofocus border="8" colordiffuse="theme">button-nofocus.png</texturenofocus>
+			<texturefocus border="8" colordiffuse="theme">button-focus2.png</texturefocus>
 			<font>font13</font>
 			<aligny>center</aligny>
 			<reverse>yes</reverse>
@@ -167,7 +167,7 @@
 			<height>52</height>
 			<font>font13_title</font>
 			<label>-</label>
-			<textcolor>blue</textcolor>
+			<textcolor>theme</textcolor>
 			<shadowcolor>black</shadowcolor>
 			<align>left</align>
 			<aligny>center</aligny>
@@ -184,7 +184,7 @@
 			<textwidth>777</textwidth>
 			<textcolor>grey2</textcolor>
 			<focusedcolor>white</focusedcolor>
-			<texturefocus border="8">button-focus2.png</texturefocus>
+			<texturefocus border="8" colordiffuse="theme">button-focus2.png</texturefocus>
 		</control>
 	</controls>
 </window>

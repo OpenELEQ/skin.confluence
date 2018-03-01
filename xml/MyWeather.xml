@@ -49,14 +49,14 @@
 					<top>0</top>
 					<width>750</width>
 					<height>930</height>
-					<texture border="30">ContentPanel.png</texture>
+					<texture border="30" colordiffuse="theme">ContentPanel.png</texture>
 				</control>
 				<control type="image">
 					<left>0</left>
 					<top>918</top>
 					<width>750</width>
 					<height>96</height>
-					<texture border="15">ContentPanelMirror.png</texture>
+					<texture border="15" colordiffuse="theme">ContentPanelMirror.png</texture>
 				</control>
 				<control type="image">
 					<left>12</left>
@@ -409,14 +409,14 @@
 					<top>0</top>
 					<width>975</width>
 					<height>930</height>
-					<texture border="30">ContentPanel.png</texture>
+					<texture border="30" colordiffuse="theme">ContentPanel.png</texture>
 				</control>
 				<control type="image">
 					<left>0</left>
 					<top>918</top>
 					<width>975</width>
 					<height>96</height>
-					<texture border="15">ContentPanelMirror.png</texture>
+					<texture border="15" colordiffuse="theme">ContentPanelMirror.png</texture>
 				</control>
 				<control type="image">
 					<left>12</left>
@@ -459,7 +459,7 @@
 					<height>52</height>
 					<font>font12</font>
 					<label>31006</label>
-					<textcolor>blue</textcolor>
+					<textcolor>theme</textcolor>
 					<align>center</align>
 					<aligny>center</aligny>
 				</control>
@@ -543,7 +543,7 @@
 					<height>52</height>
 					<font>font12</font>
 					<label>31026</label>
-					<textcolor>blue</textcolor>
+					<textcolor>theme</textcolor>
 					<align>center</align>
 					<aligny>center</aligny>
 				</control>

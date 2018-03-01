@@ -141,6 +141,6 @@
 			<screenshot>resources/screenshot-04.jpg</screenshot>
 			<screenshot>resources/screenshot-05.jpg</screenshot>
 		</assets>
-		<news>Added configurable sorting methods and direction to node-based submenus / Tweaked pvr-widgets</news>
+		<news>Added favourites-scrollbar / Added subtitles-scrollbar / Added color-accents / Added 5 themes / Added 5 colors / Fixed missing aspectratio-info</news>
 	</extension>
 </addon>

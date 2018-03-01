@@ -86,14 +86,14 @@
 					<top>90</top>
 					<width>1125</width>
 					<height>900</height>
-					<texture border="22">ContentPanel.png</texture>
+					<texture border="22" colordiffuse="theme">ContentPanel.png</texture>
 				</control>
 				<control type="image">
 					<left>75</left>
 					<top>978</top>
 					<width>1125</width>
 					<height>96</height>
-					<texture border="22">ContentPanelMirror.png</texture>
+					<texture border="22" colordiffuse="theme">ContentPanelMirror.png</texture>
 				</control>
 			</control>
 			<control type="group">
@@ -104,28 +104,28 @@
 					<top>90</top>
 					<width>960</width>
 					<height>900</height>
-					<texture border="22">ContentPanel.png</texture>
+					<texture border="22" colordiffuse="theme">ContentPanel.png</texture>
 				</control>
 				<control type="image">
 					<left>75</left>
 					<top>978</top>
 					<width>960</width>
 					<height>96</height>
-					<texture border="22">ContentPanelMirror.png</texture>
+					<texture border="22" colordiffuse="theme">ContentPanelMirror.png</texture>
 				</control>
 				<control type="image">
 					<left>1050</left>
 					<top>90</top>
 					<width>795</width>
 					<height>900</height>
-					<texture border="22">ContentPanel.png</texture>
+					<texture border="22" colordiffuse="theme">ContentPanel.png</texture>
 				</control>
 				<control type="image">
 					<left>1050</left>
 					<top>978</top>
 					<width>795</width>
 					<height>96</height>
-					<texture border="22">ContentPanelMirror.png</texture>
+					<texture border="22" colordiffuse="theme">ContentPanelMirror.png</texture>
 				</control>
 			</control>
 			<control type="group">
@@ -136,28 +136,28 @@
 					<top>90</top>
 					<width>1260</width>
 					<height>900</height>
-					<texture border="22">ContentPanel.png</texture>
+					<texture border="22" colordiffuse="theme">ContentPanel.png</texture>
 				</control>
 				<control type="image">
 					<left>75</left>
 					<top>978</top>
 					<width>1260</width>
 					<height>96</height>
-					<texture border="22">ContentPanelMirror.png</texture>
+					<texture border="22" colordiffuse="theme">ContentPanelMirror.png</texture>
 				</control>
 				<control type="image">
 					<left>1350</left>
 					<top>90</top>
 					<width>495</width>
 					<height>900</height>
-					<texture border="22">ContentPanel.png</texture>
+					<texture border="22" colordiffuse="theme">ContentPanel.png</texture>
 				</control>
 				<control type="image">
 					<left>1350</left>
 					<top>978</top>
 					<width>495</width>
 					<height>96</height>
-					<texture border="22">ContentPanelMirror.png</texture>
+					<texture border="22" colordiffuse="theme">ContentPanelMirror.png</texture>
 				</control>
 			</control>
 			<control type="group">
@@ -168,14 +168,14 @@
 					<top>75</top>
 					<width>1770</width>
 					<height>915</height>
-					<texture border="22">ContentPanel.png</texture>
+					<texture border="22" colordiffuse="theme">ContentPanel.png</texture>
 				</control>
 				<control type="image">
 					<left>75</left>
 					<top>978</top>
 					<width>1770</width>
 					<height>96</height>
-					<texture border="22">ContentPanelMirror.png</texture>
+					<texture border="22" colordiffuse="theme">ContentPanelMirror.png</texture>
 				</control>
 			</control>
 			<control type="group">
@@ -186,28 +186,28 @@
 					<top>345</top>
 					<width>960</width>
 					<height>645</height>
-					<texture border="22">ContentPanel.png</texture>
+					<texture border="22" colordiffuse="theme">ContentPanel.png</texture>
 				</control>
 				<control type="image">
 					<left>75</left>
 					<top>978</top>
 					<width>960</width>
 					<height>96</height>
-					<texture border="22">ContentPanelMirror.png</texture>
+					<texture border="22" colordiffuse="theme">ContentPanelMirror.png</texture>
 				</control>
 				<control type="image">
 					<left>1050</left>
 					<top>345</top>
 					<width>825</width>
 					<height>645</height>
-					<texture border="22">ContentPanel.png</texture>
+					<texture border="22" colordiffuse="theme">ContentPanel.png</texture>
 				</control>
 				<control type="image">
 					<left>1050</left>
 					<top>978</top>
 					<width>825</width>
 					<height>96</height>
-					<texture border="22">ContentPanelMirror.png</texture>
+					<texture border="22" colordiffuse="theme">ContentPanelMirror.png</texture>
 				</control>
 			</control>
 			<control type="group">
@@ -218,14 +218,14 @@
 					<top>90</top>
 					<width>1695</width>
 					<height>900</height>
-					<texture border="22">ContentPanel.png</texture>
+					<texture border="22" colordiffuse="theme">ContentPanel.png</texture>
 				</control>
 				<control type="image">
 					<left>112</left>
 					<top>978</top>
 					<width>1695</width>
 					<height>96</height>
-					<texture border="22">ContentPanelMirror.png</texture>
+					<texture border="22" colordiffuse="theme">ContentPanelMirror.png</texture>
 				</control>
 			</control>
 			<control type="group">
@@ -236,28 +236,28 @@
 					<top>90</top>
 					<width>735</width>
 					<height>900</height>
-					<texture border="22">ContentPanel.png</texture>
+					<texture border="22" colordiffuse="theme">ContentPanel.png</texture>
 				</control>
 				<control type="image">
 					<left>75</left>
 					<top>978</top>
 					<width>735</width>
 					<height>96</height>
-					<texture border="22">ContentPanelMirror.png</texture>
+					<texture border="22" colordiffuse="theme">ContentPanelMirror.png</texture>
 				</control>
 				<control type="image">
 					<left>825</left>
 					<top>90</top>
 					<width>1020</width>
 					<height>900</height>
-					<texture border="22">ContentPanel.png</texture>
+					<texture border="22" colordiffuse="theme">ContentPanel.png</texture>
 				</control>
 				<control type="image">
 					<left>825</left>
 					<top>978</top>
 					<width>1020</width>
 					<height>96</height>
-					<texture border="22">ContentPanelMirror.png</texture>
+					<texture border="22" colordiffuse="theme">ContentPanelMirror.png</texture>
 				</control>
 			</control>
 			<control type="group">
@@ -268,28 +268,28 @@
 					<top>90</top>
 					<width>600</width>
 					<height>900</height>
-					<texture border="22">ContentPanel.png</texture>
+					<texture border="22" colordiffuse="theme">ContentPanel.png</texture>
 				</control>
 				<control type="image">
 					<left>75</left>
 					<top>978</top>
 					<width>600</width>
 					<height>96</height>
-					<texture border="22">ContentPanelMirror.png</texture>
+					<texture border="22" colordiffuse="theme">ContentPanelMirror.png</texture>
 				</control>
 				<control type="image">
 					<left>690</left>
 					<top>90</top>
 					<width>1155</width>
 					<height>900</height>
-					<texture border="22">ContentPanel.png</texture>
+					<texture border="22" colordiffuse="theme">ContentPanel.png</texture>
 				</control>
 				<control type="image">
 					<left>690</left>
 					<top>978</top>
 					<width>1155</width>
 					<height>96</height>
-					<texture border="22">ContentPanelMirror.png</texture>
+					<texture border="22" colordiffuse="theme">ContentPanelMirror.png</texture>
 				</control>
 			</control>
 		</control>

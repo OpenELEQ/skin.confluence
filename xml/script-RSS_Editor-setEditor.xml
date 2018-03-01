@@ -25,7 +25,7 @@
 			<align>center</align>
 			<aligny>center</aligny>
 			<font>font12</font>
-			<textcolor>blue</textcolor>
+			<textcolor>theme</textcolor>
 			<shadowcolor>black</shadowcolor>
 		</control>
 		<control type="list" id="10">
@@ -45,7 +45,7 @@
 					<top>0</top>
 					<width>780</width>
 					<height>60</height>
-					<texture border="8">button-nofocus.png</texture>
+					<texture border="8" colordiffuse="theme">button-nofocus.png</texture>
 				</control>
 				<control type="label">
 					<left>15</left>
@@ -67,7 +67,7 @@
 					<width>780</width>
 					<height>60</height>
 					<visible>!Control.HasFocus(10)</visible>
-					<texture border="8">button-nofocus.png</texture>
+					<texture border="8" colordiffuse="theme">button-nofocus.png</texture>
 				</control>
 				<control type="image">
 					<left>0</left>
@@ -75,7 +75,7 @@
 					<width>780</width>
 					<height>60</height>
 					<visible>Control.hasfocus(14) | Control.HasFocus(10)</visible>
-					<texture border="8">button-focus2.png</texture>
+					<texture border="8" colordiffuse="theme">button-focus2.png</texture>
 				</control>
 				<control type="label">
 					<left>15</left>
@@ -97,7 +97,7 @@
 			<height>338</height>
 			<texturesliderbackground border="0,21,0,21">ScrollBarV.png</texturesliderbackground>
 			<texturesliderbar border="0,21,0,21">ScrollBarV_bar.png</texturesliderbar>
-			<texturesliderbarfocus border="0,21,0,21">ScrollBarV_bar_focus.png</texturesliderbarfocus>
+			<texturesliderbarfocus border="0,21,0,21" colordiffuse="theme">ScrollBarV_bar_focus.png</texturesliderbarfocus>
 			<textureslidernib>ScrollBarNib.png</textureslidernib>
 			<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 			<onleft>10</onleft>

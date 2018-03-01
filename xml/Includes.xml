@@ -59,7 +59,7 @@
 					<top>0</top>
 					<width>$PARAM[item-width]</width>
 					<height>60</height>
-					<texture border="8">button-nofocus.png</texture>
+					<texture border="8" colordiffuse="theme">button-nofocus.png</texture>
 				</control>
 				<control type="label">
 					<left>15</left>
@@ -91,7 +91,7 @@
 					<width>$PARAM[item-width]</width>
 					<height>60</height>
 					<visible>!Control.HasFocus(50)</visible>
-					<texture border="8">button-nofocus.png</texture>
+					<texture border="8" colordiffuse="theme">button-nofocus.png</texture>
 				</control>
 				<control type="image">
 					<left>0</left>
@@ -99,7 +99,7 @@
 					<width>$PARAM[item-width]</width>
 					<height>60</height>
 					<visible>Control.HasFocus(50)</visible>
-					<texture border="8">button-focus2.png</texture>
+					<texture border="8" colordiffuse="theme">button-focus2.png</texture>
 				</control>
 				<control type="label">
 					<left>15</left>
@@ -165,7 +165,7 @@
 			<label>-</label>
 			<font>-</font>
 			<onclick>PreviousMenu</onclick>
-			<texturefocus>DialogCloseButton-focus.png</texturefocus>
+			<texturefocus colordiffuse="theme">DialogCloseButton-focus.png</texturefocus>
 			<texturenofocus>DialogCloseButton.png</texturenofocus>
 			<onleft>$PARAM[CloseButtonNav]</onleft>
 			<onright>$PARAM[CloseButtonNav]</onright>
@@ -205,7 +205,7 @@
 		<textwidth>300</textwidth>
 		<aligny>center</aligny>
 		<font>font13</font>
-		<texturefocus border="8">button-focus.png</texturefocus>
+		<texturefocus border="8" colordiffuse="theme">button-focus.png</texturefocus>
 		<texturenofocus>-</texturenofocus>
 		<pulseonselect>false</pulseonselect>
 	</include>
@@ -216,8 +216,8 @@
 		<textwidth>292</textwidth>
 		<aligny>center</aligny>
 		<font>font12_title</font>
-		<texturefocus border="8">button-focus.png</texturefocus>
-		<texturenofocus border="8">button-nofocus.png</texturenofocus>
+		<texturefocus border="8" colordiffuse="theme">button-focus.png</texturefocus>
+		<texturenofocus border="8" colordiffuse="theme">button-nofocus.png</texturenofocus>
 		<pulseonselect>false</pulseonselect>
 	</include>
 	<include name="ButtonHomeSubCommonValues">
@@ -230,8 +230,8 @@
 		<textcolor>grey2</textcolor>
 		<focusedcolor>white</focusedcolor>
 		<scroll>true</scroll>
-		<texturefocus border="8">HomeSubFO.png</texturefocus>
-		<texturenofocus border="8">HomeSubNF.png</texturenofocus>
+		<texturefocus border="8" colordiffuse="theme">HomeSubFO.png</texturefocus>
+		<texturenofocus border="8" colordiffuse="theme">HomeSubNF.png</texturenofocus>
 		<pulseonselect>false</pulseonselect>
 	</include>
 	<include name="HomeSubMenuCommonValues">
@@ -254,8 +254,8 @@
 		<align>center</align>
 		<aligny>center</aligny>
 		<font>font12_title</font>
-		<texturefocus border="8">button-focus.png</texturefocus>
-		<texturenofocus border="8">button-nofocus.png</texturenofocus>
+		<texturefocus border="8" colordiffuse="theme">button-focus.png</texturefocus>
+		<texturenofocus border="8" colordiffuse="theme">button-nofocus.png</texturenofocus>
 		<pulseonselect>false</pulseonselect>
 	</include>
 	<include name="SideBladeLeft">
@@ -282,15 +282,15 @@
 			<width>63</width>
 			<height>192</height>
 			<font>-</font>
-			<texturefocus>HasSub.png</texturefocus>
-			<texturenofocus>HasSub.png</texturenofocus>
+			<texturefocus colordiffuse="theme">HasSub.png</texturefocus>
+			<texturenofocus colordiffuse="theme">HasSub.png</texturenofocus>
 		</control>
 		<control type="image">
 			<left>-30</left>
 			<top>0</top>
 			<width>420</width>
 			<height>1080</height>
-			<texture border="0,0,15,0">MediaBladeSub.png</texture>
+			<texture border="0,0,15,0" colordiffuse="theme">MediaBladeSub.png</texture>
 		</control>
 		<control type="image">
 			<description>LOGO</description>
@@ -318,7 +318,7 @@
 				<label>1036</label>
 				<font>-</font>
 				<onclick>back</onclick>
-				<texturefocus border="8">floor_buttonFO.png</texturefocus>
+				<texturefocus border="8" colordiffuse="theme">floor_buttonFO.png</texturefocus>
 				<texturenofocus border="8">floor_button.png</texturenofocus>
 				<onleft>50</onleft>
 				<onright>50</onright>
@@ -343,7 +343,7 @@
 				<label>31003</label>
 				<font>-</font>
 				<onclick>ActivateWindow(home)</onclick>
-				<texturefocus border="8">floor_buttonFO.png</texturefocus>
+				<texturefocus border="8" colordiffuse="theme">floor_buttonFO.png</texturefocus>
 				<texturenofocus border="8">floor_button.png</texturenofocus>
 				<onleft>50</onleft>
 				<onright>50</onright>
@@ -376,7 +376,7 @@
 				<label>31003</label>
 				<font>-</font>
 				<onclick>ActivateWindow(PlayerControls)</onclick>
-				<texturefocus border="8">floor_buttonFO.png</texturefocus>
+				<texturefocus border="8" colordiffuse="theme">floor_buttonFO.png</texturefocus>
 				<texturenofocus border="8">floor_button.png</texturenofocus>
 				<onleft>50</onleft>
 				<onright>50</onright>
@@ -397,7 +397,7 @@
 				<top>80r</top>
 				<width>1050</width>
 				<height>30</height>
-				<label>$INFO[Player.Title] - ([COLOR=blue]$INFO[Player.Time] / $INFO[Player.Duration,][/COLOR])</label>
+				<label>$INFO[Player.Title] - ([COLOR=theme]$INFO[Player.Time] / $INFO[Player.Duration,][/COLOR])</label>
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>font12</font>
@@ -461,7 +461,7 @@
 				<top>45r</top>
 				<width>1050</width>
 				<height>30</height>
-				<label>$INFO[VideoPlayer.ChannelName]$INFO[VideoPlayer.ChannelNumberLabel, - ([COLOR=blue],[/COLOR])]</label>
+				<label>$INFO[VideoPlayer.ChannelName]$INFO[VideoPlayer.ChannelNumberLabel, - ([COLOR=theme],[/COLOR])]</label>
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>font12</font>
@@ -485,7 +485,7 @@
 				<scroll>false</scroll>
 				<align>right</align>
 				<aligny>center</aligny>
-				<label>$INFO[Container.NumItems,([COLOR=blue],[/COLOR]) $LOCALIZE[31025]]$INFO[Container.CurrentPage, - $LOCALIZE[31024] ([COLOR=blue]]$INFO[Container.NumPages,/,[/COLOR])]</label>
+				<label>$INFO[Container.NumItems,([COLOR=theme],[/COLOR]) $LOCALIZE[31025]]$INFO[Container.CurrentPage, - $LOCALIZE[31024] ([COLOR=theme]]$INFO[Container.NumPages,/,[/COLOR])]</label>
 				<include>Window_OpenClose_Animation</include>
 			</control>
 			<control type="label">
@@ -499,7 +499,7 @@
 				<scroll>false</scroll>
 				<align>right</align>
 				<aligny>center</aligny>
-				<label>$INFO[Container.TotalTime,$LOCALIZE[31009] ([COLOR=blue],[/COLOR])]</label>
+				<label>$INFO[Container.TotalTime,$LOCALIZE[31009] ([COLOR=theme],[/COLOR])]</label>
 				<include>Window_OpenClose_Animation</include>
 			</control>
 		</control>
@@ -582,7 +582,7 @@
 			<top>180</top>
 			<height>45</height>
 			<width>488</width>
-			<label>[COLOR=blue]$LOCALIZE[19031] :[/COLOR] $INFO[MusicPlayer.offset(1).Title]</label>
+			<label>[COLOR=theme]$LOCALIZE[19031] :[/COLOR] $INFO[MusicPlayer.offset(1).Title]</label>
 			<align>right</align>
 			<aligny>center</aligny>
 			<font>font12</font>
@@ -729,7 +729,7 @@
 			<height>52</height>
 			<font>font12</font>
 			<label>31023</label>
-			<textcolor>blue</textcolor>
+			<textcolor>theme</textcolor>
 			<align>center</align>
 			<aligny>center</aligny>
 			<visible>Player.HasMedia</visible>
@@ -1017,7 +1017,7 @@
 				<width>270</width>
 				<height>180</height>
 				<aspectratio aligny="bottom">keep</aspectratio>
-				<bordertexture border="8">button-nofocus.png</bordertexture>
+				<bordertexture border="8" colordiffuse="theme">button-nofocus.png</bordertexture>
 				<bordersize>4</bordersize>
 				<texture background="true">$INFO[ListItem.Icon]</texture>
 			</control>
@@ -1060,7 +1060,7 @@
 				<width>270</width>
 				<height>180</height>
 				<aspectratio aligny="bottom">keep</aspectratio>
-				<bordertexture border="8">button-nofocus.png</bordertexture>
+				<bordertexture border="8" colordiffuse="theme">button-nofocus.png</bordertexture>
 				<bordersize>4</bordersize>
 				<texture background="true">$INFO[ListItem.Icon]</texture>
 				<visible>!ControlGroup(9002).HasFocus</visible>
@@ -1072,7 +1072,7 @@
 				<width>270</width>
 				<height>180</height>
 				<aspectratio aligny="bottom">keep</aspectratio>
-				<bordertexture border="8">folder-focus.png</bordertexture>
+				<bordertexture border="8" colordiffuse="theme">folder-focus.png</bordertexture>
 				<bordersize>4</bordersize>
 				<texture background="true">$INFO[ListItem.Icon]</texture>
 				<visible>ControlGroup(9002).HasFocus</visible>
@@ -1130,7 +1130,7 @@
 				<top>0</top>
 				<width>420</width>
 				<height>218</height>
-				<texture border="15">button-nofocus.png</texture>
+				<texture border="15" colordiffuse="theme">button-nofocus.png</texture>
 			</control>
 			<control type="image">
 				<description>Thumb</description>
@@ -1168,7 +1168,7 @@
 				<top>90</top>
 				<width>390</width>
 				<height>22</height>
-				<label>$INFO[ListItem.Property(NextNumber),$LOCALIZE[20359] [COLOR=blue]-[/COLOR] ]</label>
+				<label>$INFO[ListItem.Property(NextNumber),$LOCALIZE[20359] [COLOR=theme]-[/COLOR] ]</label>
 				<textcolor>white</textcolor>
 				<font>font12</font>
 				<align>center</align>
@@ -1190,7 +1190,7 @@
 				<top>150</top>
 				<width>390</width>
 				<height>22</height>
-				<label>$INFO[ListItem.Property(ShortTime)]$INFO[ListItem.Property(NextDate), [COLOR=blue]-[/COLOR] ]</label>
+				<label>$INFO[ListItem.Property(ShortTime)]$INFO[ListItem.Property(NextDate), [COLOR=theme]-[/COLOR] ]</label>
 				<textcolor>grey2</textcolor>
 				<font>font12</font>
 				<align>center</align>
@@ -1201,7 +1201,7 @@
 				<top>180</top>
 				<width>390</width>
 				<height>22</height>
-				<label>$INFO[ListItem.Property(Runtime),, $LOCALIZE[12391]]$INFO[ListItem.Property(Network), [COLOR=blue]-[/COLOR] (,)]</label>
+				<label>$INFO[ListItem.Property(Runtime),, $LOCALIZE[12391]]$INFO[ListItem.Property(Network), [COLOR=theme]-[/COLOR] (,)]</label>
 				<textcolor>grey2</textcolor>
 				<font>font12</font>
 				<align>center</align>
@@ -1213,7 +1213,7 @@
 				<top>0</top>
 				<width>420</width>
 				<height>218</height>
-				<texture border="15">button-focus2.png</texture>
+				<texture border="15" colordiffuse="theme">button-focus2.png</texture>
 			</control>
 			<control type="image">
 				<description>Thumb</description>
@@ -1251,7 +1251,7 @@
 				<top>90</top>
 				<width>390</width>
 				<height>22</height>
-				<label>$INFO[ListItem.Property(NextNumber),$LOCALIZE[20359] [COLOR=blue]-[/COLOR] ]</label>
+				<label>$INFO[ListItem.Property(NextNumber),$LOCALIZE[20359] [COLOR=theme]-[/COLOR] ]</label>
 				<textcolor>selected</textcolor>
 				<font>font12</font>
 				<align>center</align>
@@ -1273,7 +1273,7 @@
 				<top>150</top>
 				<width>390</width>
 				<height>22</height>
-				<label>$INFO[ListItem.Property(ShortTime)]$INFO[ListItem.Property(NextDate), [COLOR=blue]-[/COLOR] ]</label>
+				<label>$INFO[ListItem.Property(ShortTime)]$INFO[ListItem.Property(NextDate), [COLOR=theme]-[/COLOR] ]</label>
 				<textcolor>white</textcolor>
 				<font>font12</font>
 				<align>center</align>
@@ -1284,7 +1284,7 @@
 				<top>180</top>
 				<width>390</width>
 				<height>22</height>
-				<label>$INFO[ListItem.Property(Runtime),, $LOCALIZE[12391]]$INFO[ListItem.Property(Network), [COLOR=blue]-[/COLOR] (,)]</label>
+				<label>$INFO[ListItem.Property(Runtime),, $LOCALIZE[12391]]$INFO[ListItem.Property(Network), [COLOR=theme]-[/COLOR] (,)]</label>
 				<textcolor>white</textcolor>
 				<font>font12</font>
 				<align>center</align>
@@ -1311,8 +1311,8 @@
 	<include name="KeyboardButton">
 		<width>75</width>
 		<height>75</height>
-		<texturenofocus border="4">KeyboardKeyNF.png</texturenofocus>
-		<texturefocus border="8">KeyboardKey.png</texturefocus>
+		<texturenofocus border="4" colordiffuse="theme">KeyboardKeyNF.png</texturenofocus>
+		<texturefocus border="8" colordiffuse="theme">KeyboardKey.png</texturefocus>
 		<align>center</align>
 		<aligny>center</aligny>
 		<font>font13</font>
@@ -1348,12 +1348,12 @@
 					</control>
 					<control type="label">
 						<include>WindowTitleCommons</include>
-						<label>[COLOR=blue] - [/COLOR]$INFO[Container.FolderName]</label>
+						<label>[COLOR=theme] - [/COLOR]$INFO[Container.FolderName]</label>
 						<visible>!String.IsEmpty(Container.FolderName)</visible>
 					</control>
 					<control type="label">
 						<include>WindowTitleCommons</include>
-						<label>[COLOR=blue] - [/COLOR]$INFO[Control.GetLabel(2)]</label>
+						<label>[COLOR=theme] - [/COLOR]$INFO[Control.GetLabel(2)]</label>
 						<visible>$PARAM[ShowLabel2]</visible>
 					</control>
 				</control>
@@ -1595,7 +1595,7 @@
 		</item>
 	</include>
 	<include name="InfoList">
-		<param name="item_label">[COLOR blue]$INFO[ListItem.Year][/COLOR] - $INFO[ListItem.Label]</param>
+		<param name="item_label">[COLOR theme]$INFO[ListItem.Year][/COLOR] - $INFO[ListItem.Label]</param>
 		<param name="path">$VAR[InfoListPathVar]</param>
 		<param name="item_height">45</param>
 		<param name="bottom">80</param>
@@ -1715,7 +1715,7 @@
 						<width>120</width>
 						<height>$PARAM[image_height]</height>
 						<aspectratio>scale</aspectratio>
-						<bordertexture border="8">button-nofocus.png</bordertexture>
+						<bordertexture border="8" colordiffuse="theme">button-nofocus.png</bordertexture>
 						<bordersize>6</bordersize>
 						<fadetime>200</fadetime>
 						<texture background="true">$VAR[PosterThumb]</texture>
@@ -1750,7 +1750,7 @@
 						<width>120</width>
 						<height>$PARAM[image_height]</height>
 						<aspectratio>scale</aspectratio>
-						<bordertexture border="8">button-nofocus.png</bordertexture>
+						<bordertexture border="8" colordiffuse="theme">button-nofocus.png</bordertexture>
 						<bordersize>6</bordersize>
 						<fadetime>200</fadetime>
 						<texture background="true">$VAR[PosterThumb]</texture>
@@ -1801,7 +1801,7 @@
 						<height>240</height>
 						<width>160</width>
 						<aspectratio>keep</aspectratio>
-						<bordertexture border="8">button-nofocus.png</bordertexture>
+						<bordertexture border="8" colordiffuse="theme">button-nofocus.png</bordertexture>
 						<bordersize>6</bordersize>
 						<fadetime>200</fadetime>
 						<texture background="true">$VAR[PosterThumb]</texture>
@@ -1813,7 +1813,7 @@
 						<width>440</width>
 						<align>left</align>
 						<aligny>top</aligny>
-						<label>[COLOR blue]$INFO[ListItem.Year][/COLOR] - $INFO[ListItem.Label]</label>
+						<label>[COLOR theme]$INFO[ListItem.Year][/COLOR] - $INFO[ListItem.Label]</label>
 						<shadowcolor>black</shadowcolor>
 						<font>font13</font>
 					</control>

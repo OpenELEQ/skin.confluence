@@ -32,7 +32,7 @@
 			<label>-</label>
 			<font>-</font>
 			<onclick>PreviousMenu</onclick>
-			<texturefocus>DialogCloseButton-focus.png</texturefocus>
+			<texturefocus colordiffuse="theme">DialogCloseButton-focus.png</texturefocus>
 			<texturenofocus>DialogCloseButton.png</texturenofocus>
 			<onleft>1</onleft>
 			<onright>1</onright>
@@ -46,7 +46,7 @@
 			<top>0</top>
 			<width>192</width>
 			<height>192</height>
-			<texturefocus>CalibrateTopLeft.png</texturefocus>
+			<texturefocus colordiffuse="theme">CalibrateTopLeft.png</texturefocus>
 			<texturenofocus>-</texturenofocus>
 		</control>
 		<control type="mover" id="9">
@@ -55,7 +55,7 @@
 			<top>750</top>
 			<width>192</width>
 			<height>192</height>
-			<texturefocus>CalibrateBottomRight.png</texturefocus>
+			<texturefocus colordiffuse="theme">CalibrateBottomRight.png</texturefocus>
 			<texturenofocus>-</texturenofocus>
 		</control>
 		<control type="mover" id="10">
@@ -64,7 +64,7 @@
 			<top>750</top>
 			<width>768</width>
 			<height>192</height>
-			<texturefocus>CalibrateSubtitles.png</texturefocus>
+			<texturefocus colordiffuse="theme">CalibrateSubtitles.png</texturefocus>
 			<texturenofocus>-</texturenofocus>
 		</control>
 		<control type="resize" id="11">
@@ -73,7 +73,7 @@
 			<top>348</top>
 			<width>384</width>
 			<height>384</height>
-			<texturefocus>CalibratePixelRatio.png</texturefocus>
+			<texturefocus colordiffuse="theme">CalibratePixelRatio.png</texturefocus>
 			<texturenofocus>-</texturenofocus>
 		</control>
 		<control type="group">

@@ -28,7 +28,7 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<font>font12_title</font>
-				<textcolor>blue</textcolor>
+				<textcolor>theme</textcolor>
 				<label>$LOCALIZE[21396]</label>
 				<visible>player.chaptercount</visible>
 			</control>
@@ -245,7 +245,7 @@
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>font10_title</font>
-				<textcolor>blue</textcolor>
+				<textcolor>theme</textcolor>
 				<label>$VAR[SeekLabel]</label>
 			</control>
 			<control type="label">
@@ -300,8 +300,8 @@
 				<width>360</width>
 				<height>18</height>
 				<texturesliderbar>seekslider.png</texturesliderbar>
-				<textureslidernib>osd_slider_nib.png</textureslidernib>
-				<textureslidernibfocus>osd_slider_nib.png</textureslidernibfocus>
+				<textureslidernib colordiffuse="theme">osd_slider_nib.png</textureslidernib>
+				<textureslidernibfocus colordiffuse="theme">osd_slider_nib.png</textureslidernibfocus>
 				<visible>Player.Seeking</visible>
 			</control>
 		</control>

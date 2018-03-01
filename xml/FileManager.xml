@@ -28,14 +28,14 @@
 				<top>0</top>
 				<width>915</width>
 				<height>930</height>
-				<texture border="30">ContentPanel.png</texture>
+				<texture border="30" colordiffuse="theme">ContentPanel.png</texture>
 			</control>
 			<control type="image">
 				<left>0</left>
 				<top>918</top>
 				<width>915</width>
 				<height>96</height>
-				<texture border="15">ContentPanelMirror.png</texture>
+				<texture border="15" colordiffuse="theme">ContentPanelMirror.png</texture>
 			</control>
 			<control type="image">
 				<left>765</left>
@@ -44,7 +44,7 @@
 				<height>120</height>
 				<aspectratio>keep</aspectratio>
 				<info>Container(20).ListItem.Icon</info>
-				<bordertexture border="8">button-nofocus.png</bordertexture>
+				<bordertexture border="8" colordiffuse="theme">button-nofocus.png</bordertexture>
 				<bordersize>4</bordersize>
 			</control>
 			<control type="label">
@@ -57,7 +57,7 @@
 				<label>A</label>
 				<align>left</align>
 				<aligny>center</aligny>
-				<textcolor>blue</textcolor>
+				<textcolor>theme</textcolor>
 				<shadowcolor>black</shadowcolor>
 			</control>
 			<control type="label" id="101">
@@ -80,7 +80,7 @@
 				<height>735</height>
 				<texturesliderbackground border="0,21,0,21">ScrollBarV.png</texturesliderbackground>
 				<texturesliderbar border="3,24,3,24">ScrollBarV_bar.png</texturesliderbar>
-				<texturesliderbarfocus border="3,24,3,24">ScrollBarV_bar_focus.png</texturesliderbarfocus>
+				<texturesliderbarfocus border="3,24,3,24" colordiffuse="theme">ScrollBarV_bar_focus.png</texturesliderbarfocus>
 				<textureslidernib>-</textureslidernib>
 				<textureslidernibfocus>-</textureslidernibfocus>
 				<onleft>31</onleft>
@@ -107,7 +107,7 @@
 						<top>0</top>
 						<width>810</width>
 						<height>62</height>
-						<texture border="0,3,0,3">MenuItemNF.png</texture>
+						<texture border="0,3,0,3" colordiffuse="theme">MenuItemNF.png</texture>
 					</control>
 					<control type="label">
 						<left>0</left>
@@ -141,7 +141,7 @@
 						<width>810</width>
 						<height>62</height>
 						<visible>!Control.HasFocus(20)</visible>
-						<texture border="0,3,0,3">MenuItemNF.png</texture>
+						<texture border="0,3,0,3" colordiffuse="theme">MenuItemNF.png</texture>
 					</control>
 					<control type="image">
 						<left>0</left>
@@ -149,14 +149,14 @@
 						<width>810</width>
 						<height>62</height>
 						<visible>Control.HasFocus(20)</visible>
-						<texture border="0,3,0,3">MenuItemFO.png</texture>
+						<texture border="0,3,0,3" colordiffuse="theme">MenuItemFO.png</texture>
 					</control>
 					<control type="image">
 						<left>510</left>
 						<top>8</top>
 						<width>300</width>
 						<height>46</height>
-						<texture border="0,0,21,0">MediaItemDetailBG.png</texture>
+						<texture border="0,0,21,0" colordiffuse="theme">MediaItemDetailBG.png</texture>
 						<visible>Control.HasFocus(20) + !String.IsEmpty(ListItem.Label2)</visible>
 					</control>
 					<control type="label">
@@ -203,14 +203,14 @@
 				<top>0</top>
 				<width>915</width>
 				<height>930</height>
-				<texture border="30">ContentPanel.png</texture>
+				<texture border="30" colordiffuse="theme">ContentPanel.png</texture>
 			</control>
 			<control type="image">
 				<left>0</left>
 				<top>918</top>
 				<width>915</width>
 				<height>96</height>
-				<texture border="15">ContentPanelMirror.png</texture>
+				<texture border="15" colordiffuse="theme">ContentPanelMirror.png</texture>
 			</control>
 			<control type="image">
 				<left>30</left>
@@ -219,7 +219,7 @@
 				<height>120</height>
 				<aspectratio>keep</aspectratio>
 				<info>Container(21).ListItem.Icon</info>
-				<bordertexture border="8">button-nofocus.png</bordertexture>
+				<bordertexture border="8" colordiffuse="theme">button-nofocus.png</bordertexture>
 				<bordersize>4</bordersize>
 			</control>
 			<control type="label">
@@ -232,7 +232,7 @@
 				<label>B</label>
 				<align>right</align>
 				<aligny>center</aligny>
-				<textcolor>blue</textcolor>
+				<textcolor>theme</textcolor>
 				<shadowcolor>black</shadowcolor>
 			</control>
 			<control type="label" id="102">
@@ -255,7 +255,7 @@
 				<height>735</height>
 				<texturesliderbackground border="0,21,0,21">ScrollBarV.png</texturesliderbackground>
 				<texturesliderbar border="3,24,3,24">ScrollBarV_bar.png</texturesliderbar>
-				<texturesliderbarfocus border="3,24,3,24">ScrollBarV_bar_focus.png</texturesliderbarfocus>
+				<texturesliderbarfocus border="3,24,3,24" colordiffuse="theme">ScrollBarV_bar_focus.png</texturesliderbarfocus>
 				<textureslidernib>-</textureslidernib>
 				<textureslidernibfocus>-</textureslidernibfocus>
 				<onleft>21</onleft>
@@ -282,7 +282,7 @@
 						<top>0</top>
 						<width>810</width>
 						<height>62</height>
-						<texture border="0,3,0,3">MenuItemNF.png</texture>
+						<texture border="0,3,0,3" colordiffuse="theme">MenuItemNF.png</texture>
 					</control>
 					<control type="label">
 						<left>0</left>
@@ -316,7 +316,7 @@
 						<width>810</width>
 						<height>62</height>
 						<visible>!Control.HasFocus(21)</visible>
-						<texture border="0,3,0,3">MenuItemNF.png</texture>
+						<texture border="0,3,0,3" colordiffuse="theme">MenuItemNF.png</texture>
 					</control>
 					<control type="image">
 						<left>0</left>
@@ -324,14 +324,14 @@
 						<width>810</width>
 						<height>62</height>
 						<visible>Control.HasFocus(21)</visible>
-						<texture border="0,3,0,3">MenuItemFO.png</texture>
+						<texture border="0,3,0,3" colordiffuse="theme">MenuItemFO.png</texture>
 					</control>
 					<control type="image">
 						<left>510</left>
 						<top>8</top>
 						<width>300</width>
 						<height>46</height>
-						<texture border="0,0,21,0">MediaItemDetailBG.png</texture>
+						<texture border="0,0,21,0" colordiffuse="theme">MediaItemDetailBG.png</texture>
 						<visible>Control.HasFocus(21) + !String.IsEmpty(ListItem.Label2)</visible>
 					</control>
 					<control type="label">
@@ -373,7 +373,7 @@
 				<scroll>true</scroll>
 				<textcolor>grey</textcolor>
 				<shadowcolor>black</shadowcolor>
-				<label>([COLOR=blue]$INFO[Container(20).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=blue]$INFO[Container(20).CurrentPage]/$INFO[Container(20).NumPages][/COLOR])</label>
+				<label>([COLOR=theme]$INFO[Container(20).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=theme]$INFO[Container(20).CurrentPage]/$INFO[Container(20).NumPages][/COLOR])</label>
 			</control>
 			<control type="label">
 				<description>number of files/pages in left list text label</description>
@@ -385,7 +385,7 @@
 				<scroll>true</scroll>
 				<textcolor>grey</textcolor>
 				<shadowcolor>black</shadowcolor>
-				<label>([COLOR=blue]$INFO[Container(21).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=blue]$INFO[Container(21).CurrentPage]/$INFO[Container(21).NumPages][/COLOR])</label>
+				<label>([COLOR=theme]$INFO[Container(21).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=theme]$INFO[Container(21).CurrentPage]/$INFO[Container(21).NumPages][/COLOR])</label>
 			</control>
 		</control>
 		<control type="group" id="10">
@@ -403,7 +403,7 @@
 				<label>1036</label>
 				<font>-</font>
 				<onclick>back</onclick>
-				<texturefocus border="8">floor_buttonFO.png</texturefocus>
+				<texturefocus border="8" colordiffuse="theme">floor_buttonFO.png</texturefocus>
 				<texturenofocus border="8">floor_button.png</texturenofocus>
 				<onleft>50</onleft>
 				<onright>50</onright>
@@ -428,7 +428,7 @@
 				<label>31003</label>
 				<font>-</font>
 				<onclick>ActivateWindow(home)</onclick>
-				<texturefocus border="8">floor_buttonFO.png</texturefocus>
+				<texturefocus border="8" colordiffuse="theme">floor_buttonFO.png</texturefocus>
 				<texturenofocus border="8">floor_button.png</texturenofocus>
 				<onleft>50</onleft>
 				<onright>50</onright>

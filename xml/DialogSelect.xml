@@ -86,7 +86,7 @@
 				<label>-</label>
 				<font>-</font>
 				<onclick>PreviousMenu</onclick>
-				<texturefocus>DialogCloseButton-focus.png</texturefocus>
+				<texturefocus colordiffuse="theme">DialogCloseButton-focus.png</texturefocus>
 				<texturenofocus>DialogCloseButton.png</texturenofocus>
 				<visible>system.getbool(input.enablemouse)</visible>
 			</control>
@@ -107,7 +107,7 @@
 						<top>0</top>
 						<width>825</width>
 						<height>60</height>
-						<texture border="8">button-nofocus.png</texture>
+						<texture border="8" colordiffuse="theme">button-nofocus.png</texture>
 					</control>
 					<control type="label">
 						<left>30</left>
@@ -128,7 +128,7 @@
 						<top>0</top>
 						<width>825</width>
 						<height>60</height>
-						<texture border="8">button-nofocus.png</texture>
+						<texture border="8" colordiffuse="theme">button-nofocus.png</texture>
 						<visible>!Control.HasFocus(3)</visible>
 						<include>VisibleFadeEffect</include>
 					</control>
@@ -137,7 +137,7 @@
 						<top>0</top>
 						<width>825</width>
 						<height>60</height>
-						<texture border="8">button-focus2.png</texture>
+						<texture border="8" colordiffuse="theme">button-focus2.png</texture>
 						<visible>Control.HasFocus(3)</visible>
 						<include>VisibleFadeEffect</include>
 					</control>
@@ -172,7 +172,7 @@
 						<top>0</top>
 						<width>825</width>
 						<height>129</height>
-						<texture border="8">button-nofocus.png</texture>
+						<texture border="8" colordiffuse="theme">button-nofocus.png</texture>
 					</control>
 					<control type="image">
 						<left>3</left>
@@ -214,7 +214,7 @@
 						<top>0</top>
 						<width>825</width>
 						<height>129</height>
-						<texture border="8">button-nofocus.png</texture>
+						<texture border="8" colordiffuse="theme">button-nofocus.png</texture>
 						<visible>!Control.HasFocus(6)</visible>
 						<include>VisibleFadeEffect</include>
 					</control>
@@ -223,7 +223,7 @@
 						<top>0</top>
 						<width>825</width>
 						<height>129</height>
-						<texture border="8">button-focus2.png</texture>
+						<texture border="8" colordiffuse="theme">button-focus2.png</texture>
 						<visible>Control.HasFocus(6)</visible>
 						<include>VisibleFadeEffect</include>
 					</control>
@@ -269,7 +269,7 @@
 				<height>696</height>
 				<texturesliderbackground border="0,21,0,21">ScrollBarV.png</texturesliderbackground>
 				<texturesliderbar border="0,21,0,21">ScrollBarV_bar.png</texturesliderbar>
-				<texturesliderbarfocus border="0,21,0,21">ScrollBarV_bar_focus.png</texturesliderbarfocus>
+				<texturesliderbarfocus border="0,21,0,21" colordiffuse="theme">ScrollBarV_bar_focus.png</texturesliderbarfocus>
 				<textureslidernib>ScrollBarNib.png</textureslidernib>
 				<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 				<onleft condition="Control.IsVisible(3)">3</onleft>

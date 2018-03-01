@@ -31,7 +31,7 @@
 				<width>1725</width>
 				<height>1080</height>
 				<colordiffuse>BBFFFFFF</colordiffuse>
-				<texture border="30,0,0,0" flipx="true">MediaBladeSub.png</texture>
+				<texture border="30,0,0,0" flipx="true" colordiffuse="theme">MediaBladeSub.png</texture>
 			</control>
 			<control type="button">
 				<description>Close Window button</description>
@@ -42,7 +42,7 @@
 				<label>-</label>
 				<font>-</font>
 				<onclick>PreviousMenu</onclick>
-				<texturefocus>DialogCloseButton-focus.png</texturefocus>
+				<texturefocus colordiffuse="theme">DialogCloseButton-focus.png</texturefocus>
 				<texturenofocus>DialogCloseButton.png</texturenofocus>
 				<onleft>101</onleft>
 				<onright>101</onright>
@@ -118,12 +118,12 @@
 					<top>309</top>
 					<width>1200</width>
 					<height>651</height>
-					<onleft>121</onleft>
+					<onleft>60</onleft>
 					<onright>150</onright>
 					<onup>120</onup>
 					<ondown>120</ondown>
 					<viewtype label="535">list</viewtype>
-					<pagecontrol>121</pagecontrol>
+					<pagecontrol>60</pagecontrol>
 					<scrolltime>200</scrolltime>
 					<itemlayout width="1200" height="54">
 						<control type="image">
@@ -131,7 +131,7 @@
 							<top>0</top>
 							<width>1170</width>
 							<height>57</height>
-							<texture>MenuItemNF.png</texture>
+							<texture colordiffuse="theme">MenuItemNF.png</texture>
 						</control>
 						<control type="image">
 							<left>8</left>
@@ -196,14 +196,14 @@
 							<top>0</top>
 							<width>1170</width>
 							<height>57</height>
-							<texture>MenuItemNF.png</texture>
+							<texture colordiffuse="theme">MenuItemNF.png</texture>
 						</control>
 						<control type="image">
 							<left>0</left>
 							<top>0</top>
 							<width>1170</width>
 							<height>57</height>
-							<texture>MenuItemFO.png</texture>
+							<texture colordiffuse="theme">MenuItemFO.png</texture>
 							<visible>Control.HasFocus(120)</visible>
 						</control>
 						<control type="image">
@@ -264,28 +264,20 @@
 						</control>
 					</focusedlayout>
 				</control>
-				<control type="spincontrol" id="121">
-					<description>Next page button</description>
-					<left>1212</left>
-					<top>996</top>
-					<width>30</width>
-					<height>30</height>
-					<font>font13</font>
-					<align>right</align>
-					<aligny>center</aligny>
-					<subtype>page</subtype>
-					<textcolor>white</textcolor>
+				<control type="scrollbar" id="60">
+					<left>0</left>
+					<top>309</top>
+					<width>38</width>
+					<height>651</height>
+					<texturesliderbackground border="0,21,0,21">ScrollBarV.png</texturesliderbackground>
+					<texturesliderbar border="0,21,0,21">ScrollBarV_bar.png</texturesliderbar>
+					<texturesliderbarfocus border="0,21,0,21" colordiffuse="theme">ScrollBarV_bar_focus.png</texturesliderbarfocus>
+					<textureslidernib>ScrollBarNib.png</textureslidernib>
+					<textureslidernibfocus colordiffuse="theme">ScrollBarNib.png</textureslidernibfocus>
 					<onleft>120</onleft>
 					<onright>120</onright>
-					<ondown>120</ondown>
-					<onup>120</onup>
-					<textoffsetx>15</textoffsetx>
-					<textureup>scroll-up.png</textureup>
-					<texturedown>scroll-down.png</texturedown>
-					<textureupfocus>scroll-up-focus.png</textureupfocus>
-					<texturedownfocus>scroll-down-focus.png</texturedownfocus>
 					<showonepage>false</showonepage>
-					<visible>Control.IsVisible(120)</visible>
+					<orientation>vertical</orientation>
 				</control>
 				<control type="group" id="130">
 					<control type="grouplist">
@@ -316,7 +308,8 @@
 					<top>522</top>
 					<width>36</width>
 					<height>36</height>
-					<texture>scroll-right-focus.png</texture>
+					<texture colordiffuse="theme">scroll-right-focus.png</texture>
+					<visible>IntegerGreaterThan(Container(150).NumItems,1)</visible>
 				</control>
 			</control>
 			<control type="group">
@@ -338,7 +331,7 @@
 					<font>font13</font>
 					<align>center</align>
 					<aligny>top</aligny>
-					<textcolor>blue</textcolor>
+					<textcolor>theme</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<wrapmultiline>true</wrapmultiline>
 				</control>
@@ -367,7 +360,7 @@
 							<top>0</top>
 							<width>345</width>
 							<height>57</height>
-							<texture>MenuItemNF.png</texture>
+							<texture colordiffuse="theme">MenuItemNF.png</texture>
 						</control>
 						<control type="label">
 							<left>60</left>
@@ -388,14 +381,14 @@
 							<top>0</top>
 							<width>345</width>
 							<height>57</height>
-							<texture>MenuItemNF.png</texture>
+							<texture colordiffuse="theme">MenuItemNF.png</texture>
 						</control>
 						<control type="image">
 							<left>15</left>
 							<top>0</top>
 							<width>345</width>
 							<height>57</height>
-							<texture>MenuItemFO.png</texture>
+							<texture colordiffuse="theme">MenuItemFO.png</texture>
 							<visible>Control.HasFocus(150)</visible>
 						</control>
 						<control type="label">

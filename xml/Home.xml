@@ -92,7 +92,7 @@
 				<height>442</height>
 				<aspectratio aligny="bottom">keep</aspectratio>
 				<texture fallback="DefaultAlbumCover.png">$INFO[Player.Art(thumb)]</texture>
-				<bordertexture border="12">ThumbBorder.png</bordertexture>
+				<bordertexture border="12" colordiffuse="theme">ThumbBorder.png</bordertexture>
 				<bordersize>8</bordersize>
 			</control>
 			<control type="label">
@@ -127,7 +127,7 @@
 				<top>465</top>
 				<height>45</height>
 				<width>450</width>
-				<label>$INFO[Player.Time]$INFO[Player.Duration,[COLOR=blue] / [/COLOR]]</label>
+				<label>$INFO[Player.Time]$INFO[Player.Duration,[COLOR=theme] / [/COLOR]]</label>
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>font12</font>
@@ -163,7 +163,7 @@
 					<height>120</height>
 					<aspectratio>keep</aspectratio>
 					<texture background="true" fallback="DefaultVideoCover.png">$INFO[PVR.NextRecordingChannelIcon]</texture>
-					<bordertexture border="12">ThumbBorder.png</bordertexture>
+					<bordertexture border="12" colordiffuse="theme">ThumbBorder.png</bordertexture>
 					<bordersize>6</bordersize>
 				</control>
 				<control type="image">
@@ -184,7 +184,7 @@
 					<align>right</align>
 					<aligny>center</aligny>
 					<font>font12_title</font>
-					<textcolor>blue</textcolor>
+					<textcolor>theme</textcolor>
 					<shadowcolor>black</shadowcolor>
 				</control>
 				<control type="label">
@@ -206,7 +206,7 @@
 					<top>75</top>
 					<height>38</height>
 					<width>1200</width>
-					<label>$INFO[PVR.NextRecordingTitle][COLOR=grey]$INFO[PVR.NextRecordingChannel, - [COLOR=blue]([/COLOR],[COLOR=blue])[/COLOR]][/COLOR]</label>
+					<label>$INFO[PVR.NextRecordingTitle][COLOR=grey]$INFO[PVR.NextRecordingChannel, - [COLOR=theme]([/COLOR],[COLOR=theme])[/COLOR]][/COLOR]</label>
 					<align>right</align>
 					<aligny>center</aligny>
 					<font>font12_title</font>
@@ -230,7 +230,7 @@
 					<height>120</height>
 					<aspectratio>keep</aspectratio>
 					<texture background="true" fallback="DefaultVideoCover.png">$INFO[PVR.NowRecordingChannelIcon]</texture>
-					<bordertexture border="12">ThumbBorder.png</bordertexture>
+					<bordertexture border="12" colordiffuse="theme">ThumbBorder.png</bordertexture>
 					<bordersize>6</bordersize>
 				</control>
 				<control type="image">
@@ -251,7 +251,7 @@
 					<align>right</align>
 					<aligny>center</aligny>
 					<font>font12_title</font>
-					<textcolor>blue</textcolor>
+					<textcolor>theme</textcolor>
 					<shadowcolor>black</shadowcolor>
 				</control>
 				<control type="label">
@@ -273,7 +273,7 @@
 					<top>75</top>
 					<height>45</height>
 					<width>1200</width>
-					<label>$INFO[PVR.NowRecordingTitle][COLOR=grey]$INFO[PVR.NowRecordingChannel, - [COLOR=blue]([/COLOR],[COLOR=blue])[/COLOR]][/COLOR]</label>
+					<label>$INFO[PVR.NowRecordingTitle][COLOR=grey]$INFO[PVR.NowRecordingChannel, - [COLOR=theme]([/COLOR],[COLOR=theme])[/COLOR]][/COLOR]</label>
 					<align>right</align>
 					<aligny>center</aligny>
 					<font>font12_title</font>
@@ -302,7 +302,7 @@
 					<height>450</height>
 					<aspectratio aligny="bottom">keep</aspectratio>
 					<texture fallback="DefaultVideoCover.png">$INFO[Player.Art(thumb)]</texture>
-					<bordertexture border="12">ThumbBorder.png</bordertexture>
+					<bordertexture border="12" colordiffuse="theme">ThumbBorder.png</bordertexture>
 					<bordersize>8</bordersize>
 				</control>
 				<control type="label">
@@ -324,7 +324,7 @@
 					<top>465</top>
 					<height>45</height>
 					<width>450</width>
-					<label>$INFO[Player.Time]$INFO[Player.Duration,[COLOR=blue] / [/COLOR]]</label>
+					<label>$INFO[Player.Time]$INFO[Player.Duration,[COLOR=theme] / [/COLOR]]</label>
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>font12</font>
@@ -342,7 +342,7 @@
 					<height>450</height>
 					<aspectratio aligny="bottom">keep</aspectratio>
 					<texture fallback="DefaultVideoCover.png">$INFO[Player.Art(thumb)]</texture>
-					<bordertexture border="12">ThumbBorder.png</bordertexture>
+					<bordertexture border="12" colordiffuse="theme">ThumbBorder.png</bordertexture>
 					<bordersize>8</bordersize>
 				</control>
 				<control type="label">
@@ -377,7 +377,7 @@
 					<top>465</top>
 					<height>45</height>
 					<width>450</width>
-					<label>$INFO[Player.Time]$INFO[Player.Duration,[COLOR=blue] / [/COLOR]]</label>
+					<label>$INFO[Player.Time]$INFO[Player.Duration,[COLOR=theme] / [/COLOR]]</label>
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>font12</font>
@@ -395,7 +395,7 @@
 					<height>450</height>
 					<aspectratio aligny="bottom">keep</aspectratio>
 					<texture fallback="DefaultVideoCover.png">$INFO[Player.Art(thumb)]</texture>
-					<bordertexture border="12">ThumbBorder.png</bordertexture>
+					<bordertexture border="12" colordiffuse="theme">ThumbBorder.png</bordertexture>
 					<bordersize>8</bordersize>
 				</control>
 				<control type="label">
@@ -430,7 +430,7 @@
 					<top>465</top>
 					<height>45</height>
 					<width>450</width>
-					<label>$INFO[Player.Time]$INFO[Player.Duration,[COLOR=blue] / [/COLOR]]</label>
+					<label>$INFO[Player.Time]$INFO[Player.Duration,[COLOR=theme] / [/COLOR]]</label>
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>font12</font>
@@ -448,7 +448,7 @@
 					<height>180</height>
 					<aspectratio>scale</aspectratio>
 					<texture fallback="DefaultVideoCover.png">$INFO[Player.Art(thumb)]</texture>
-					<bordertexture border="12">ThumbBorder.png</bordertexture>
+					<bordertexture border="12" colordiffuse="theme">ThumbBorder.png</bordertexture>
 					<bordersize>8</bordersize>
 				</control>
 				<control type="label">
@@ -483,7 +483,7 @@
 					<top>465</top>
 					<height>45</height>
 					<width>450</width>
-					<label>$INFO[Player.Time]$INFO[Player.Duration,[COLOR=blue] / [/COLOR]]</label>
+					<label>$INFO[Player.Time]$INFO[Player.Duration,[COLOR=theme] / [/COLOR]]</label>
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>font12</font>
@@ -550,7 +550,7 @@
 				<font>font12</font>
 				<textcolor>grey2</textcolor>
 				<focusedcolor>white</focusedcolor>
-				<texturefocus flipy="true" border="8">HomeSubFO.png</texturefocus>
+				<texturefocus flipy="true" border="8" colordiffuse="theme">HomeSubFO.png</texturefocus>
 				<texturenofocus flipy="true" border="8">HomeSubNF.png</texturenofocus>
 				<pulseonselect>false</pulseonselect>
 				<label>137</label>
@@ -781,7 +781,7 @@
 				<font>font12</font>
 				<textcolor>grey2</textcolor>
 				<focusedcolor>white</focusedcolor>
-				<texturefocus flipy="true" border="8">HomeSubFO.png</texturefocus>
+				<texturefocus flipy="true" border="8" colordiffuse="theme">HomeSubFO.png</texturefocus>
 				<texturenofocus flipy="true" border="8">HomeSubNF.png</texturenofocus>
 				<pulseonselect>false</pulseonselect>
 				<label>31008</label>
@@ -912,14 +912,14 @@
 					<top>0</top>
 					<width>2220</width>
 					<height>112</height>
-					<texture border="0,9,0,9">HomeBack.png</texture>
+					<texture border="0,9,0,9" colordiffuse="theme">HomeBack.png</texture>
 				</control>
 				<control type="image">
 					<left>0</left>
 					<top>8</top>
 					<width>1920</width>
 					<height>9</height>
-					<texture>HomeOverlay1.png</texture>
+					<texture colordiffuse="theme">HomeOverlay1.png</texture>
 				</control>
 				<control type="fixedlist" id="9000">
 					<left>-290</left>
@@ -967,7 +967,7 @@
 							<width>485</width>
 							<height>90</height>
 							<font>font_MainMenu</font>
-							<textcolor>blue</textcolor>
+							<textcolor>theme</textcolor>
 							<align>center</align>
 							<aligny>center</aligny>
 							<label>$INFO[ListItem.Label]</label>
@@ -1224,8 +1224,8 @@
 				<width>1718</width>
 				<font>font12</font>
 				<urlset>1</urlset>
-				<textcolor>blue</textcolor>
-				<titlecolor>blue</titlecolor>
+				<textcolor>theme</textcolor>
+				<titlecolor>theme</titlecolor>
 				<headlinecolor>white</headlinecolor>
 			</control>
 			<control type="image">
@@ -1253,7 +1253,7 @@
 				<label>31003</label>
 				<font>-</font>
 				<onclick>ActivateWindow(ShutdownMenu)</onclick>
-				<texturefocus border="8">floor_buttonFO.png</texturefocus>
+				<texturefocus border="8" colordiffuse="theme">floor_buttonFO.png</texturefocus>
 				<texturenofocus border="8">floor_button.png</texturenofocus>
 				<onleft>21</onleft>
 				<onright>21</onright>
@@ -1278,7 +1278,7 @@
 				<label>1036</label>
 				<font>-</font>
 				<onclick>ActivateWindow(Favourites)</onclick>
-				<texturefocus border="8">floor_buttonFO.png</texturefocus>
+				<texturefocus border="8" colordiffuse="theme">floor_buttonFO.png</texturefocus>
 				<texturenofocus border="8">floor_button.png</texturenofocus>
 				<onleft>20</onleft>
 				<onright>20</onright>

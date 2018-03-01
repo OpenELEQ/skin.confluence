@@ -58,7 +58,7 @@
 							<top>0</top>
 							<width>256</width>
 							<height>330</height>
-							<texture border="22">RecentAddedBack.png</texture>
+							<texture border="22" colordiffuse="theme">RecentAddedBack.png</texture>
 						</control>
 						<control type="image">
 							<left>15</left>
@@ -67,7 +67,7 @@
 							<height>255</height>
 							<texture background="true">$INFO[ListItem.Icon]</texture>
 							<aspectratio>keep</aspectratio>
-							<bordertexture border="8">button-nofocus.png</bordertexture>
+							<bordertexture border="8" colordiffuse="theme">button-nofocus.png</bordertexture>
 							<bordersize>8</bordersize>
 						</control>
 						<control type="label">
@@ -91,7 +91,7 @@
 							<top>0</top>
 							<width>256</width>
 							<height>330</height>
-							<texture border="22">RecentAddedBack.png</texture>
+							<texture border="22" colordiffuse="theme">RecentAddedBack.png</texture>
 						</control>
 						<control type="image">
 							<left>15</left>
@@ -100,7 +100,7 @@
 							<height>255</height>
 							<texture background="true">$INFO[ListItem.Icon]</texture>
 							<aspectratio>keep</aspectratio>
-							<bordertexture border="8">folder-focus.png</bordertexture>
+							<bordertexture border="8" colordiffuse="theme">folder-focus.png</bordertexture>
 							<bordersize>8</bordersize>
 							<visible>Control.HasFocus(8000)</visible>
 						</control>
@@ -111,7 +111,7 @@
 							<height>255</height>
 							<texture>$INFO[ListItem.Icon]</texture>
 							<aspectratio>keep</aspectratio>
-							<bordertexture border="8">button-nofocus.png</bordertexture>
+							<bordertexture border="8" colordiffuse="theme">button-nofocus.png</bordertexture>
 							<bordersize>8</bordersize>
 							<visible>!Control.HasFocus(8000)</visible>
 						</control>
@@ -135,7 +135,7 @@
 							<width>212</width>
 							<height>30</height>
 							<font>font12</font>
-							<textcolor>blue</textcolor>
+							<textcolor>theme</textcolor>
 							<selectedcolor>selected</selectedcolor>
 							<align>center</align>
 							<aligny>center</aligny>
@@ -171,7 +171,7 @@
 							<top>2</top>
 							<width>52</width>
 							<height>52</height>
-							<texture>RecentAddedBack.png</texture>
+							<texture colordiffuse="theme">RecentAddedBack.png</texture>
 						</control>
 						<control type="label">
 							<left>6</left>
@@ -194,7 +194,7 @@
 							<top>2</top>
 							<width>52</width>
 							<height>52</height>
-							<texture diffuse="selected">RecentAddedBack.png</texture>
+							<texture diffuse="selected" colordiffuse="theme">RecentAddedBack.png</texture>
 						</control>
 						<control type="label">
 							<left>6</left>
@@ -202,7 +202,7 @@
 							<width>44</width>
 							<height>44</height>
 							<font>font30</font>
-							<textcolor>blue</textcolor>
+							<textcolor>theme</textcolor>
 							<selectedcolor>selected</selectedcolor>
 							<align>center</align>
 							<aligny>center</aligny>
@@ -311,7 +311,7 @@
 							<top>0</top>
 							<width>360</width>
 							<height>330</height>
-							<texture border="22">RecentAddedBack.png</texture>
+							<texture border="22" colordiffuse="theme">RecentAddedBack.png</texture>
 						</control>
 						<control type="image">
 							<left>15</left>
@@ -320,7 +320,7 @@
 							<height>232</height>
 							<aspectratio>scale</aspectratio>
 							<texture background="true">$INFO[ListItem.Icon]</texture>
-							<bordertexture border="8">button-nofocus.png</bordertexture>
+							<bordertexture border="8" colordiffuse="theme">button-nofocus.png</bordertexture>
 							<bordersize>8</bordersize>
 						</control>
 						<control type="label">
@@ -357,7 +357,7 @@
 							<top>0</top>
 							<width>360</width>
 							<height>330</height>
-							<texture border="22">RecentAddedBack.png</texture>
+							<texture border="22" colordiffuse="theme">RecentAddedBack.png</texture>
 						</control>
 						<control type="image">
 							<left>15</left>
@@ -366,7 +366,7 @@
 							<height>232</height>
 							<aspectratio>scale</aspectratio>
 							<texture background="true">$INFO[ListItem.Icon]</texture>
-							<bordertexture border="8">folder-focus.png</bordertexture>
+							<bordertexture border="8" colordiffuse="theme">folder-focus.png</bordertexture>
 							<bordersize>8</bordersize>
 							<visible>Control.HasFocus(8001)</visible>
 						</control>
@@ -377,7 +377,7 @@
 							<height>232</height>
 							<aspectratio>scale</aspectratio>
 							<texture>$INFO[ListItem.Icon]</texture>
-							<bordertexture border="8">button-nofocus.png</bordertexture>
+							<bordertexture border="8" colordiffuse="theme">button-nofocus.png</bordertexture>
 							<bordersize>8</bordersize>
 							<visible>!Control.HasFocus(8001)</visible>
 						</control>
@@ -414,7 +414,7 @@
 							<width>300</width>
 							<height>30</height>
 							<font>font12</font>
-							<textcolor>blue</textcolor>
+							<textcolor>theme</textcolor>
 							<selectedcolor>selected</selectedcolor>
 							<align>center</align>
 							<aligny>center</aligny>
@@ -450,7 +450,7 @@
 							<top>2</top>
 							<width>52</width>
 							<height>52</height>
-							<texture>RecentAddedBack.png</texture>
+							<texture colordiffuse="theme">RecentAddedBack.png</texture>
 						</control>
 						<control type="label">
 							<left>6</left>
@@ -473,7 +473,7 @@
 							<top>2</top>
 							<width>52</width>
 							<height>52</height>
-							<texture diffuse="selected">RecentAddedBack.png</texture>
+							<texture diffuse="selected" colordiffuse="theme">RecentAddedBack.png</texture>
 						</control>
 						<control type="label">
 							<left>6</left>
@@ -481,7 +481,7 @@
 							<width>44</width>
 							<height>44</height>
 							<font>font30</font>
-							<textcolor>blue</textcolor>
+							<textcolor>theme</textcolor>
 							<selectedcolor>selected</selectedcolor>
 							<align>center</align>
 							<aligny>center</aligny>
@@ -592,7 +592,7 @@
 							<top>0</top>
 							<width>300</width>
 							<height>330</height>
-							<texture border="22">RecentAddedBack.png</texture>
+							<texture border="22" colordiffuse="theme">RecentAddedBack.png</texture>
 						</control>
 						<control type="image">
 							<left>15</left>
@@ -601,7 +601,7 @@
 							<height>232</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Icon]</texture>
-							<bordertexture border="8">button-nofocus.png</bordertexture>
+							<bordertexture border="8" colordiffuse="theme">button-nofocus.png</bordertexture>
 							<bordersize>8</bordersize>
 						</control>
 						<control type="label">
@@ -638,7 +638,7 @@
 							<top>0</top>
 							<width>300</width>
 							<height>330</height>
-							<texture border="22">RecentAddedBack.png</texture>
+							<texture border="22" colordiffuse="theme">RecentAddedBack.png</texture>
 						</control>
 						<control type="image">
 							<left>15</left>
@@ -647,7 +647,7 @@
 							<height>232</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Icon]</texture>
-							<bordertexture border="8">folder-focus.png</bordertexture>
+							<bordertexture border="8" colordiffuse="theme">folder-focus.png</bordertexture>
 							<bordersize>8</bordersize>
 							<visible>Control.HasFocus(8002)</visible>
 						</control>
@@ -658,7 +658,7 @@
 							<height>232</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Icon]</texture>
-							<bordertexture border="8">button-nofocus.png</bordertexture>
+							<bordertexture border="8" colordiffuse="theme">button-nofocus.png</bordertexture>
 							<bordersize>8</bordersize>
 							<visible>!Control.HasFocus(8002)</visible>
 						</control>
@@ -695,7 +695,7 @@
 							<width>270</width>
 							<height>30</height>
 							<font>font12</font>
-							<textcolor>blue</textcolor>
+							<textcolor>theme</textcolor>
 							<selectedcolor>selected</selectedcolor>
 							<align>center</align>
 							<aligny>center</aligny>
@@ -731,7 +731,7 @@
 							<top>2</top>
 							<width>52</width>
 							<height>52</height>
-							<texture>RecentAddedBack.png</texture>
+							<texture colordiffuse="theme">RecentAddedBack.png</texture>
 						</control>
 						<control type="label">
 							<left>6</left>
@@ -754,7 +754,7 @@
 							<top>2</top>
 							<width>52</width>
 							<height>52</height>
-							<texture diffuse="selected">RecentAddedBack.png</texture>
+							<texture diffuse="selected" colordiffuse="theme">RecentAddedBack.png</texture>
 						</control>
 						<control type="label">
 							<left>6</left>
@@ -762,7 +762,7 @@
 							<width>44</width>
 							<height>44</height>
 							<font>font30</font>
-							<textcolor>blue</textcolor>
+							<textcolor>theme</textcolor>
 							<selectedcolor>selected</selectedcolor>
 							<align>center</align>
 							<aligny>center</aligny>
@@ -883,7 +883,7 @@
 							<top>0</top>
 							<width>360</width>
 							<height>330</height>
-							<texture border="22">RecentAddedBack.png</texture>
+							<texture border="22" colordiffuse="theme">RecentAddedBack.png</texture>
 						</control>
 						<control type="image">
 							<left>15</left>
@@ -892,7 +892,7 @@
 							<height>232</height>
 							<aspectratio>scale</aspectratio>
 							<texture background="true">$INFO[ListItem.Icon]</texture>
-							<bordertexture border="8">button-nofocus.png</bordertexture>
+							<bordertexture border="8" colordiffuse="theme">button-nofocus.png</bordertexture>
 							<bordersize>8</bordersize>
 						</control>
 						<control type="label">
@@ -929,7 +929,7 @@
 							<top>0</top>
 							<width>360</width>
 							<height>330</height>
-							<texture border="22">RecentAddedBack.png</texture>
+							<texture border="22" colordiffuse="theme">RecentAddedBack.png</texture>
 						</control>
 						<control type="image">
 							<left>15</left>
@@ -938,7 +938,7 @@
 							<height>232</height>
 							<aspectratio>scale</aspectratio>
 							<texture background="true">$INFO[ListItem.Icon]</texture>
-							<bordertexture border="8">folder-focus.png</bordertexture>
+							<bordertexture border="8" colordiffuse="theme">folder-focus.png</bordertexture>
 							<bordersize>8</bordersize>
 							<visible>Control.HasFocus(8004)</visible>
 						</control>
@@ -949,7 +949,7 @@
 							<height>232</height>
 							<aspectratio>scale</aspectratio>
 							<texture>$INFO[ListItem.Icon]</texture>
-							<bordertexture border="8">button-nofocus.png</bordertexture>
+							<bordertexture border="8" colordiffuse="theme">button-nofocus.png</bordertexture>
 							<bordersize>8</bordersize>
 							<visible>!Control.HasFocus(8004)</visible>
 						</control>
@@ -986,7 +986,7 @@
 							<width>300</width>
 							<height>30</height>
 							<font>font12</font>
-							<textcolor>blue</textcolor>
+							<textcolor>theme</textcolor>
 							<selectedcolor>selected</selectedcolor>
 							<align>center</align>
 							<aligny>center</aligny>
@@ -1022,7 +1022,7 @@
 							<top>2</top>
 							<width>52</width>
 							<height>52</height>
-							<texture>RecentAddedBack.png</texture>
+							<texture colordiffuse="theme">RecentAddedBack.png</texture>
 						</control>
 						<control type="label">
 							<left>6</left>
@@ -1045,7 +1045,7 @@
 							<top>2</top>
 							<width>52</width>
 							<height>52</height>
-							<texture diffuse="selected">RecentAddedBack.png</texture>
+							<texture diffuse="selected" colordiffuse="theme">RecentAddedBack.png</texture>
 						</control>
 						<control type="label">
 							<left>6</left>
@@ -1053,7 +1053,7 @@
 							<width>44</width>
 							<height>44</height>
 							<font>font30</font>
-							<textcolor>blue</textcolor>
+							<textcolor>theme</textcolor>
 							<selectedcolor>selected</selectedcolor>
 							<align>center</align>
 							<aligny>center</aligny>
@@ -1116,7 +1116,7 @@
 							<top>0</top>
 							<width>256</width>
 							<height>330</height>
-							<texture border="22">RecentAddedBack.png</texture>
+							<texture border="22" colordiffuse="theme">RecentAddedBack.png</texture>
 						</control>
 						<control type="image">
 							<left>15</left>
@@ -1125,7 +1125,7 @@
 							<height>255</height>
 							<texture background="true">$INFO[ListItem.Icon]</texture>
 							<aspectratio>keep</aspectratio>
-							<bordertexture border="8">button-nofocus.png</bordertexture>
+							<bordertexture border="8" colordiffuse="theme">button-nofocus.png</bordertexture>
 							<bordersize>8</bordersize>
 						</control>
 						<control type="label">
@@ -1149,7 +1149,7 @@
 							<top>0</top>
 							<width>256</width>
 							<height>330</height>
-							<texture border="22">RecentAddedBack.png</texture>
+							<texture border="22" colordiffuse="theme">RecentAddedBack.png</texture>
 						</control>
 						<control type="image">
 							<left>15</left>
@@ -1158,7 +1158,7 @@
 							<height>255</height>
 							<texture background="true">$INFO[ListItem.Icon]</texture>
 							<aspectratio>keep</aspectratio>
-							<bordertexture border="8">folder-focus.png</bordertexture>
+							<bordertexture border="8" colordiffuse="theme">folder-focus.png</bordertexture>
 							<bordersize>8</bordersize>
 							<visible>Control.HasFocus(8003)</visible>
 						</control>
@@ -1169,7 +1169,7 @@
 							<height>255</height>
 							<texture>$INFO[ListItem.Icon]</texture>
 							<aspectratio>keep</aspectratio>
-							<bordertexture border="8">button-nofocus.png</bordertexture>
+							<bordertexture border="8" colordiffuse="theme">button-nofocus.png</bordertexture>
 							<bordersize>8</bordersize>
 							<visible>!Control.HasFocus(8003)</visible>
 						</control>
@@ -1193,7 +1193,7 @@
 							<width>212</width>
 							<height>30</height>
 							<font>font12</font>
-							<textcolor>blue</textcolor>
+							<textcolor>theme</textcolor>
 							<selectedcolor>selected</selectedcolor>
 							<align>center</align>
 							<aligny>center</aligny>
@@ -1229,7 +1229,7 @@
 							<top>2</top>
 							<width>52</width>
 							<height>52</height>
-							<texture>RecentAddedBack.png</texture>
+							<texture colordiffuse="theme">RecentAddedBack.png</texture>
 						</control>
 						<control type="label">
 							<left>6</left>
@@ -1252,7 +1252,7 @@
 							<top>2</top>
 							<width>52</width>
 							<height>52</height>
-							<texture diffuse="selected">RecentAddedBack.png</texture>
+							<texture diffuse="selected" colordiffuse="theme">RecentAddedBack.png</texture>
 						</control>
 						<control type="label">
 							<left>6</left>
@@ -1260,7 +1260,7 @@
 							<width>44</width>
 							<height>44</height>
 							<font>font30</font>
-							<textcolor>blue</textcolor>
+							<textcolor>theme</textcolor>
 							<selectedcolor>selected</selectedcolor>
 							<align>center</align>
 							<aligny>center</aligny>
@@ -1393,7 +1393,7 @@
 							<top>0</top>
 							<width>360</width>
 							<height>330</height>
-							<texture border="22">RecentAddedBack.png</texture>
+							<texture border="22" colordiffuse="theme">RecentAddedBack.png</texture>
 						</control>
 						<control type="image">
 							<left>15</left>
@@ -1402,7 +1402,7 @@
 							<height>232</height>
 							<aspectratio>scale</aspectratio>
 							<texture background="true">$INFO[ListItem.Icon]</texture>
-							<bordertexture border="8">button-nofocus.png</bordertexture>
+							<bordertexture border="8" colordiffuse="theme">button-nofocus.png</bordertexture>
 							<bordersize>8</bordersize>
 						</control>
 						<control type="label">
@@ -1439,7 +1439,7 @@
 							<top>0</top>
 							<width>360</width>
 							<height>330</height>
-							<texture border="22">RecentAddedBack.png</texture>
+							<texture border="22" colordiffuse="theme">RecentAddedBack.png</texture>
 						</control>
 						<control type="image">
 							<left>15</left>
@@ -1448,7 +1448,7 @@
 							<height>232</height>
 							<aspectratio>scale</aspectratio>
 							<texture background="true">$INFO[ListItem.Icon]</texture>
-							<bordertexture border="8">folder-focus.png</bordertexture>
+							<bordertexture border="8" colordiffuse="theme">folder-focus.png</bordertexture>
 							<bordersize>8</bordersize>
 							<visible>Control.HasFocus(8005)</visible>
 						</control>
@@ -1459,7 +1459,7 @@
 							<height>232</height>
 							<aspectratio>scale</aspectratio>
 							<texture>$INFO[ListItem.Icon]</texture>
-							<bordertexture border="8">button-nofocus.png</bordertexture>
+							<bordertexture border="8" colordiffuse="theme">button-nofocus.png</bordertexture>
 							<bordersize>8</bordersize>
 							<visible>!Control.HasFocus(8005)</visible>
 						</control>
@@ -1496,7 +1496,7 @@
 							<width>300</width>
 							<height>30</height>
 							<font>font12</font>
-							<textcolor>blue</textcolor>
+							<textcolor>theme</textcolor>
 							<selectedcolor>selected</selectedcolor>
 							<align>center</align>
 							<aligny>center</aligny>
@@ -1532,7 +1532,7 @@
 							<top>2</top>
 							<width>52</width>
 							<height>52</height>
-							<texture>RecentAddedBack.png</texture>
+							<texture colordiffuse="theme">RecentAddedBack.png</texture>
 						</control>
 						<control type="label">
 							<left>6</left>
@@ -1555,7 +1555,7 @@
 							<top>2</top>
 							<width>52</width>
 							<height>52</height>
-							<texture diffuse="selected">RecentAddedBack.png</texture>
+							<texture diffuse="selected" colordiffuse="theme">RecentAddedBack.png</texture>
 						</control>
 						<control type="label">
 							<left>6</left>
@@ -1563,7 +1563,7 @@
 							<width>44</width>
 							<height>44</height>
 							<font>font30</font>
-							<textcolor>blue</textcolor>
+							<textcolor>theme</textcolor>
 							<selectedcolor>selected</selectedcolor>
 							<align>center</align>
 							<aligny>center</aligny>
@@ -1674,7 +1674,7 @@
 							<top>0</top>
 							<width>256</width>
 							<height>330</height>
-							<texture border="22">RecentAddedBack.png</texture>
+							<texture border="22" colordiffuse="theme">RecentAddedBack.png</texture>
 						</control>
 						<control type="label">
 							<visible>String.IsEqual(Listitem.Icon,Listitem.Label) | String.IsEmpty(Listitem.Icon)</visible>
@@ -1697,7 +1697,7 @@
 							<height>100</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Icon]</texture>
-							<bordertexture border="8">button-nofocus.png</bordertexture>
+							<bordertexture border="8" colordiffuse="theme">button-nofocus.png</bordertexture>
 							<bordersize>8</bordersize>
 						</control>
 						<control type="progress">
@@ -1745,7 +1745,7 @@
 							<height>232</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Icon]</texture>
-							<bordertexture border="8">button-nofocus.png</bordertexture>
+							<bordertexture border="8" colordiffuse="theme">button-nofocus.png</bordertexture>
 							<bordersize>8</bordersize>
 						</control>
 						<control type="label">
@@ -1770,7 +1770,7 @@
 							<top>0</top>
 							<width>256</width>
 							<height>330</height>
-							<texture border="22">RecentAddedBack.png</texture>
+							<texture border="22" colordiffuse="theme">RecentAddedBack.png</texture>
 						</control>
 						<control type="image">
 							<visible>[!String.IsEqual(Listitem.Icon,Listitem.Label) + !String.IsEmpty(Listitem.Icon)] + !Control.HasFocus(8006) + !String.IsEmpty(Listitem.Title)</visible>
@@ -1780,7 +1780,7 @@
 							<height>100</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Icon]</texture>
-							<bordertexture border="8">button-nofocus.png</bordertexture>
+							<bordertexture border="8" colordiffuse="theme">button-nofocus.png</bordertexture>
 							<bordersize>8</bordersize>
 						</control>
 						<control type="image">
@@ -1791,7 +1791,7 @@
 							<height>100</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Icon]</texture>
-							<bordertexture border="8">folder-focus.png</bordertexture>
+							<bordertexture border="8" colordiffuse="theme">folder-focus.png</bordertexture>
 							<bordersize>8</bordersize>
 						</control>
 						<control type="label">
@@ -1814,7 +1814,7 @@
 							<width>226</width>
 							<height>30</height>
 							<font>font14</font>
-							<textcolor>blue</textcolor>
+							<textcolor>theme</textcolor>
 							<shadowcolor>black</shadowcolor>
 							<selectedcolor>white</selectedcolor>
 							<label>$INFO[Listitem.Label]</label>
@@ -1826,7 +1826,7 @@
 							<top>120</top>
 							<width>226</width>
 							<height>9</height>
-							<colordiffuse>blue</colordiffuse>
+							<colordiffuse>theme</colordiffuse>
 							<visible>ListItem.HasEpg</visible>
 							<info>ListItem.Progress</info>
 							<visible>Control.HasFocus(8006)</visible>
@@ -1880,7 +1880,7 @@
 							<font>font12</font>
 							<textcolor>white</textcolor>
 							<shadowcolor>black</shadowcolor>
-							<selectedcolor>blue</selectedcolor>
+							<selectedcolor>theme</selectedcolor>
 							<align>center</align>
 							<aligny>center</aligny>
 							<label>$INFO[ListItem.Title]</label>
@@ -1892,8 +1892,8 @@
 							<width>226</width>
 							<height>30</height>
 							<font>font12</font>
-							<textcolor>blue</textcolor>
-							<selectedcolor>blue</selectedcolor>
+							<textcolor>theme</textcolor>
+							<selectedcolor>theme</selectedcolor>
 							<align>center</align>
 							<aligny>center</aligny>
 							<label>$INFO[ListItem.Title]</label>
@@ -1907,7 +1907,7 @@
 							<height>232</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Icon]</texture>
-							<bordertexture border="8">button-nofocus.png</bordertexture>
+							<bordertexture border="8" colordiffuse="theme">button-nofocus.png</bordertexture>
 							<bordersize>8</bordersize>
 						</control>
 						<control type="image">
@@ -1918,7 +1918,7 @@
 							<height>232</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Icon]</texture>
-							<bordertexture border="8">folder-focus.png</bordertexture>
+							<bordertexture border="8" colordiffuse="theme">folder-focus.png</bordertexture>
 							<bordersize>8</bordersize>
 						</control>
 						<control type="label">
@@ -1942,7 +1942,7 @@
 							<width>226</width>
 							<height>30</height>
 							<font>font12</font>
-							<textcolor>blue</textcolor>
+							<textcolor>theme</textcolor>
 							<shadowcolor>black</shadowcolor>
 							<selectedcolor>white</selectedcolor>
 							<align>center</align>
@@ -1978,7 +1978,7 @@
 							<top>2</top>
 							<width>52</width>
 							<height>52</height>
-							<texture>RecentAddedBack.png</texture>
+							<texture colordiffuse="theme">RecentAddedBack.png</texture>
 						</control>
 						<control type="label">
 							<left>6</left>
@@ -2001,7 +2001,7 @@
 							<top>2</top>
 							<width>52</width>
 							<height>52</height>
-							<texture diffuse="selected">RecentAddedBack.png</texture>
+							<texture diffuse="selected" colordiffuse="theme">RecentAddedBack.png</texture>
 						</control>
 						<control type="label">
 							<left>6</left>
@@ -2009,7 +2009,7 @@
 							<width>44</width>
 							<height>44</height>
 							<font>font30</font>
-							<textcolor>blue</textcolor>
+							<textcolor>theme</textcolor>
 							<selectedcolor>selected</selectedcolor>
 							<align>center</align>
 							<aligny>center</aligny>
@@ -2120,7 +2120,7 @@
 							<top>0</top>
 							<width>256</width>
 							<height>330</height>
-							<texture border="22">RecentAddedBack.png</texture>
+							<texture border="22" colordiffuse="theme">RecentAddedBack.png</texture>
 						</control>
 						<control type="label">
 							<visible>String.IsEqual(Listitem.Icon,Listitem.Label) | String.IsEmpty(Listitem.Icon)</visible>
@@ -2143,7 +2143,7 @@
 							<height>100</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Icon]</texture>
-							<bordertexture border="8">button-nofocus.png</bordertexture>
+							<bordertexture border="8" colordiffuse="theme">button-nofocus.png</bordertexture>
 							<bordersize>8</bordersize>
 						</control>
 						<control type="progress">
@@ -2191,7 +2191,7 @@
 							<height>232</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Icon]</texture>
-							<bordertexture border="8">button-nofocus.png</bordertexture>
+							<bordertexture border="8" colordiffuse="theme">button-nofocus.png</bordertexture>
 							<bordersize>8</bordersize>
 						</control>
 						<control type="label">
@@ -2216,7 +2216,7 @@
 							<top>0</top>
 							<width>256</width>
 							<height>330</height>
-							<texture border="22">RecentAddedBack.png</texture>
+							<texture border="22" colordiffuse="theme">RecentAddedBack.png</texture>
 						</control>
 						<control type="image">
 							<visible>[!String.IsEqual(Listitem.Icon,Listitem.Label) + !String.IsEmpty(Listitem.Icon)] + !Control.HasFocus(8007) + !String.IsEmpty(Listitem.Title)</visible>
@@ -2226,7 +2226,7 @@
 							<height>100</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Icon]</texture>
-							<bordertexture border="8">button-nofocus.png</bordertexture>
+							<bordertexture border="8" colordiffuse="theme">button-nofocus.png</bordertexture>
 							<bordersize>8</bordersize>
 						</control>
 						<control type="image">
@@ -2237,7 +2237,7 @@
 							<height>100</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Icon]</texture>
-							<bordertexture border="8">folder-focus.png</bordertexture>
+							<bordertexture border="8" colordiffuse="theme">folder-focus.png</bordertexture>
 							<bordersize>8</bordersize>
 						</control>
 						<control type="label">
@@ -2260,7 +2260,7 @@
 							<width>226</width>
 							<height>30</height>
 							<font>font14</font>
-							<textcolor>blue</textcolor>
+							<textcolor>theme</textcolor>
 							<shadowcolor>black</shadowcolor>
 							<selectedcolor>white</selectedcolor>
 							<label>$INFO[Listitem.Label]</label>
@@ -2272,7 +2272,7 @@
 							<top>120</top>
 							<width>226</width>
 							<height>9</height>
-							<colordiffuse>blue</colordiffuse>
+							<colordiffuse>theme</colordiffuse>
 							<visible>ListItem.HasEpg</visible>
 							<info>ListItem.Progress</info>
 							<visible>Control.HasFocus(8007)</visible>
@@ -2326,7 +2326,7 @@
 							<font>font12</font>
 							<textcolor>white</textcolor>
 							<shadowcolor>black</shadowcolor>
-							<selectedcolor>blue</selectedcolor>
+							<selectedcolor>theme</selectedcolor>
 							<align>center</align>
 							<aligny>center</aligny>
 							<label>$INFO[ListItem.Title]</label>
@@ -2338,8 +2338,8 @@
 							<width>226</width>
 							<height>30</height>
 							<font>font12</font>
-							<textcolor>blue</textcolor>
-							<selectedcolor>blue</selectedcolor>
+							<textcolor>theme</textcolor>
+							<selectedcolor>theme</selectedcolor>
 							<align>center</align>
 							<aligny>center</aligny>
 							<label>$INFO[ListItem.Title]</label>
@@ -2353,7 +2353,7 @@
 							<height>232</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Icon]</texture>
-							<bordertexture border="8">button-nofocus.png</bordertexture>
+							<bordertexture border="8" colordiffuse="theme">button-nofocus.png</bordertexture>
 							<bordersize>8</bordersize>
 						</control>
 						<control type="image">
@@ -2364,7 +2364,7 @@
 							<height>232</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Icon]</texture>
-							<bordertexture border="8">folder-focus.png</bordertexture>
+							<bordertexture border="8" colordiffuse="theme">folder-focus.png</bordertexture>
 							<bordersize>8</bordersize>
 						</control>
 						<control type="label">
@@ -2388,7 +2388,7 @@
 							<width>226</width>
 							<height>30</height>
 							<font>font12</font>
-							<textcolor>blue</textcolor>
+							<textcolor>theme</textcolor>
 							<shadowcolor>black</shadowcolor>
 							<selectedcolor>white</selectedcolor>
 							<align>center</align>
@@ -2424,7 +2424,7 @@
 							<top>2</top>
 							<width>52</width>
 							<height>52</height>
-							<texture>RecentAddedBack.png</texture>
+							<texture colordiffuse="theme">RecentAddedBack.png</texture>
 						</control>
 						<control type="label">
 							<left>6</left>
@@ -2447,7 +2447,7 @@
 							<top>2</top>
 							<width>52</width>
 							<height>52</height>
-							<texture diffuse="selected">RecentAddedBack.png</texture>
+							<texture diffuse="selected" colordiffuse="theme">RecentAddedBack.png</texture>
 						</control>
 						<control type="label">
 							<left>6</left>
@@ -2455,7 +2455,7 @@
 							<width>44</width>
 							<height>44</height>
 							<font>font30</font>
-							<textcolor>blue</textcolor>
+							<textcolor>theme</textcolor>
 							<selectedcolor>selected</selectedcolor>
 							<align>center</align>
 							<aligny>center</aligny>
@@ -2565,7 +2565,7 @@
 							<top>0</top>
 							<width>360</width>
 							<height>330</height>
-							<texture border="22">RecentAddedBack.png</texture>
+							<texture border="22" colordiffuse="theme">RecentAddedBack.png</texture>
 						</control>
 						<control type="image">
 							<left>15</left>
@@ -2574,7 +2574,7 @@
 							<height>300</height>
 							<aspectratio>scale</aspectratio>
 							<texture background="true">$INFO[ListItem.Icon]</texture>
-							<bordertexture border="8">button-nofocus.png</bordertexture>
+							<bordertexture border="8" colordiffuse="theme">button-nofocus.png</bordertexture>
 							<bordersize>8</bordersize>
 						</control>
 						<control type="label">
@@ -2611,7 +2611,7 @@
 							<top>0</top>
 							<width>360</width>
 							<height>330</height>
-							<texture border="22">RecentAddedBack.png</texture>
+							<texture border="22" colordiffuse="theme">RecentAddedBack.png</texture>
 						</control>
 						<control type="image">
 							<left>15</left>
@@ -2620,7 +2620,7 @@
 							<height>300</height>
 							<aspectratio>scale</aspectratio>
 							<texture background="true">$INFO[ListItem.Icon]</texture>
-							<bordertexture border="8">folder-focus.png</bordertexture>
+							<bordertexture border="8" colordiffuse="theme">folder-focus.png</bordertexture>
 							<bordersize>8</bordersize>
 							<visible>Control.HasFocus(8008)</visible>
 						</control>
@@ -2631,7 +2631,7 @@
 							<height>300</height>
 							<aspectratio>scale</aspectratio>
 							<texture>$INFO[ListItem.Icon]</texture>
-							<bordertexture border="8">button-nofocus.png</bordertexture>
+							<bordertexture border="8" colordiffuse="theme">button-nofocus.png</bordertexture>
 							<bordersize>8</bordersize>
 							<visible>!Control.HasFocus(8008)</visible>
 						</control>
@@ -2667,7 +2667,7 @@
 							<width>300</width>
 							<height>30</height>
 							<font>font12</font>
-							<textcolor>blue</textcolor>
+							<textcolor>theme</textcolor>
 							<selectedcolor>selected</selectedcolor>
 							<align>center</align>
 							<aligny>center</aligny>
@@ -2807,7 +2807,7 @@
 							<top>0</top>
 							<width>450</width>
 							<height>330</height>
-							<texture border="22">RecentAddedBack.png</texture>
+							<texture border="22" colordiffuse="theme">RecentAddedBack.png</texture>
 						</control>
 						<control type="image">
 							<left>15</left>
@@ -2816,7 +2816,7 @@
 							<height>232</height>
 							<aspectratio>scale</aspectratio>
 							<texture background="true">$INFO[ListItem.Icon]</texture>
-							<bordertexture border="8">button-nofocus.png</bordertexture>
+							<bordertexture border="8" colordiffuse="theme">button-nofocus.png</bordertexture>
 							<bordersize>8</bordersize>
 						</control>
 						<control type="label">
@@ -2853,7 +2853,7 @@
 							<top>0</top>
 							<width>450</width>
 							<height>330</height>
-							<texture border="22">RecentAddedBack.png</texture>
+							<texture border="22" colordiffuse="theme">RecentAddedBack.png</texture>
 						</control>
 						<control type="image">
 							<left>15</left>
@@ -2862,7 +2862,7 @@
 							<height>232</height>
 							<aspectratio>scale</aspectratio>
 							<texture background="true">$INFO[ListItem.Icon]</texture>
-							<bordertexture border="8">folder-focus.png</bordertexture>
+							<bordertexture border="8" colordiffuse="theme">folder-focus.png</bordertexture>
 							<bordersize>8</bordersize>
 							<visible>Control.HasFocus(8009)</visible>
 						</control>
@@ -2873,7 +2873,7 @@
 							<height>232</height>
 							<aspectratio>scale</aspectratio>
 							<texture>$INFO[ListItem.Icon]</texture>
-							<bordertexture border="8">button-nofocus.png</bordertexture>
+							<bordertexture border="8" colordiffuse="theme">button-nofocus.png</bordertexture>
 							<bordersize>8</bordersize>
 							<visible>!Control.HasFocus(8009)</visible>
 						</control>
@@ -2910,7 +2910,7 @@
 							<width>390</width>
 							<height>30</height>
 							<font>font12</font>
-							<textcolor>blue</textcolor>
+							<textcolor>theme</textcolor>
 							<selectedcolor>selected</selectedcolor>
 							<align>center</align>
 							<aligny>center</aligny>
@@ -2946,7 +2946,7 @@
 							<top>2</top>
 							<width>52</width>
 							<height>52</height>
-							<texture>RecentAddedBack.png</texture>
+							<texture colordiffuse="theme">RecentAddedBack.png</texture>
 						</control>
 						<control type="label">
 							<left>6</left>
@@ -2969,7 +2969,7 @@
 							<top>2</top>
 							<width>52</width>
 							<height>52</height>
-							<texture diffuse="selected">RecentAddedBack.png</texture>
+							<texture diffuse="selected" colordiffuse="theme">RecentAddedBack.png</texture>
 						</control>
 						<control type="label">
 							<left>6</left>
@@ -2977,7 +2977,7 @@
 							<width>44</width>
 							<height>44</height>
 							<font>font30</font>
-							<textcolor>blue</textcolor>
+							<textcolor>theme</textcolor>
 							<selectedcolor>selected</selectedcolor>
 							<align>center</align>
 							<aligny>center</aligny>
@@ -3087,7 +3087,7 @@
 							<top>0</top>
 							<width>360</width>
 							<height>330</height>
-							<texture border="22">RecentAddedBack.png</texture>
+							<texture border="22" colordiffuse="theme">RecentAddedBack.png</texture>
 						</control>
 						<control type="image">
 							<left>15</left>
@@ -3096,7 +3096,7 @@
 							<height>232</height>
 							<aspectratio>scale</aspectratio>
 							<texture background="true">$INFO[ListItem.Icon]</texture>
-							<bordertexture border="8">button-nofocus.png</bordertexture>
+							<bordertexture border="8" colordiffuse="theme">button-nofocus.png</bordertexture>
 							<bordersize>8</bordersize>
 						</control>
 						<control type="label">
@@ -3133,7 +3133,7 @@
 							<top>0</top>
 							<width>360</width>
 							<height>330</height>
-							<texture border="22">RecentAddedBack.png</texture>
+							<texture border="22" colordiffuse="theme">RecentAddedBack.png</texture>
 						</control>
 						<control type="image">
 							<left>15</left>
@@ -3142,7 +3142,7 @@
 							<height>232</height>
 							<aspectratio>scale</aspectratio>
 							<texture background="true">$INFO[ListItem.Icon]</texture>
-							<bordertexture border="8">folder-focus.png</bordertexture>
+							<bordertexture border="8" colordiffuse="theme">folder-focus.png</bordertexture>
 							<bordersize>8</bordersize>
 							<visible>Control.HasFocus(8010)</visible>
 						</control>
@@ -3153,7 +3153,7 @@
 							<height>232</height>
 							<aspectratio>scale</aspectratio>
 							<texture>$INFO[ListItem.Icon]</texture>
-							<bordertexture border="8">button-nofocus.png</bordertexture>
+							<bordertexture border="8" colordiffuse="theme">button-nofocus.png</bordertexture>
 							<bordersize>8</bordersize>
 							<visible>!Control.HasFocus(8010)</visible>
 						</control>
@@ -3189,7 +3189,7 @@
 							<width>300</width>
 							<height>30</height>
 							<font>font12</font>
-							<textcolor>blue</textcolor>
+							<textcolor>theme</textcolor>
 							<selectedcolor>selected</selectedcolor>
 							<align>center</align>
 							<aligny>center</aligny>
@@ -3388,7 +3388,7 @@
 							<top>0</top>
 							<width>300</width>
 							<height>330</height>
-							<texture border="22">RecentAddedBack.png</texture>
+							<texture border="22" colordiffuse="theme">RecentAddedBack.png</texture>
 						</control>
 						<control type="image">
 							<left>15</left>
@@ -3397,7 +3397,7 @@
 							<height>232</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Icon]</texture>
-							<bordertexture border="8">button-nofocus.png</bordertexture>
+							<bordertexture border="8" colordiffuse="theme">button-nofocus.png</bordertexture>
 							<bordersize>8</bordersize>
 						</control>
 						<control type="label">
@@ -3434,7 +3434,7 @@
 							<top>0</top>
 							<width>300</width>
 							<height>330</height>
-							<texture border="22">RecentAddedBack.png</texture>
+							<texture border="22" colordiffuse="theme">RecentAddedBack.png</texture>
 						</control>
 						<control type="image">
 							<left>15</left>
@@ -3443,7 +3443,7 @@
 							<height>232</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Icon]</texture>
-							<bordertexture border="8">folder-focus.png</bordertexture>
+							<bordertexture border="8" colordiffuse="theme">folder-focus.png</bordertexture>
 							<bordersize>8</bordersize>
 							<visible>Control.HasFocus(8020)</visible>
 						</control>
@@ -3454,7 +3454,7 @@
 							<height>232</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Icon]</texture>
-							<bordertexture border="8">button-nofocus.png</bordertexture>
+							<bordertexture border="8" colordiffuse="theme">button-nofocus.png</bordertexture>
 							<bordersize>8</bordersize>
 							<visible>!Control.HasFocus(8020)</visible>
 						</control>
@@ -3491,7 +3491,7 @@
 							<width>270</width>
 							<height>30</height>
 							<font>font12</font>
-							<textcolor>blue</textcolor>
+							<textcolor>theme</textcolor>
 							<selectedcolor>selected</selectedcolor>
 							<align>center</align>
 							<aligny>center</aligny>
@@ -3527,7 +3527,7 @@
 							<top>2</top>
 							<width>52</width>
 							<height>52</height>
-							<texture>RecentAddedBack.png</texture>
+							<texture colordiffuse="theme">RecentAddedBack.png</texture>
 						</control>
 						<control type="label">
 							<left>6</left>
@@ -3550,7 +3550,7 @@
 							<top>2</top>
 							<width>52</width>
 							<height>52</height>
-							<texture diffuse="selected">RecentAddedBack.png</texture>
+							<texture diffuse="selected" colordiffuse="theme">RecentAddedBack.png</texture>
 						</control>
 						<control type="label">
 							<left>6</left>
@@ -3558,7 +3558,7 @@
 							<width>44</width>
 							<height>44</height>
 							<font>font30</font>
-							<textcolor>blue</textcolor>
+							<textcolor>theme</textcolor>
 							<selectedcolor>selected</selectedcolor>
 							<align>center</align>
 							<aligny>center</aligny>

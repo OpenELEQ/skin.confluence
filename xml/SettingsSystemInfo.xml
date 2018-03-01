@@ -28,14 +28,14 @@
 				<top>8</top>
 				<width>1635</width>
 				<height>945</height>
-				<texture border="22">ContentPanel.png</texture>
+				<texture border="22" colordiffuse="theme">ContentPanel.png</texture>
 			</control>
 			<control type="image">
 				<left>8</left>
 				<top>938</top>
 				<width>1635</width>
 				<height>96</height>
-				<texture border="22">ContentPanelMirror.png</texture>
+				<texture border="22" colordiffuse="theme">ContentPanelMirror.png</texture>
 			</control>
 			<control type="button">
 				<description>Close Window button</description>
@@ -46,7 +46,7 @@
 				<label>-</label>
 				<font>-</font>
 				<onclick>PreviousMenu</onclick>
-				<texturefocus>DialogCloseButton-focus.png</texturefocus>
+				<texturefocus colordiffuse="theme">DialogCloseButton-focus.png</texturefocus>
 				<texturenofocus>DialogCloseButton.png</texturenofocus>
 				<onleft>1</onleft>
 				<onright>1</onright>
@@ -81,8 +81,8 @@
 					<font>font13_title</font>
 					<textcolor>grey2</textcolor>
 					<focusedcolor>white</focusedcolor>
-					<texturefocus border="8">MenuItemFO.png</texturefocus>
-					<texturenofocus border="8">MenuItemNF.png</texturenofocus>
+					<texturefocus border="8" colordiffuse="theme">MenuItemFO.png</texturefocus>
+					<texturenofocus border="8" colordiffuse="theme">MenuItemNF.png</texturenofocus>
 					<pulseonselect>false</pulseonselect>
 					<label>20037</label>
 				</control>
@@ -96,8 +96,8 @@
 					<font>font13_title</font>
 					<textcolor>grey2</textcolor>
 					<focusedcolor>white</focusedcolor>
-					<texturefocus border="8">MenuItemFO.png</texturefocus>
-					<texturenofocus border="8">MenuItemNF.png</texturenofocus>
+					<texturefocus border="8" colordiffuse="theme">MenuItemFO.png</texturefocus>
+					<texturenofocus border="8" colordiffuse="theme">MenuItemNF.png</texturenofocus>
 					<pulseonselect>false</pulseonselect>
 					<label>13277</label>
 				</control>
@@ -111,8 +111,8 @@
 					<font>font13_title</font>
 					<textcolor>grey2</textcolor>
 					<focusedcolor>white</focusedcolor>
-					<texturefocus border="8">MenuItemFO.png</texturefocus>
-					<texturenofocus border="8">MenuItemNF.png</texturenofocus>
+					<texturefocus border="8" colordiffuse="theme">MenuItemFO.png</texturefocus>
+					<texturenofocus border="8" colordiffuse="theme">MenuItemNF.png</texturenofocus>
 					<pulseonselect>false</pulseonselect>
 					<label>13279</label>
 				</control>
@@ -126,8 +126,8 @@
 					<font>font13_title</font>
 					<textcolor>grey2</textcolor>
 					<focusedcolor>white</focusedcolor>
-					<texturefocus border="8">MenuItemFO.png</texturefocus>
-					<texturenofocus border="8">MenuItemNF.png</texturenofocus>
+					<texturefocus border="8" colordiffuse="theme">MenuItemFO.png</texturefocus>
+					<texturenofocus border="8" colordiffuse="theme">MenuItemNF.png</texturenofocus>
 					<pulseonselect>false</pulseonselect>
 					<label>13280</label>
 				</control>
@@ -141,8 +141,8 @@
 					<font>font13_title</font>
 					<textcolor>grey2</textcolor>
 					<focusedcolor>white</focusedcolor>
-					<texturefocus border="8">MenuItemFO.png</texturefocus>
-					<texturenofocus border="8">MenuItemNF.png</texturenofocus>
+					<texturefocus border="8" colordiffuse="theme">MenuItemFO.png</texturefocus>
+					<texturenofocus border="8" colordiffuse="theme">MenuItemNF.png</texturenofocus>
 					<pulseonselect>false</pulseonselect>
 					<label>13281</label>
 				</control>
@@ -156,8 +156,8 @@
 					<font>font13_title</font>
 					<textcolor>grey2</textcolor>
 					<focusedcolor>white</focusedcolor>
-					<texturefocus border="8">MenuItemFO.png</texturefocus>
-					<texturenofocus border="8">MenuItemNF.png</texturenofocus>
+					<texturefocus border="8" colordiffuse="theme">MenuItemFO.png</texturefocus>
+					<texturenofocus border="8" colordiffuse="theme">MenuItemNF.png</texturenofocus>
 					<pulseonselect>false</pulseonselect>
 					<label>19191</label>
 				</control>
@@ -171,8 +171,8 @@
 					<font>font13_title</font>
 					<textcolor>grey2</textcolor>
 					<focusedcolor>white</focusedcolor>
-					<texturefocus border="8">MenuItemFO.png</texturefocus>
-					<texturenofocus border="8">MenuItemNF.png</texturenofocus>
+					<texturefocus border="8" colordiffuse="theme">MenuItemFO.png</texturefocus>
+					<texturenofocus border="8" colordiffuse="theme">MenuItemNF.png</texturenofocus>
 					<pulseonselect>false</pulseonselect>
 					<label>12389</label>
 					<onright>61</onright>
@@ -307,7 +307,7 @@
 					<height>525</height>
 					<texturesliderbackground border="0,21,0,21">ScrollBarV.png</texturesliderbackground>
 					<texturesliderbar border="0,21,0,21">ScrollBarV_bar.png</texturesliderbar>
-					<texturesliderbarfocus border="0,21,0,21">ScrollBarV_bar_focus.png</texturesliderbarfocus>
+					<texturesliderbarfocus border="0,21,0,21" colordiffuse="theme">ScrollBarV_bar_focus.png</texturesliderbarfocus>
 					<textureslidernib>ScrollBarNib.png</textureslidernib>
 					<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 					<onleft>100</onleft>
@@ -381,7 +381,7 @@
 						<left>135</left>
 						<top>675</top>
 						<width>auto</width>
-						<textcolor>blue</textcolor>
+						<textcolor>theme</textcolor>
 						<shadowcolor>black</shadowcolor>
 						<font>font13_title</font>
 					</control>
@@ -405,7 +405,7 @@
 					<control type="label" id="53">
 						<description>Kodi Build Date</description>
 						<width>auto</width>
-						<textcolor>blue</textcolor>
+						<textcolor>theme</textcolor>
 						<shadowcolor>black</shadowcolor>
 						<font>font13_title</font>
 					</control>
