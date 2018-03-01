@@ -508,7 +508,28 @@ msgctxt "#31392"
 msgid "Arial based"
 msgstr ""
 
-#empty strings from id 31393 to 31410
+msgctxt "#31393"
+msgid "DysLexic"
+msgstr ""
+
+msgctxt "#31394"
+msgid "DysMaxic"
+msgstr ""
+
+msgctxt "#31395"
+msgid "DysLexicClassic"
+msgstr ""
+
+msgctxt "#31396"
+msgid "DysMaxicClassic"
+msgstr ""
+
+msgctxt "#31397"
+msgid "TinyIcon"
+msgstr ""
+
+
+#empty strings from id 31398 to 31410
 
 msgctxt "#31411"
 msgid "First run help..."

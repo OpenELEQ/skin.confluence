@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.confluence.1080" version="4.3.0" name="Confluence 1080" provider-name="OpenELEQ, original work by Jezz_X &amp; Team Kodi">
+<addon id="skin.confluence.1080" version="4.3.1" name="Confluence 1080" provider-name="OpenELEQ, original work by Jezz_X &amp; Team Kodi">
 	<requires>
 		<import addon="xbmc.gui" version="5.13.0"/>
 	</requires>
@@ -23,7 +23,7 @@
 		<summary lang="en_US">Confluence 1080 skin by OpenELEQ.</summary>
 		<summary lang="es_AR">Skin Confluence 1080 por OpenELEQ.</summary>
 		<summary lang="es_ES">Skin Confluence 1080 por OpenELEQ.</summary>
-		<summary lang="es_MX">Skin confluende 1080 por OpenELEQ.</summary>
+		<summary lang="es_MX">Skin Confluende 1080 por OpenELEQ.</summary>
 		<summary lang="et_EE">Confluence 1080 rüü autorilt OpenELEQ.</summary>
 		<summary lang="eu_ES">Confluence 1080 azala OpenELEQ-ek egina.</summary>
 		<summary lang="fa_IR">پوسته Confluence 1080 تهیه شده بوسیله OpenELEQ.</summary>
@@ -131,7 +131,7 @@
 		<forum>http://forum.kodi.tv/forumdisplay.php?</forum>
 		<website>https://github.com/OpenELEQ/skin.confluence.1080/</website>
 		<email />
-		<source>https://github.com/OpenELEQ/skin.confluence.1080/tree/krypton.1080/</source>
+		<source>https://github.com/OpenELEQ/skin.confluence.1080/tree/leia.1080/</source>
 		<assets>
 			<icon>resources/icon.png</icon>
 			<fanart>resources/fanart.jpg</fanart>
@@ -141,6 +141,6 @@
 			<screenshot>resources/screenshot-04.jpg</screenshot>
 			<screenshot>resources/screenshot-05.jpg</screenshot>
 		</assets>
-		<news>Redesigned layout for updated Global Search addon</news>
+		<news>Added conversion info / Added fonts / Added systen icons / Added theme specific selected color / Added themed .xbt's / Added themed backgrounds / Expanded on theme-color usage / Fixed animations in wrapviewsUpscaled dimensions to 1080</news>
 	</extension>
 </addon>

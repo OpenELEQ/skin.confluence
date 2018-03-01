@@ -1,3 +1,15 @@
+[B]4.3.1[/B]
+- Added conversion info
+- Added fonts
+- Added systen icons
+- Added theme specific selected color
+- Added themed .xbt's
+- Added themed backgrounds
+- Added theme specific selected color
+- Expanded on theme-color usage
+- Fixed animations in wrapviews
+- Upscaled dimensions to 1080
+
 [B]4.3.0[/B]
 - Added AutoComplete icon
 - Changed location of xml
