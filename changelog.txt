@@ -1,3 +1,12 @@
+[B]3.1.6[/B]
+- Added AutoComplete icon
+- Changed location of xml
+- Updated addon.xml
+- Updated changelog
+- Updated fanart
+- Updated icon
+- Updated logo
+
 [B]3.1.4[/B]
 
 - Added path to music info dialog
