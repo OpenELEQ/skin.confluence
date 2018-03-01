@@ -1,3 +1,10 @@
+[B]3.0.63[/B]
+- Added conditional visibility to Artwork Downloader and Library Editor context-menu-entries
+- Added color-change on focus to keyboardbutton-images 
+- Added plot on OSD
+- Added some missing textures
+- Added screenshots to addoninfo
+
 [B]3.0.62[/B]
 - Added Artwork Downloader integration
 - Added AutoCompletion integration

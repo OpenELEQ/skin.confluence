@@ -106,11 +106,32 @@
 				<animation effect="slide" start="0,0" end="-105,0" time="0" condition="system.getbool(input.enablemouse) + Window.IsVisible(VideoOSD)">conditional</animation>
 			</control>
 			<control type="image" id="1">
+				<visible>String.IsEmpty(VideoPlayer.Plot) | Skin.HasSetting(Disable.PlotOSD)</visible>
 				<left>-30</left>
 				<top>345r</top>
 				<width>1980</width>
 				<height>345</height>
 				<texture border="1">HomeNowPlayingBack.png</texture>
+			</control>
+			<control type="image" id="1">
+				<visible>!String.IsEmpty(VideoPlayer.Plot) + !Skin.HasSetting(Disable.PlotOSD)</visible>
+				<left>-30</left>
+				<top>645r</top>
+				<width>1980</width>
+				<height>645</height>
+				<texture border="1">HomeNowPlayingBack.png</texture>
+			</control>
+			<control type="textbox" id="20">
+				<visible>!String.IsEmpty(VideoPlayer.Plot) + !Skin.HasSetting(Disable.PlotOSD)</visible>
+				<label>$INFO[VideoPlayer.Plot]</label>
+				<left>495</left>
+				<top>525r</top>
+				<width>1380</width>
+				<height>218</height>
+				<font>font13</font>
+				<align>justify</align>
+				<textcolor>white</textcolor>
+				<autoscroll time="3000" delay="4000" repeat="5000">Skin.HasSetting(AutoScroll)</autoscroll>
 			</control>
 			<control type="image" id="1">
 				<depth>DepthOSDPopout</depth>

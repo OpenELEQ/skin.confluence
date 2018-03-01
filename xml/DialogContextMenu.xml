@@ -22,8 +22,8 @@
 			<width>450</width>
 			<height max="1005">auto</height>
 			<itemgap>3</itemgap>
-			<include>DatabaseEdit</include>
-			<include>ArtworkDownload</include>
+			<include condition="System.HasAddon(script.libraryeditor)">DatabaseEdit</include>
+			<include condition="System.HasAddon(script.artwork.downloader)">ArtworkDownload</include>
 		</control>
 		<control type="button">
 			<description>Close Window button</description>

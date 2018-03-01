@@ -636,15 +636,34 @@
 					<width>45</width>
 					<height>45</height>
 					<texture>KeyboardBackKey.png</texture>
+					<visible>!Control.HasFocus(8)</visible>
 				</control>
 				<control type="image">
-					<visible>System.HasAddon(plugin.program.autocompletion) + !System.HasHiddenInput</visible>
+					<description>Backspace icon</description>
+					<left>652</left>
+					<top>315</top>
+					<width>45</width>
+					<height>45</height>
+					<texture colordiffuse="ff000000">KeyboardBackKey.png</texture>
+					<visible>Control.HasFocus(8)</visible>
+				</control>
+				<control type="image">
+					<visible>System.HasAddon(plugin.program.autocompletion) + !System.HasHiddenInput + !Control.HasFocus(315)</visible>
 					<description>AutoComplete icon</description>
 					<left>52</left>
 					<top>90</top>
 					<width>45</width>
 					<height>45</height>
 					<texture>KeyboardAutoCompleteKey.png</texture>
+				</control>
+				<control type="image">
+					<visible>System.HasAddon(plugin.program.autocompletion) + !System.HasHiddenInput + Control.HasFocus(315)</visible>
+					<description>AutoComplete icon</description>
+					<left>52</left>
+					<top>90</top>
+					<width>45</width>
+					<height>45</height>
+					<texture colordiffuse="ff000000">KeyboardAutoCompleteKey.png</texture>
 				</control>
 			</control>
 			<include condition="System.HasAddon(plugin.program.autocompletion) + !System.HasHiddenInput + !Skin.HasSetting(DisableAutoComplete)">AutoComplete</include>

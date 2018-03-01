@@ -160,6 +160,16 @@
 				<width>45</width>
 				<height>45</height>
 				<texture>KeyboardBackKey.png</texture>
+				<visible>!Control.HasFocus(23)</visible>
+			</control>
+			<control type="image">
+				<description>Backspace icon</description>
+				<left>315</left>
+				<top>68</top>
+				<width>45</width>
+				<height>45</height>
+				<texture colordiffuse="ff000000">KeyboardBackKey.png</texture>
+				<visible>Control.HasFocus(23)</visible>
 			</control>
 			<control type="button" id="14">
 				<description>4 button</description>
@@ -295,6 +305,16 @@
 				<width>45</width>
 				<height>45</height>
 				<texture>KeyboardDoneKey.png</texture>
+				<visible>!Control.HasFocus(21)</visible>
+			</control>
+			<control type="image">
+				<description>Done icon</description>
+				<left>315</left>
+				<top>248</top>
+				<width>45</width>
+				<height>45</height>
+				<texture colordiffuse="ff000000">KeyboardDoneKey.png</texture>
+				<visible>Control.HasFocus(21)</visible>
 			</control>
 			<control type="button" id="20">
 				<description>prev button</description>

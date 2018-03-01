@@ -376,7 +376,7 @@
 						<selected>!Skin.HasSetting(DisableAutoComplete)</selected>
 						<visible>System.HasAddon(plugin.program.autocompletion)</visible>
 					</control>
-					<control type="button" id="119">
+<!--					<control type="button" id="119">
 						<width>1125</width>
 						<height>60</height>
 						<font>font13</font>
@@ -387,7 +387,7 @@
 						<texturenofocus colordiffuse="theme">MenuItemNF.png</texturenofocus>
 						<onclick>InstallAddon(plugin.program.autocompletion)</onclick>
 						<visible>!System.HasAddon(plugin.program.autocompletion)</visible>
-					</control>
+					</control>-->
 					<control type="radiobutton" id="120">
 						<width>1125</width>
 						<height>60</height>
@@ -425,7 +425,7 @@
 						<selected>!Skin.HasSetting(DisableArtworkDownload)</selected>
 						<visible>System.HasAddon(script.artwork.downloader)</visible>
 					</control>
-					<control type="button" id="123">
+<!--					<control type="button" id="123">
 						<width>1125</width>
 						<height>60</height>
 						<font>font13</font>
@@ -436,6 +436,18 @@
 						<texturenofocus colordiffuse="theme">MenuItemNF.png</texturenofocus>
 						<onclick>InstallAddon(script.artwork.downloader)</onclick>
 						<visible>!System.HasAddon(script.artwork.downloader)</visible>
+					</control>-->
+					<control type="radiobutton" id="124">
+						<width>1125</width>
+						<height>60</height>
+						<font>font13</font>
+						<label>$LOCALIZE[207] @ [LOWERCASE]$LOCALIZE[478][/LOWERCASE]</label>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<texturefocus colordiffuse="theme">MenuItemFO.png</texturefocus>
+						<texturenofocus colordiffuse="theme">MenuItemNF.png</texturenofocus>
+						<onclick>Skin.ToggleSetting(Disable.PlotOSD)</onclick>
+						<selected>!Skin.HasSetting(Disable.PlotOSD)</selected>
 					</control>
 				</control>
 				<control type="scrollbar" id="60">

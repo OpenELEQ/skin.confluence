@@ -1946,7 +1946,7 @@
 			<focusedcolor>white</focusedcolor>
 			<texturefocus border="8" colordiffuse="theme">button-focus.png</texturefocus>
 			<onclick>RunScript(script.libraryeditor,DBID=$INFO[ListItem.DBID])</onclick>
-			<visible>System.HasAddon(script.libraryeditor) + !Skin.HasSetting(DisableDatabaseEdit) + !String.IsEmpty(ListItem.DBID) + !Container.Content(Seasons)</visible>
+			<visible>System.HasAddon(script.libraryeditor) + !Skin.HasSetting(DisableDatabaseEdit) + !String.IsEmpty(ListItem.DBID) + [Container.Content(Movies) | Container.Content(TVShows) | Container.Content(MusicVideos)]</visible>
 		</control>
 	</include>
 	<include name="ArtworkDownload">
@@ -1963,7 +1963,7 @@
 			<focusedcolor>white</focusedcolor>
 			<texturefocus border="8" colordiffuse="theme">button-focus.png</texturefocus>
 			<onclick>RunScript(script.artwork.downloader, mode=gui, mediatype=$INFO[ListItem.DBTYPE], dbid=$INFO[ListItem.DBID])</onclick>
-			<visible>System.HasAddon(script.artwork.downloader) + !Skin.HasSetting(DisableArtworkDownload)</visible>
+			<visible>System.HasAddon(script.artwork.downloader) + !Skin.HasSetting(DisableArtworkDownload) + !String.IsEmpty(ListItem.DBID) + [Container.Content(Movies) | Container.Content(TVShows) | Container.Content(MusicVideos)]</visible>
 		</control>
 	</include>
 </includes>
